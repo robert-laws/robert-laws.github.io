@@ -1,0 +1,21 @@
+# Site settings
+title: Coding with Robert
+header-img: img/home-bg.png
+email: roblaws@me.com
+copyright_name: robert-laws
+description: > # this means to ignore newlines until "baseurl:"
+  A good place to do network requests
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: robdlaws
+github_username:  robert-laws
+learn_profile: robert-laws
+email_username: roblaws@me.com
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
