@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Procedural Ruby & Software on the Side"
-date:   2017-08-09 17:26:46 +0000
+title:  "Procedural Ruby and Software on the Side"
+date:   2017-08-09 13:26:47 -0400
 ---
 
 
