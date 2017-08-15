@@ -1,14 +1,14 @@
 ---
 layout: post
 title:  "Fast or Slow?"
-date:   2017-08-15 17:27:33 +0000
+date:   2017-08-15 13:27:34 -0400
 ---
 
 
 Finding a balance between moving through the course material quickly and retaining what I'm learning
 
 ```ruby
-speed == "fast" ? "Is there retension?" : "Will this take forever?"
+speed == "fast" ? "Is there retention?" : "Will this take forever?"
 ```
 
 I'm making progress through the program right now - currently in the Procedural Ruby lessons. But I am finding that as I progress, the lessons are fairly straight-forward and I want some way to remember what I'm learning better as I work through the lesson assignments. In college, especially with math courses, I would re-write my notes from class/reading to force myself to consciously restate what I've read and hopefully learned. I think this course of action will help me retain more information.
