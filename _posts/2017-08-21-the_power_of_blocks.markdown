@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "The Power of Blocks"
-date:   2017-08-21 18:51:43 +0000
+date:   2017-08-21 14:51:44 -0400
 ---
 
 
@@ -11,13 +11,13 @@ The coolest application of a block was something we're learning in the course co
 
 ```ruby
 def parse_values(array)
-  i = 0
-	while i < array.length
-	  array.each do |item|
-		  yield item
-			i += 1
-		end
+ i = 0
+ while i < array.length
+  array.each do |item|
+   yield item
+	 i += 1
 	end
+ end
 end
 
 names = ["bob", "hal", "kal", "jim"]
