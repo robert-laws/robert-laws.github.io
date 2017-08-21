@@ -21,7 +21,7 @@ def parse_values(array)
 end
 
 names = ["bob", "hal", "kal", "jim"]
-parse_values(names) { |name| puts "Hello #{name}, nice to meet you." }
+parse_values(names) { |name| puts "Hello #{name.capitalize}, nice to meet you." }
 
 numbers = [2, 5, 12, 23]
 parse_values(numbers) { |number| puts "Includes even number #{number}" if number.even? }
