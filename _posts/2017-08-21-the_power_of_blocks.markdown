@@ -15,8 +15,8 @@ def parse_values(array)
  while i < array.length
   array.each do |item|
    yield item
-	 i += 1
-	end
+   i += 1
+  end
  end
 end
 
