@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Getting comfortable with Markdown"
+title:  "Getting Comfortable with Markdown"
 date:   2017-09-10 13:16:59 -0400
 ---
 
