@@ -13,7 +13,9 @@ At first, I was cusious about the README.md file. I just thought it was a regula
 
 In my mind, **Markdown** was meant to help write for the web fast, but still include most of the stylistic, structural, and media features we like to add in HTML. One of the most attractive features of **Markdown** that I've heard highlighted by others is that it helps keep writers within the flow of writing, without needing to break from the keyboard to click on a formatting button, etc.
 
-# Starting with Standard Markdown
+---
+
+**Starting with Standard Markdown**
 
 Most of what people do when writing Markdown is accomplished with _Standard Markdown_, which allows users to do things like render:
 
@@ -29,7 +31,9 @@ Another major feature that coders especially love is the ability to write code s
 
 This is an awesome feature, and makes writing and especially reading code easier.
 
-# Flavors of Markdown
+---
+
+**Flavors of Markdown**
 
 Beyond simple Standard Markdown, there are some other flavors of **Markdown** that have more features than are available in the standard version. Two of the most popular flavors include [GitHub](https://guides.github.com/features/mastering-markdown/) and [Ghost](https://help.ghost.org/hc/en-us/articles/224410728-Markdown-Guide).
 
@@ -62,8 +66,10 @@ hal.declare_major("biology")
 # > Hal Hope would like to major in biology.
 ```
 
-# Time Needed to Learn Markdown
+---
+
+**Time Needed to Learn Markdown**
 
 A great thing about **Markdown** is that it doesn't take too long to learn it. Mostly, the challenge of **Markdown** isn't the syntax, but just practicing it regularly to remember all the features. For modern web development, knowing how to write good documentation - often a key feature of code that's uploaded to GitHub - requires having a solid understanding and control of **Markdown** so that users who come to read about how your code works will have an easy time reading nicely styled and helpful documentation text.
 
-I recommend spending some time to learn **Markdown** since it is easy to use and can make ordinary code documentation text look amazing. :smile:
+I recommend spending some time to learn **Markdown** since it is easy to use and can make ordinary code documentation text look amazing.
