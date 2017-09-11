@@ -63,7 +63,7 @@ end
 hal = Student.new("hal", "hope")
 hal.declare_major("biology")
 
-# > Hal Hope would like to major in biology.
+# > Hal Hope is majoring in biology.
 ```
 
 ---
