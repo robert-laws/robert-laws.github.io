@@ -9,6 +9,10 @@ First of all, the video by Avi about the Daily Deal, and other videos, helped fi
 
 As for the project itself. I felt really good about putting it together. I think I've found with the labs, especially some of the more advanced ones, that I was struggling. It felt like trying to put together a jig-saw puzzle without really knowing much about the peieces or what the final product was going to be. That said, the labs are very useful to introduce and refine knowledge of code and coding-concepts. But I like this Cli project much better because we get a chance to work through an app from start to finish. It allows for creativity and for the ability to think things through (and solve problems that come up along the way) with an added degree of investment on my part.
 
+---
+
+My project - Discover Dog Breeds Cli App - [RubyGem](https://rubygems.org/gems/discover-dog-breeds) and [GitHub repository](https://github.com/robert-laws/discover-dog-breeds-cli-app)
+
 The project I undertook was about dogs. Now, I'm a dog owner, so my app about dog breeds was fun to research. I have two Westie dogs (Flurry pictured below), so that made the topic of my app more interesting for me. So, I searched for websites that had information about dogs and where it was possible to scrape data - meaning the website had to include some consistent logic to its structure and repeated data about dogs in a standard and predictable way.
 
 ![Westie Dog](http://westieapp.com/img/westie_dog.JPG)
