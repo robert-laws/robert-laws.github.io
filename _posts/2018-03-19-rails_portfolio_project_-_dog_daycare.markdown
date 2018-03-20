@@ -1,13 +1,14 @@
 ---
 layout: post
 title:      "Rails Portfolio Project - Dog Daycare"
-date:       2018-03-19 17:48:24 +0000
+date:       2018-03-19 13:48:25 -0400
 permalink:  rails_portfolio_project_-_dog_daycare
 ---
 
 The concept for my rails portfolio project is a dog daycare website called [Dog Daycare](https://rails-dog-daycare.herokuapp.com). Think daycare for kids, except for dogs. The idea is to allow users to register for the service, add their dogs to their account, and create reservations for the dogs in their account.
 
 I decided to take some time to get through the course material in the rails section and then I went back and reviewed all the course material again. I found that there were some concepts and techniques that didn't "sink in" on the first go-round that made a lot more sense when I reviewed them.
+
 ## Challenges
 
 One of the most challenging aspects of the project was creating a many-to-many relationship with a join table that also contained data other than the assoicated ids of other tables. In my case, I chose to create a table with reservation data with a many-to-many relationship with a set of available activities. The join table contained some extra data - the duration of the activity. This data made sense to include in the join table since it would vary for each reservation and for each activity associated with the reservation. The diagram shown below shows the relationships. I also had to associate the reservation with a user and with a dog, which is the whole point of having a reservation in the first place.
