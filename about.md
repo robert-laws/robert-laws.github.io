@@ -1,8 +1,8 @@
 ---
-layout: page
-author: Hal Hope
+layout: default
 title: Contact Information
 ---
+
 Get in touch.
 
 - [x] Email me
