@@ -1,23 +1,96 @@
 # Site settings
-title: Coding with Robert
-header-img: img/home-bg.png
-email: roblaws@me.com
-copyright_name: robert-laws
+title: Robert Laws
+tagline: Web Developer Website
 description: > # this means to ignore newlines until "baseurl:"
-  A good place to do network requests
-baseurl: "" # the subpath of your site, e.g. /blog
+  Web & UX development showcase / Personal blog
+email: roblaws@me.com
 twitter_username: robdlaws
 github_username:  robert-laws
 learn_profile: robert-laws
 email_username: roblaws@me.com
+copyright_name: robert-laws
+
+baseurl: "" # the subpath of your site, e.g. /blog
+url: https://robert-laws.com
+excerpt_separator: <!-- more -->
+
+# Timezone
+timezone: 'Asia/Riyadh'
 
 # Build settings
 markdown: kramdown
-highlighter: rouge
-permalink: pretty
+kramdown:
+  input: GFM
+  highlighter: rouge
+  syntax_highlighter_opts:
+    block:
+      line_numbers: false
+
+# Sass
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Pagination
 paginate: 5
-exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+paginate_path: '/blog/page:num/'
+permalink: /blog/:title
 
-gems: [jekyll-paginate, jekyll-feed]
+# Files to Exclude from Build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - fonts/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - README.md
 
-theme: jekyll-theme-tactile
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jemoji
+  - jekyll-avatar
+
+# Collections
+collections_dir: my_collections
+collections:
+  projects:
+    output: true
+  porfolio:
+    output: true
+    permalink: /project/porfolio/:name
+  dog_daycare:
+    output: true
+    permalink: /project/dog-daycare/:name
+
+# Front Matter Defaults
+defaults:
+  - 
+    scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "project"
+  - 
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Robert Laws"
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  -
+    scope:
+      path: "assets/img"
+    values:
+      image: true
