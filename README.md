@@ -1,18 +1,18 @@
 # Robert-Laws.com - Porfolio Website
 
-This website utilizes Jekyll with focus on the following:
+Development Task List:
 
-- [ ] Site Structure
+- [ ] Review head.html & SEO
 
-- [ ] Using Collections
+- [ ] Sitemap & navigation
 
-- [ ] Using categories and tags
+- [ ] Footer
 
-- [ ] Employing HTML5 markup
+- [ ] Webpages - default, page, post, project
 
-- [ ] Using Sass capabilities
+- [ ] Sass development
 
-- [ ] Using Flexbox for responsive layouts
+- [ ] Module development (images, note)
 
 ---
 
