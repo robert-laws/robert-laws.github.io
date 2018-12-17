@@ -6,7 +6,7 @@ permalink:  sinatra_portfolio_project_-_mountains_to_climb
 ---
 
 
-The sinatra section of the curriculum was an exciting change from the CLI section. I'm not saying that the CLI section wasn't important, in fact it might be the most important because of the fundamental skills we learn in it. But it was somewhat abstract and the CLI project did not have a very interesting UI - by definition.
+The sinatra section of the curriculum was an exciting change from the CLI section. <!-- more -->I'm not saying that the CLI section wasn't important, in fact it might be the most important because of the fundamental skills we learn in it. But it was somewhat abstract and the CLI project did not have a very interesting UI - by definition.
 
 Moving onto Sinatra, it feels like we moved from toddlers just beginning to walk into a teenager running. I felt that the way that the concepts of MVC application development was taught really well. I had tried to grasp the concept of MVC before joining the Flatiron School, but never really got it. With the Sinatra section, it made a lot of sense to me and I really felt comfortable working with the different components and interactions. Having the tools like ``shotgun`` and ``tux`` made a big difference.
 

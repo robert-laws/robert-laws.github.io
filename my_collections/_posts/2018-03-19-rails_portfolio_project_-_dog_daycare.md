@@ -5,7 +5,7 @@ date:       2018-03-19 13:48:25 -0400
 permalink:  rails_portfolio_project_-_dog_daycare
 ---
 
-The concept for my rails portfolio project is a dog daycare website called [Dog Daycare](https://rails-dog-daycare.herokuapp.com). Think daycare for kids, except for dogs. The idea is to allow users to register for the service, add their dogs to their account, and create reservations for the dogs in their account.
+The concept for my rails portfolio project is a dog daycare website called [Dog Daycare](https://rails-dog-daycare.herokuapp.com). <!-- more -->Think daycare for kids, except for dogs. The idea is to allow users to register for the service, add their dogs to their account, and create reservations for the dogs in their account.
 
 I decided to take some time to get through the course material in the rails section and then I went back and reviewed all the course material again. I found that there were some concepts and techniques that didn't "sink in" on the first go-round that made a lot more sense when I reviewed them.
 

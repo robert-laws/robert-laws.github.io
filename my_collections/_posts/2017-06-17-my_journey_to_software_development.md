@@ -6,7 +6,7 @@ date:   2017-06-17 23:37:15 +0000
 
 ### Beginning with Netscape
 
-The year was 1999 and I was introduced to Netscape Navigator and the creation of simple web pages that gave users some information, showed them a photo or two, and had some links to other content. For the time, they were still impressive. I remember having to code each page of a website independently of each other, typing the `<head>` and `<html>` tags over and over again (or at least copying the code to each page). A lot has changed since then - thankfully I don't have to worry about typing some of the same code over and over again - thanks to technologies like React.
+The year was 1999 and I was introduced to Netscape Navigator and the creation of simple web pages that gave users some information, showed them a photo or two, and had some links to other content. <!-- more -->For the time, they were still impressive. I remember having to code each page of a website independently of each other, typing the `<head>` and `<html>` tags over and over again (or at least copying the code to each page). A lot has changed since then - thankfully I don't have to worry about typing some of the same code over and over again - thanks to technologies like React.
 
 ### Loving Javascript
 

@@ -4,7 +4,7 @@ title:  "Getting the Move On - with coding"
 date:   2017-07-09 06:20:08 +0000
 ---
 
-For me, the hardest part moving forward with my coding was being okay with not knowing everything. An example, HTML is hard, but not that hard. It's tempting to want to get to know, and have full mastery of, all the syntax before feeling able to produce something worthwhile. At least this was the case with me.
+For me, the hardest part moving forward with my coding was being okay with not knowing everything. An example, HTML is hard, but not that hard. <!-- more -->It's tempting to want to get to know, and have full mastery of, all the syntax before feeling able to produce something worthwhile. At least this was the case with me.
 
 The image below tells the story. It's easy to say that since what I am able to do now isn't perfect then I should delay production until I feel its perfect. I think in the world of coding this is particularly pertinent.
 

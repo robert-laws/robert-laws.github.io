@@ -5,7 +5,7 @@ date:   2017-09-23 16:48:05 +0000
 ---
 
 
-First of all, the video by Avi about the Daily Deal, and other videos, helped fill in some of the gaps I was having with this project. I felt confident about putting together the actual code part of the project, the CLI, the Scraper, and the List/Data view object. I was shakier about all this Rubygem stuff. The video helped orient me and I was able to sort out the things not covered in the video. It was really helpful moving me forward.
+First of all, the video by Avi about the Daily Deal, and other videos, helped fill in some of the gaps I was having with this project. <!-- more -->I felt confident about putting together the actual code part of the project, the CLI, the Scraper, and the List/Data view object. I was shakier about all this Rubygem stuff. The video helped orient me and I was able to sort out the things not covered in the video. It was really helpful moving me forward.
 
 As for the project itself. I felt really good about putting it together. I think I've found with the labs, especially some of the more advanced ones, that I was struggling. It felt like trying to put together a jig-saw puzzle without really knowing much about the peieces or what the final product was going to be. That said, the labs are very useful to introduce and refine knowledge of code and coding-concepts. But I like this Cli project much better because we get a chance to work through an app from start to finish. It allows for creativity and for the ability to think things through (and solve problems that come up along the way) with an added degree of investment on my part.
 

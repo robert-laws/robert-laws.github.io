@@ -5,7 +5,7 @@ date:   2017-09-10 13:16:59 -0400
 ---
 
 
-So, this blog post utilizes Markdown. I first got introduced to Markdown, probably like many others, when using GitHub.
+So, this blog post utilizes Markdown. I first got introduced to Markdown, probably like many others, when using GitHub.<!-- more -->
 
 ![GitHub](https://www.socialtalent.co/wp-content/uploads/2015/03/github-logo.jpg)
 

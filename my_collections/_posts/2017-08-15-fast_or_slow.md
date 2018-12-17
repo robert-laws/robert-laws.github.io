@@ -3,9 +3,7 @@ layout: post
 title:  "Fast or Slow?"
 date:   2017-08-15 13:27:34 -0400
 ---
-
-
-Finding a balance between moving through the course material quickly and retaining what I'm learning
+Finding a balance between moving through the course material quickly and retaining what I'm learning<!-- more -->
 
 ```ruby
 speed == "fast" ? "Is there retention?" : "Will this take forever?"
