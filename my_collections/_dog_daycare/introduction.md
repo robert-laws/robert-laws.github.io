@@ -5,9 +5,13 @@ process_order: 1
 
 ## Introduction
 
-Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam earum neque eaque cum doloremque obcaecati laborum excepturi modi! Animi ipsa ex perspiciatis quibusdam expedita fugit, facere, omnis at unde officia officiis ipsam consequuntur? Quibusdam facilis rem explicabo aut commodi in, ab exercitationem reiciendis excepturi inventore veniam neque incidunt distinctio voluptates.
+## Purpose / Vision
 
-Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora ab illum itaque temporibus, eaque harum ut doloribus explicabo qui consequatur sequi ullam minus modi iste excepturi adipisci aut repellendus blanditiis assumenda voluptates asperiores corrupti, repudiandae fuga. Sed eius ex aliquam sequi, repellendus modi atque laboriosam consectetur omnis vero, itaque suscipit quod numquam nihil! Praesentium, quo!
+A website that allows dog owners to find a dog daycare center, select dates and make reservations, and choose from a range of activities available to entertain the dog during their stay.
+
+## Overview
+
+Users create an account with their personal and dog information. Once they create their account and authenticate, users are able to make a reservation on a specific date and select what activities their dog should have during the day. Users submit their selections and receive confirmation. A separate administration section allows an admin user to add locations, dates available, and activities available that users can then select.
 
 ![Project Intro](../../assets/img/stock-3.jpg){:class="project-detail-image"}
 
