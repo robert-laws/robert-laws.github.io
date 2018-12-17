@@ -2,6 +2,7 @@
 layout: post
 title:  "Fun with my CLI app project"
 date:   2017-09-23 16:48:05 +0000
+categories: [sinatra]
 tags: [sinatra]
 ---
 
@@ -17,7 +18,7 @@ My project - Discover Dog Breeds Cli App - [RubyGem](https://rubygems.org/gems/d
 The project I undertook was about dogs. Now, I'm a dog owner, so my app about dog breeds was fun to research. I have two Westie dogs (Flurry pictured below), so that made the topic of my app more interesting for me. So, I searched for websites that had information about dogs and where it was possible to scrape data - meaning the website had to include some consistent logic to its structure and repeated data about dogs in a standard and predictable way.
 
 {% capture post_image %}http://westieapp.com/img/westie_dog.JPG{% endcapture %}
-{% include post-image.html file=post_image caption="Westie Dog" %}
+{% include post-image.html max-width=40 file=post_image caption="Westie Dog" %}
 
 The website I decided to use was the [American Kennel Club's website](http://www.akc.org/). There were, however, a few caveats with the website. It's possible to search for dog breeds based on the letter of an alphabet, but some letters had no dogs listed (think Q and Z). Also, it seems that detailed breed information wasn't always available for a few breeds (think Jindo here), so I would have to account for that in my app.
 

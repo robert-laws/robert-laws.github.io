@@ -9,11 +9,11 @@ layout: default
     </div>
     <div class="linked__text">
       {% assign the_author = page.author %}
-      <h3>Posts</h3>
+      <h3>All Posts</h3>
       <ul>
         {% for post in site.categories[page.category] %}
         <li class="sub-list">
-          <a href="{{site.baseurl}}{{post.url}}">{{ post.title }}</a>
+          <a href="{{site.baseurl}}{{post.url}}">{{ post.title }}</a> by {{post.author}}<br><span>(Published: <time itemprop="dateCreated" datetime="{{page.date}}">{{post.date | date: "%B %-d, %Y" }}</time>)</span>
         </li>
         {% endfor %}
       </ul>

@@ -133,6 +133,23 @@
       p {
         font-size: 1.6rem;
       }
+
+      a {
+        display: inline-block;
+        margin-right: 0.5rem;
+        font-size: 1.6rem;
+        text-decoration: none;
+      }
+
+      a:link,
+      a:visited {        
+        color: $color-primary-dark;
+      }
+
+      a:hover,
+      a:active {
+        color: darken($color-primary-light, 10%);
+      }
     }
 
     #{$self}__categories--title {

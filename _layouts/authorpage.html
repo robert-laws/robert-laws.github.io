@@ -6,17 +6,17 @@ layout: default
   <div class="linked__sideline"></div>
   <div class="linked__content">
     <div class="linked__header">
-      <h1>{{ page.author }}</h1>
+      <h1>Blog Posts by {{ page.author }}</h1>
     </div>
     <div class="linked__text">
     {% assign the_author = page.author %}
-      <h3>Posts</h3>
+      <h3>All Posts</h3>
       <ul>
       {% for post in site.posts %}
         {% for author in post.author %}
           {% if author == the_author %}
-          <li>
-            <a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a>
+          <li class="sub-list">
+            <a href="{{site.baseurl}}{{post.url}}">{{post.title}}</a><br><span>(Published: <time itemprop="dateCreated" datetime="{{page.date}}">{{post.date | date: "%B %-d, %Y" }}</time>)</span>
           </li>
           {% endif %}
         {% endfor %}
