@@ -1,0 +1,34 @@
+<article class="project-entry">
+  <div class="project-entry__sideline--left"></div>
+  <div class="project-entry__text">
+    <div class="project-entry__header">
+      <div class="title">
+        <h3> <a href="{{site.baseurl}}{{include.url}}">{{include.title}}</a></h3>
+      </div>
+      <div class="date">
+        <time itemprop="dateCreated" datetime="{{include.date}}">{{include.date | date: "%B %-d, %Y" }}</time>
+      </div>
+    </div>
+    <div class="project-entry__description">
+      <p>{{include.description}}</p>
+    </div>
+    <div class="project-entry__features">
+      <h4>Top Features</h4>
+      {% for feature in include.features %}
+      <ul>
+        <li>{{feature}}</li>
+      </ul>
+      {% endfor %}
+    </div>
+    <div class="project-entry__technologies-title">
+      <h4>Tech-Stack</h4>
+    </div>
+    <div class="project-entry__technologies-links">
+      {% for tech in include.tech_stack %}
+        <a href="{{site.baseurl}}/tech-stack/{{tech | slugify}}">{{tech}}</a> 
+      {% endfor %}  
+    </div>
+  </div>
+  <div class="project-entry__visual"><img src="{{site.baseurl}}/assets/img/stock-2.jpg"></div>
+  <div class="project-entry__sideline--right"></div>
+</article>

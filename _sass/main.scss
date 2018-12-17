@@ -1,5 +1,40 @@
-$brand-color: #F6A15A;
+// ABSTRACTS
+@import "abstracts/variables";
+@import "abstracts/colors";
+@import "abstracts/typography";
+@import "abstracts/mixins";
 
-h1 {
-  color: $brand-color;
-}
+// BASE
+@import "base/base";
+
+// LAYOUTS
+@import "layouts/header";
+@import "layouts/footer";
+@import "layouts/pages/index";
+
+// BLOG
+// blog list container and header
+@import "layouts/pages/blog";
+// individiual blog post
+@import "layouts/pages/blog-post";
+
+
+@import "layouts/pages/about";
+@import "layouts/pages/resume";
+@import "layouts/pages/contact";
+
+// PROJECT
+// project list container and header
+@import "layouts/pages/projects";
+// individual project entry
+@import "layouts/pages/projects-entry";
+
+@import "layouts/pages/linked";
+@import "layouts/pages/404";
+
+
+// COMPONENTS
+@import "components/hero";
+@import "components/post";
+@import "components/project";
+@import "components/paginator";

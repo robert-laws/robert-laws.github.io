@@ -1,0 +1,242 @@
+.blog-post {
+  padding: 7rem 0;
+  background-color: lighten($color-primary-dark, 79%);
+  -webkit-clip-path: polygon(0% 3%, 100% 0%, 100% 100%, 0% 97%);
+  clip-path: polygon(0% 3%, 100% 0%, 100% 100%, 0% 97%);
+
+  $self: &;
+  display: flex;
+
+  &__sideline {
+    flex: 2;
+
+    @include lg {
+      flex: 0;
+    }
+  }
+
+  &__content {
+    flex: 6;
+    display: flex;
+    flex-direction: column;
+    min-height: 80rem;
+
+    @include xl {
+      flex: 12;
+    }
+
+    @include lg {
+      margin: 0 5rem;
+    }
+
+    @include md {
+      margin: 0 3rem;
+    }
+
+    @include sm {
+      margin: 0 1rem;
+    }
+
+    #{$self}__header {
+      flex: 1 0 13rem;
+      display: flex;
+      flex-direction: column;
+      border-bottom: 1px solid rgba(lighten($color-wet-asphalt, 50%), 0.5);
+
+      @include sm {
+        flex: 1 1 auto;
+        margin: 0 1rem;
+      }
+
+      #{$self}__category {
+        flex: 0;
+        font-size: 1.2rem;
+        text-transform: uppercase;
+        margin-bottom: 0;
+
+        a:link,
+        a:visited {
+          color: $color-primary-medium;
+          text-decoration: none;
+          font-weight: 600;
+        }
+
+        a:visited {
+          color: $color-primary-medium;
+        }
+        
+        a:hover,
+        a:focus {
+          color: darken($color-primary, 35%);
+        }
+      }
+
+      #{$self}__title {
+        flex: 0;
+        font-size: 3rem;
+        color: $color-primary-dark;
+        margin-bottom: 1rem;
+      }
+
+      #{$self}__author {
+        flex: 0;
+
+        font-size: 1.6rem;
+        margin-bottom: 1rem;
+        
+        a:link,
+        a:visited {
+          color: $color-primary-medium;
+          text-decoration: none;
+          font-weight: 300;
+        }
+
+        a:visited {
+          color: $color-primary-medium;
+        }
+        
+        a:hover,
+        a:focus {
+          color: darken($color-primary, 35%);
+        }
+      }
+
+      #{$self}__meta {
+        flex: 0;
+        display: flex;
+
+        @include sm {
+          flex-direction: column;
+        }
+
+        & > * {
+          font-size: 1.4rem;
+
+          time {
+            color: $color-wet-asphalt;
+          }
+
+          &:not(:last-child) {
+            margin-right: 1.5rem;
+          }
+        }
+
+        p.divider {
+          @include sm {
+            display: none;
+          }
+        }
+
+        p.update {
+          margin-right: auto;
+        }
+      }
+    }
+
+    #{$self}__text {
+      flex: 1;
+      margin-bottom: 0;
+
+      h2, h3 {
+        color: lighten($color-wet-asphalt, 8%);
+        margin: 2.6rem 0 0;
+      }
+
+      p {
+        margin: 1.2rem 0;
+      }
+
+      a {
+        text-decoration: none;
+      }
+
+      a:link,
+      a:visited {
+        color: darken($color-primary-light, 10%);
+      }
+
+      a:hover,
+      a:active {
+        color: $color-wet-asphalt;
+      }
+
+      figure {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: 2.4rem auto;
+        width: 86%;
+        border: 1px solid lighten($color-black, 90%);
+        border-radius: 0.5rem;
+        overflow: hidden;
+
+        @include sm {
+          width: 100%;
+          margin: 1rem auto;
+        }
+
+        img {
+          width: 100%;
+          display: block;
+        }
+
+        figcaption {
+          background-color: lighten($color-wet-asphalt, 15%);
+          font-size: 1.4rem;
+          color: $color-white;
+          padding: 0.9rem 1rem 0.8rem;
+          margin-top: -5px;
+        }
+
+        &.highlight {
+          display: block;
+          text-align: left;
+          margin: 15px 0;
+          width: 100%;
+          border: none;
+          border-radius: 0.5rem;
+        }
+      }
+    }
+
+    #{$self}__tags {
+      flex: 0;
+      border-top: 1px solid rgba(lighten($color-wet-asphalt, 50%), 0.5);
+      padding-top: 2rem;
+      margin-bottom: 1rem;
+      display: flex;
+      align-items: center;
+      font-size: 1.5rem;
+
+      p {
+        font-size: inherit;
+        margin-right: 1rem;
+      }
+
+      ul {
+        list-style-type: none;
+        display: flex;
+        
+        li {
+          margin-right: 0.4rem;
+
+          a:link,
+          a:visited {
+            color: $color-primary-medium;
+            text-decoration: none;
+            font-weight: 300;
+          }
+  
+          a:visited {
+            color: $color-primary-medium;
+          }
+          
+          a:hover,
+          a:focus {
+            color: darken($color-primary, 35%);
+          }
+        }
+      }
+    }
+  }
+}

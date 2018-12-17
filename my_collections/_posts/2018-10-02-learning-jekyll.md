@@ -1,7 +1,10 @@
 ---
 title: Learning Jekyll
 date: 2018-10-02 09:37:27
+author: Bob Cobb
+categories: [jekyll]
 tags: [jekyll, web design, liquid]
+featured-image: stock-4.jpg
 ---
 It's not too difficult to learn how to use Jekyll to make a website. Just follow the directions from the [Jekyll Website](https://jekyllrb.com/)<!-- more -->
 
@@ -12,7 +15,35 @@ $ jekyll serve --livereload
 # builds the jekyll site and serves it with live reloading when changes are saved
 {% endhighlight %}
 
+Information...
+
+{% highlight css %}
+.info {
+  border: 1px solid #CCC;
+  color: red;
+}
+{% endhighlight %}
+
 Some text
+
+```css
+header {
+  background-color: #F00;
+  font-size: 1.5rem;
+}
+```
+
+Other items
+
+```javascript
+function getItems() {
+  if (value > 0) {
+    number = 5;
+  }
+}
+```
+
+more text
 
 ```html
 <blockquote>
@@ -23,7 +54,7 @@ Some text
 
 More text
 
-```
+{% highlight html %}
 ├───css
 ├───_includes
 ├───_layouts
@@ -40,7 +71,7 @@ More text
     │   ├───page2
     │   └───page3
     └───css
-```
+{% endhighlight %}
 
 > Lorem ipsum dolor sit amet consectetur adipisicing elit. 
 > Eos autem maxime voluptatibus laboriosam? Fugiat aut quia ex maxime, laboriosam consequatur.

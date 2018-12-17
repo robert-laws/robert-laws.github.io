@@ -1,0 +1,10 @@
+---
+layout: default
+---
+<section>
+  <header>
+    <h3>{{page.title}}</h3>
+    <p><strong>date:</strong> {{page.date | date: "%a, %b %d, %Y" | default: "no date available"}}</p>
+  </header>
+  {{content}}
+</section>

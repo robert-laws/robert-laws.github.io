@@ -1,0 +1,24 @@
+---
+layout: default
+title: Projects
+---
+
+<section class="project-list">
+  <div class="project-list__header">
+    <div class="project-list__header--sideline"></div>
+    <h1>All Projects</h1>
+    <div class="project-list__header--sideline"></div>
+  </div>
+
+  {% assign projects = site.projects | sort: 'date' | reverse %}
+  {% for project in projects %}
+    {% capture project_url %}/project/{{project.title | slugify}}{% endcapture %}
+    {% capture project_title %}{{project.title}}{% endcapture %}
+    {% capture project_date %}{{project.date}}{% endcapture %}
+    {% capture project_description %}{{project.description}}{% endcapture %}
+    {% assign project_features = project.features %}
+    {% assign project_tech_stack = project.tech_stack %}
+
+    {% include project.html url=project_url title=project_title date=project_date description=project_description features=project_features tech_stack=project_tech_stack %}
+  {% endfor %}
+</section>

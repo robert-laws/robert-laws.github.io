@@ -1,0 +1,27 @@
+.blog-list {
+  display: flex;
+  flex-direction: column;
+
+  &__header {
+    display: flex;
+
+    &--sideline {
+      flex: 2;
+
+      @include sm {
+        flex: 0;
+      }
+    }
+
+    h1 {
+      flex: 6;
+      color: $color-wet-asphalt;
+      font-size: 3rem;
+      margin-bottom: 1rem;
+
+      @include sm {
+        text-align: center;
+      }
+    }
+  }
+}

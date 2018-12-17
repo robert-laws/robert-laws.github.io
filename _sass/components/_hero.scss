@@ -1,0 +1,127 @@
+.hero {
+  display: flex;
+
+  @include md {
+    flex-direction: column-reverse;
+  }
+
+  &__sideline {
+    flex: 1;
+
+    @include xl {
+      flex: 0;
+    }
+  }
+
+  &__welcome {
+    flex: 2;
+    align-self: flex-start;
+    padding-left: 0;
+
+    @include md {
+      margin-top: -9rem;
+      margin-left: 1rem;
+      z-index: 30;
+      background-color: rgba($color-white, 0.65);
+    }
+
+    @include xl {
+      padding-left: 2rem;
+    }
+
+    h1 {
+      color: $color-wet-asphalt;
+      font-size: 3rem;
+      margin-bottom: 0.2rem;
+    }
+
+    h2 {
+      font-size: 1.9rem;
+      margin-bottom: 0.4rem;
+    }
+
+    a {
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 2rem;
+    }
+
+    .btn {
+      padding: 1.6rem 2.6rem;
+      background-color: darken($color-primary, 25%);
+      color: #FFF;
+      border: none;
+      transition: all 0.2s linear;
+
+      &:hover {
+        box-shadow: 0 0.5rem 1.5rem rgba($color-black, 0.1);
+        transform: translateY(-0.2rem);
+      }
+
+      &:active {
+        box-shadow: 0 0.3rem 1.1rem rgba($color-black, 0.1);
+        transform: translateY(-0.1rem);
+      }
+    }
+  }
+
+  &__callout {
+    display: flex;
+    margin: 2.5rem 0.5rem;
+  }
+
+  &__button {
+    flex: 1;
+  }
+
+  &__portrait {
+    img {
+      margin: 2rem;
+      width: 67%;
+      border-radius: 4px;
+      box-shadow:
+        0 15px 30px 0 rgba(0,0,0,0.11),
+        0 5px 15px 0 rgba(0,0,0,0.08);
+    }
+
+    p {
+      font-weight: 500;
+      font-size: 1.8rem;
+    }
+
+    @include md {
+      img {
+        display: none;
+      }
+
+      p {
+        margin-top: 2.5rem;
+      }
+    }
+  }
+
+  &__image {
+    flex: 4;
+    align-self: center;
+    position: relative;
+    height: 42rem;
+
+    background-image: 
+      radial-gradient(circle at center right, rgba(#FFF, 0.025), #FFF),
+      url('../img/hero-2.jpg');
+
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    @include md {
+      flex: 1;
+      align-self: auto;
+      height: 27rem;
+      background-size: cover;
+      margin-top: -2rem;
+      background-image: radial-gradient(circle at right right, rgba(#FFF, 0.125), #FFF), url('../img/hero-2.jpg');
+      background-repeat: no-repeat;
+    }
+  }
+}

@@ -1,0 +1,30 @@
+---
+layout: default
+title: Blog Categories
+---
+<section class="linked">
+  <div class="linked__sideline"></div>
+  <div class="linked__content">
+    <div class="linked__header">
+      <h1>Posts by {{page.title}}</h1>
+    </div>
+    <div class="linked__text">
+      {% for category in site.categories %}
+      {% capture category_name %}{{ category | first }}{% endcapture %}
+      <div id="#{{ category_name | slugize }}">
+        <h3 class="category-head">
+          <a href="{{site.baseurl}}/categories/{{category_name | slugize}}">{{category_name | capitalize}}</a>
+        </h3>
+      </div>
+      <ul>
+        {% for post in site.categories[category_name] %}
+        <li class="sub-list">
+          <a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a>
+        </li>
+        {% endfor %}
+      </ul>
+      {% endfor %}
+    </div>
+  </div>
+  <div class="linked__sideline"></div>
+</section>

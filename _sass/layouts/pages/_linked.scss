@@ -1,0 +1,98 @@
+.linked {
+  $self: &;
+  display: flex;
+
+  &__sideline {
+    flex: 2;
+
+    @include lg {
+      flex: 0;
+    }
+  }
+
+  &__content {
+    min-height: 42vh;
+    flex: 6;
+
+    @include xl {
+      flex: 12;
+    }
+
+    @include lg {
+      margin: 0 5rem;
+    }
+
+    @include md {
+      margin: 0 3rem;
+    }
+
+    @include sm {
+      margin: 0 1rem;
+    }
+
+    #{$self}__header {
+      h1 {
+        color: $color-wet-asphalt;
+        font-size: 3rem;
+        margin-bottom: 1rem;
+      }
+    }
+
+    #{$self}__text {
+      h3 {
+        margin-left: 1rem;
+        margin-bottom: 1rem;
+
+        &:not(:first-child) {
+          margin-top: 2rem;
+        }
+
+        a {
+          font-size: 2.2rem;
+        }
+      }
+
+      p {
+        margin-bottom: 2rem;
+      }
+
+      a {
+        font-size: 1.6rem;
+        text-decoration: none;
+      }
+
+      a:link,
+      a:visited {
+        color: darken($color-primary-light, 10%);
+      }
+
+      a:hover,
+      a:active {
+        color: $color-wet-asphalt;
+      }
+
+      span {
+        font-size: 1.6rem;
+        color: $color-primary-dark;
+      }
+
+      ul {
+        list-style-type: none;
+
+        li {
+          margin-bottom: 1rem;
+          margin-left: 1rem;
+
+          &.sub-list {
+            margin-left: 2rem;
+          }
+        }
+      }
+
+      hr {
+        margin: 3rem 1rem 2rem;
+        opacity: 0.5;
+      }
+    }
+  }
+}

@@ -1,0 +1,26 @@
+---
+layout: default
+title: Authors
+---
+
+<section class="linked">
+  <div class="linked__sideline"></div>
+  <div class="linked__content">
+    <div class="linked__header">
+      <h1>Posts by {{page.title}}</h1>
+    </div>
+    <div class="linked__text">
+      {% assign authors =  site.posts | map: 'author' | uniq %}
+      <ul>
+        {% for author in authors %}
+        {% capture post_author %}{{author}}{% endcapture %}
+        <li>
+          <a href="{{site.baseurl}}/authors/{{author | slugify}}">{{author}}</a>
+          <span>({{site.posts | where: "author", post_author | size}})</span>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+  <div class="linked__sideline"></div>
+</section>

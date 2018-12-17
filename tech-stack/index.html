@@ -1,0 +1,27 @@
+---
+layout: default
+title: Tech Stacks
+---
+<section class="linked">
+  <div class="linked__sideline"></div>
+  <div class="linked__content">
+    <div class="linked__header">
+    <h1>Projects by {{page.title}}</h1>
+    </div>
+    <div class="linked__text">
+      {% assign techs = site.projects | map: 'tech_stack' | uniq %}
+      <ul>
+      {% for tech in techs %}
+      {% capture project_tech %}{{tech}}{% endcapture %}
+        <li>
+          <a href="{{site.baseurl}}/tech-stack/{{tech | slugify}}">{{tech}}</a>
+          <span>
+            ({{site.projects | where_exp:"item","item.tech_stack contains project_tech" | size}})
+          </span>
+        </li>
+      {% endfor %}
+      </ul>
+    </div>
+  </div>
+  <div class="linked__sideline"></div>
+</section>

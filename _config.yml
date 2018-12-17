@@ -1,5 +1,5 @@
 # Site settings
-title: Robert Laws
+title: Robert Laws - Developer Portfolio & Blog
 tagline: Web Developer Website
 description: > # this means to ignore newlines until "baseurl:"
   Web & UX development showcase / Personal blog
@@ -55,15 +55,16 @@ plugins:
   - jekyll-seo-tag
   - jemoji
   - jekyll-avatar
+  - jekyll-autoprefixer
 
 # Collections
 collections_dir: my_collections
 collections:
   projects:
     output: true
-  porfolio:
+  developer_portfolio:
     output: true
-    permalink: /project/porfolio/:name
+    permalink: /project/developer-portfolio/:name
   dog_daycare:
     output: true
     permalink: /project/dog-daycare/:name

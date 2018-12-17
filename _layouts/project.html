@@ -2,6 +2,29 @@
 layout: default
 ---
 
-<h1>{{page.title}}</h1>
-
-{{ content }}
+<section class="project-detail">
+  <div class="project-detail__sideline">
+    <aside class="project-detail__side-nav">
+      <h3>Project Navigation</h3>
+      <ul>
+        {% for process in page.processes %}
+          <li><a class="scroll" href="#{{process | slugify}}">{{process}}</a></li>
+        {% endfor %}
+      </ul>
+    </aside>
+  </div>
+  <div class="project-detail__content">
+    <header class="project-detail__header">
+      <div class="project-detail__title">
+        <h1>{{page.title}} - Project Page</h1>
+      </div>
+      <div class="project-detail__date">
+        <span>Project Date:</span> <time itemprop="dateCreated" datetime="{{page.date}}">{{page.date | date: "%B %Y" }}</time>
+      </div>
+    </header>
+    <article class="project-detail__text">
+      {{content}}
+    </article>
+  </div>
+  <div class="project-detail__sideline"></div>
+</section>

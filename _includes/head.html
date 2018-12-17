@@ -1,21 +1,15 @@
 <head>
   <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="{% if page.description %}{{page.description}}{% else %}{{site.description}}{% endif %}">
-
   <title>{% if page.title %}{{page.title}} | {{site.title}}{% else %}{{site.title}}{% endif %}</title>
-
-  <link rel="shortcut icon" href="{{ '/assets/img/favicon.ico' | prepend: site.baseurl }}" type="image/x-icon">
-
   {% feed_meta %}
   {% seo %}
+  <meta name="description" content="{% if page.description %}{{page.description}}{% else %}{{site.description}}{% endif %}">
+  <link rel="canonical" href="{{site.baseurl}}{{page.url}}">
+  <link rel="stylesheet" href="{{site.baseurl}}/assets/css/app-styles.css">
+  <!-- <link rel="stylesheet" href="{{site.baseurl}}/assets/css/style.css"> -->
+  <link rel="stylesheet" href="{{site.baseurl}}/assets/css/syntax.css">
+  <link rel="icon" type="image/x-icon" href="{{site.baseurl}}/assets/img/favicon.ico">
 
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-
-  <!-- Site Core CSS -->
-  <link rel="stylesheet" href="{{ '/assets/css/styles.css' | prepend: site.baseurl }}">
-
-  <!-- Pygments Github CSS -->
-  <link rel="stylesheet" href="{{ '/assets/css/syntax.css' | prepend: site.baseurl }}">
+  <!-- external vendor styles -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 </head>

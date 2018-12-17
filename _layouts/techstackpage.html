@@ -1,0 +1,27 @@
+---
+layout: default
+---
+<section class="linked">
+  <div class="linked__sideline"></div>
+  <div class="linked__content">
+    <div class="linked__header">
+      <h1>Projects using {{ page.tech }}</h1>
+    </div>
+    <div class="linked__text">
+      {% assign the_tech = page.tech %}
+      <h3>Projects</h3>
+      <ul>
+      {% for project in site.projects %}
+        {% for tech in project.tech_stack %}
+          {% if tech == the_tech %}
+          <li class="sub-list">
+            <a href="{{site.baseurl}}/project/{{project.title | slugify}}">{{project.title}}</a>
+          </li>
+          {% endif %}
+        {% endfor %}
+      {% endfor %}
+      </ul>
+    </div>
+  </div>
+  <div class="linked__sideline"></div>
+</section>
