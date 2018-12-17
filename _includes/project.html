@@ -33,6 +33,11 @@
       {% endfor %}  
     </div>
   </div>
-  <div class="project-entry__visual"><img src="{{site.baseurl}}/assets/img/stock-2.jpg"></div>
+  <div class="project-entry__visual">
+    {% if include.homepage %}
+      <h4>Latest Project</h4>
+    {% endif %}
+    <img src="{{site.baseurl}}/assets/img/stock-2.jpg">
+  </div>
   <div class="project-entry__sideline--right"></div>
 </article>

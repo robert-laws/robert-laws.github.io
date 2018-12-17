@@ -59,6 +59,11 @@
     h4 {
       margin-top: -4rem;
       margin-bottom: 0.5rem;
+      display: block;
+
+      @include sm {
+        display: none;
+      }
     }
 
     #{$self}__header {
@@ -230,6 +235,17 @@
 
   &__visual {
     flex: 4;
+
+    h4 {
+      display: none;
+      margin-top: -4rem;
+      margin-bottom: 0.5rem;
+
+      @include sm {
+        display: block;
+        margin-left: 3rem;
+      }
+    }
 
     img {
       width: 100%;

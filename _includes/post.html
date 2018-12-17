@@ -23,6 +23,11 @@
       {% endfor %}    
     </section>
   </div>
-  <div class="blog-entry__visual"><img src="{{site.baseurl}}/assets/img/{{include.image}}"></div>
+  <div class="blog-entry__visual">
+    {% if include.homepage %}
+      <h4>Latest Blog Post</h4>
+    {% endif %}
+    <img src="{{site.baseurl}}/assets/img/{{include.image}}">
+  </div>
   <div class="blog-entry__sideline--right"></div>
 </article>
