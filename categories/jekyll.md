@@ -1,7 +1,6 @@
 ---
 layout: categorypage
+title: Posts about Jekyll
 category: jekyll
 permalink: /categories/jekyll/ # This is only required for pretty links.
 ---
-
-# Thus, this page's link is /categories/jekyll/ rather than /categories/jekyll.html

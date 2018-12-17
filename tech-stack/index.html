@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Tech Stacks
+title: Projects by Tech Stacks
 ---
 <section class="linked">
   <div class="linked__sideline"></div>
   <div class="linked__content">
     <div class="linked__header">
-    <h1>Projects by {{page.title}}</h1>
+    <h1>{{page.title}}</h1>
     </div>
     <div class="linked__text">
       {% assign techs = site.projects | map: 'tech_stack' | uniq %}
