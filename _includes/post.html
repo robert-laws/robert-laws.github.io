@@ -12,6 +12,7 @@
     </header>
     <section class="blog-entry__summary">
         {{include.excerpt}}
+        <a href="{{site.baseurl}}{{include.url}}">Read More <i class="fas fa-external-link-square-alt"></i></a>
     </section>
     <section class="blog-entry__categories--links">
       {% for tag in include.tags %}
