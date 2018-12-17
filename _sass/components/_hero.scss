@@ -54,11 +54,13 @@
       transition: all 0.2s linear;
 
       &:hover {
+        background-color: darken($color-primary, 22%);
         box-shadow: 0 0.5rem 1.5rem rgba($color-black, 0.1);
         transform: translateY(-0.2rem);
       }
 
       &:active {
+        background-color: darken($color-primary, 22%);
         box-shadow: 0 0.3rem 1.1rem rgba($color-black, 0.1);
         transform: translateY(-0.1rem);
       }

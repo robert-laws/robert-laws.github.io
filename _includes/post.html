@@ -1,6 +1,9 @@
 <article class="blog-entry">
   <div class="blog-entry__sideline--left"></div>
   <div class="blog-entry__text">
+    {% if include.homepage %}
+      <h4>Latest Blog Post</h4>
+    {% endif %}
     <header class="blog-entry__header">
       <div class="title">
         <h3><a href="{{site.baseurl}}{{include.url}}">{{include.title}}</a></h3>

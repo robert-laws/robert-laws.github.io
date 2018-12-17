@@ -18,7 +18,7 @@ title: Blog Posts
     {% assign post_tags = post.tags %}
     {% capture featured_image %}{{post.featured-image}}{% endcapture %}
 
-    {% include post.html url=post_url title=post_title date=post_date author=post_author excerpt=post_excerpt tags=post_tags image=featured_image %}
+    {% include post.html homepage=false url=post_url title=post_title date=post_date author=post_author excerpt=post_excerpt tags=post_tags image=featured_image %}
   {% endfor %}
   <div class="paginator">
     <div class="paginator__previous">

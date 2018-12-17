@@ -19,6 +19,6 @@ title: Projects
     {% assign project_features = project.features %}
     {% assign project_tech_stack = project.tech_stack %}
 
-    {% include project.html url=project_url title=project_title date=project_date description=project_description features=project_features tech_stack=project_tech_stack %}
+    {% include project.html homepage=false url=project_url title=project_title date=project_date description=project_description features=project_features tech_stack=project_tech_stack %}
   {% endfor %}
 </section>

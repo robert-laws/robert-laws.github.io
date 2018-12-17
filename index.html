@@ -18,7 +18,7 @@ title: Home Page
       {% assign project_features = project.features %}
       {% assign project_tech_stack = project.tech_stack %}
 
-      {% include project.html url=project_url title=project_title date=project_date description=project_description features=project_features tech_stack=project_tech_stack %}
+      {% include project.html homepage=true url=project_url title=project_title date=project_date description=project_description features=project_features tech_stack=project_tech_stack %}
     {% endfor %}
   </section>
 
@@ -34,7 +34,7 @@ title: Home Page
       {% assign post_tags = post.tags %}
       {% capture featured_image %}{{post.featured-image}}{% endcapture %}
 
-      {% include post.html url=post_url title=post_title date=post_date author=post_author excerpt=post_excerpt tags=post_tags image=featured_image %}
+      {% include post.html homepage=true url=post_url title=post_title date=post_date author=post_author excerpt=post_excerpt tags=post_tags image=featured_image %}
     {% endfor %}
   </section>
 </section>

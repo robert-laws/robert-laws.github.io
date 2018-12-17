@@ -24,6 +24,7 @@
       }
     }
   }
+  
 
   &:nth-child(even) {
     @include splash-blog-light;
@@ -53,6 +54,11 @@
 
     & > div {
       margin-bottom: 1rem;
+    }
+
+    h4 {
+      margin-top: -4rem;
+      margin-bottom: 0.5rem;
     }
 
     #{$self}__header {
@@ -89,7 +95,7 @@
     }
 
     .date {
-      flex: 0 0 15rem;
+      flex: 0 0 17rem;
       align-self: center;
       text-align: right;
 
@@ -125,7 +131,7 @@
 
     a:hover,
     a:active {
-      color: darken($color-primary-light, 10%);
+      color: darken($color-primary-light, 5%);
     }
   }
 

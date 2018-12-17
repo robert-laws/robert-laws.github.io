@@ -1,6 +1,9 @@
 <article class="project-entry">
   <div class="project-entry__sideline--left"></div>
   <div class="project-entry__text">
+    {% if include.homepage %}
+      <h4>Latest Project</h4>
+    {% endif %}
     <div class="project-entry__header">
       <div class="title">
         <h3> <a href="{{site.baseurl}}{{include.url}}">{{include.title}}</a></h3>
