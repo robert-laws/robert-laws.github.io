@@ -2,8 +2,10 @@
 layout: post
 title:  "Fun with my CLI app project"
 date:   2017-09-23 16:48:05 +0000
-categories: [sinatra]
+author: Robert Laws
+categories: [ruby]
 tags: [sinatra]
+featured-image: stock-4.jpg
 ---
 
 

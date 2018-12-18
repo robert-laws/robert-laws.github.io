@@ -2,6 +2,10 @@
 layout: post
 title:  "The Power of Blocks"
 date:   2017-08-21 14:51:44 -0400
+author: Robert Laws
+categories: [ruby]
+tags: [core-concepts]
+featured-image: stock-4.jpg
 ---
 
 

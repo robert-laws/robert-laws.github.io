@@ -1,8 +1,11 @@
 ---
 layout: post
-title:      "Sinatra Portfolio Project - Mountains to Climb"
-date:       2017-11-13 16:26:00 +0000
-permalink:  sinatra_portfolio_project_-_mountains_to_climb
+title: "Sinatra Portfolio Project - Mountains to Climb"
+date: 2017-11-13 16:26:00 +0000
+author: Robert Laws
+categories: [ruby]
+tags: [sinatra]
+featured-image: stock-4.jpg
 ---
 
 

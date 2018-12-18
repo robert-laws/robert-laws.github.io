@@ -2,6 +2,10 @@
 layout: post
 title:  "Procedural Ruby and Software on the Side"
 date:   2017-08-09 13:26:47 -0400
+author: Robert Laws
+categories: [ruby]
+tags: [ruby]
+featured-image: stock-4.jpg
 ---
 
 

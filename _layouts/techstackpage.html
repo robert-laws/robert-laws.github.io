@@ -8,6 +8,12 @@ title: Posts by Tech-Stack
     <div class="linked__header">
       <h1>Projects using {{ page.tech }}</h1>
     </div>
+    {% if page.content != "" %}
+      <div class="linked__description">
+        {{content}}
+        <hr>
+      </div>
+    {% endif %}
     <div class="linked__text">
       {% assign the_tech = page.tech %}
       <h3>All Projects</h3>

@@ -2,6 +2,10 @@
 layout: post
 title:  "Getting Comfortable with Markdown"
 date:   2017-09-10 13:16:59 -0400
+author: Robert Laws
+categories: [best-practices]
+tags: [markdown]
+featured-image: stock-4.jpg
 ---
 
 

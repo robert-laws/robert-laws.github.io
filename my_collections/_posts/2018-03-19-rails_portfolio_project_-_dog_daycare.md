@@ -2,7 +2,10 @@
 layout: post
 title:      "Rails Portfolio Project - Dog Daycare"
 date:       2018-03-19 13:48:25 -0400
-permalink:  rails_portfolio_project_-_dog_daycare
+author: Robert Laws
+categories: [ruby-on-rails]
+tags: [ruby-on-rails, web-design, css, html]
+featured-image: stock-4.jpg
 ---
 
 The concept for my rails portfolio project is a dog daycare website called [Dog Daycare](https://rails-dog-daycare.herokuapp.com). <!-- more -->Think daycare for kids, except for dogs. The idea is to allow users to register for the service, add their dogs to their account, and create reservations for the dogs in their account.

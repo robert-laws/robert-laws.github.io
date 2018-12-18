@@ -38,6 +38,22 @@
       }
     }
 
+    #{$self}__description {
+      display: flex;
+      flex-direction: column;
+      
+      p {
+        margin: 0.5rem 1rem 1rem;
+      }
+
+      hr {
+        align-self: center;
+        margin: 1rem 0;
+        opacity: 0.25;
+        width: 98%;
+      }
+    }
+
     #{$self}__text {
       h3 {
         margin-left: 1rem;
