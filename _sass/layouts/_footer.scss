@@ -79,7 +79,7 @@
       text-align: right;
       // align-self: flex-start;
 
-      @include lg {
+      @include md {
         flex: 0;
         display: flex;
         flex-direction: column;
