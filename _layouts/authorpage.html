@@ -9,6 +9,12 @@ title: Posts by Author
     <div class="linked__header">
       <h1>Blog Posts by {{ page.author }}</h1>
     </div>
+    {% if page.content != "" %}
+      <div class="linked__description">
+        <p>{{page.content}}</p>
+        <hr>
+      </div>
+    {% endif %}
     <div class="linked__text">
     {% assign the_author = page.author %}
       <h3>All Posts</h3>

@@ -79,10 +79,12 @@
 
     .title {
       flex: 1;
-    }
+      margin-bottom: 0.5rem
 
-    h3 {
-      font-size: 2.8rem;
+      h3 {
+        line-height: 1.25;
+        font-size: 2.8rem;
+      }
 
       a {
         text-decoration: none;
