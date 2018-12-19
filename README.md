@@ -1,18 +1,6 @@
 # Robert-Laws.com - Porfolio Website
 
-Development Task List:
-
-- [ ] Review head.html & SEO
-
-- [ ] Sitemap & navigation
-
-- [ ] Footer
-
-- [ ] Webpages - default, page, post, project
-
-- [ ] Sass development
-
-- [ ] Module development (images, note)
+[website for robert-laws.com](https://robert-laws.com)
 
 ---
 
