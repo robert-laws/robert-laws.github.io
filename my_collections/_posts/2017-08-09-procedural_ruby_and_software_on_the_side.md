@@ -7,8 +7,6 @@ categories: [ruby]
 tags: [ruby]
 featured-image: stock-4.jpg
 ---
-
-
 I'm making progress on the Procedural Ruby section of the curriculum and feeling pretty good about what I'm learing. I'm trying to pace myself - with the goal of retaining the information I'm learning. <!-- more -->I don't want to just complete each assignment in the curriculum and move onto the next one. I'm trying to be thorough with each piece of the coding puzzle, which is a pains taking process, but my hope is that I'll have a deeper understanding of each topic and retain more.
 
 While I'm focusing my time on the curriculum I also take a break from code to learn some new software that might come in handy at some point. I'm beginning by trying out Axure RP 8. I'm interested in wireframing and prototyping.

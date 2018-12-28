@@ -7,15 +7,14 @@ categories: [ruby]
 tags: [sinatra]
 featured-image: stock-4.jpg
 ---
-
-
 The sinatra section of the curriculum was an exciting change from the CLI section. <!-- more -->I'm not saying that the CLI section wasn't important, in fact it might be the most important because of the fundamental skills we learn in it. But it was somewhat abstract and the CLI project did not have a very interesting UI - by definition.
 
 Moving onto Sinatra, it feels like we moved from toddlers just beginning to walk into a teenager running. I felt that the way that the concepts of MVC application development was taught really well. I had tried to grasp the concept of MVC before joining the Flatiron School, but never really got it. With the Sinatra section, it made a lot of sense to me and I really felt comfortable working with the different components and interactions. Having the tools like ``shotgun`` and ``tux`` made a big difference.
 
 The project is called **Euro Mountaineering** and is located at my [GitHub Repo for the Project](https://github.com/robert-laws/portfolio-project-sinatra-euro-mountaineering). I approached the project by focusing on the data model to begin the process. I even designed an Entity Relationship Diagram to visualize the database and models.
 
-![Project Entity Relationship Diagram](https://github.com/robert-laws/portfolio-project-sinatra-euro-mountaineering/raw/master/public/images/erd_sinatra_project.jpg)
+{% capture post_image %}https://github.com/robert-laws/portfolio-project-sinatra-euro-mountaineering/raw/master/public/images/erd_sinatra_project.jpg{% endcapture %}
+{% include post-image.html file=post_image caption="Project Entity Relationship Diagram" %}
 
 This helped me understand how the one-to-many and many-to-many relationships worked out. At first, I thought my table with the mountains was going to be the most important table, but it turned out that it served as mainly a lookup-table. The main table was the hiker_mountains table that connected my hikers to the mountains they could climb. As I progressed in the project I had to rethink the data model a bit and ended up creating 10 migrations to adjust my database as I progressed through the project.
 

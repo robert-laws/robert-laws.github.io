@@ -17,6 +17,7 @@ I'm making progress through the program right now - currently in the Procedural 
 
 My fear is that I don't retain the core information well enough that I'm constantly looking up code samples online to remember how to do things. Of course, part of retention is a function of how often I make use of the code I've learned. If I implement loops often in my code, I'll eventually have them memorized. I have to admit, with javascript, I do remember how to create a simple loop from memory, no googling required.
 
-![Rely on Stack Overflow?](http://i1.wp.com/blog.kodable.com/wp-content/uploads/2014/09/StackOverflow.png?resize=600%2C420)
+{% capture post_image %}http://i1.wp.com/blog.kodable.com/wp-content/uploads/2014/09/StackOverflow.png?resize=600%2C420{% endcapture %}
+{% include post-image.html max-width=40 file=post_image caption="Rely on Stack Overflow?" %}
 
 I think the hope is that Stack Overflow will only need to be consulted on complex issues that aren't core programming concepts we're learning. I've had my fair share of searches on Stack Overflow, but it's frustrating (and perhaps a bad sign) to have to repeatedly search for code solutions just to make it through writing a program. I'm hoping with a retention strategy I can avoid having to google as much.
