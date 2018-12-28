@@ -6,8 +6,7 @@ process_order: 3
 
 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est cum dicta velit tempore. Vel recusandae aspernatur itaque veniam iure sit maiores impedit harum! Quibusdam quam amet non? Voluptates, harum numquam.
 
-{% capture post_image %}/assets/img/stock-5.jpg{% endcapture %}
-{% include post-image.html file=post_image caption="Project UX Design" %}
+![Project UX Design](../../assets/img/stock-5.jpg){:class="project-detail-image"}
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia eos ipsum facilis itaque eveniet in tempore vitae praesentium temporibus corrupti nobis mollitia saepe expedita neque porro excepturi, odit dignissimos. Eius numquam excepturi nostrum architecto illo fugiat unde reiciendis consectetur sapiente?
 
