@@ -159,7 +159,7 @@
 aside.project-detail__side-nav {
   top: 10rem;
   position: sticky;
-
+  position: -webkit-sticky;
   height: 30rem;
 
   background-color: rgba($color-primary-light, 0.05);
