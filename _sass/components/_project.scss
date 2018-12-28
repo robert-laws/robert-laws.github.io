@@ -105,6 +105,18 @@
         margin: 1.2rem 0;
       }
 
+      p.project-detail-container {
+        text-align: center;
+      }
+
+      p.project-detail-caption {
+        text-align: center;
+        margin-top: -2rem;
+        margin-bottom: 2.6rem;
+        font-style: italic;
+        color: lighten($color-black, 50%)
+      }
+
       img.project-detail-image {
         width: 86%;
         margin: 1rem 0;

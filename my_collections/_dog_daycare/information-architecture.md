@@ -9,6 +9,10 @@ Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio incidunt nam sed 
 Lorem ipsum dolor sit amet consectetur adipisicing elit. Id quidem perspiciatis est. Qui aperiam deleniti cum neque nemo incidunt maxime nobis blanditiis natus sint commodi veritatis rem cumque ducimus ex, quo at voluptatum asperiores ratione fuga animi dolorem reiciendis. Voluptate placeat aperiam nisi.
 
 ![Project IA](../../assets/img/stock-2.jpg){:class="project-detail-image"}
+{:class="project-detail-container"}
+
+Project Information Architecture
+{:class="project-detail-caption"}
 
 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad blanditiis officiis, animi aperiam itaque facere corporis quod id accusantium suscipit delectus alias. Accusantium impedit mollitia incidunt minima! Quos, deserunt unde.
 
