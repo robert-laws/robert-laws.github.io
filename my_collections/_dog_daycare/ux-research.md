@@ -2,7 +2,6 @@
 title: "UX Research"
 process_order: 2
 ---
-
 ## UX Research
 
 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae recusandae dolorem eos nulla ex error velit accusantium quam, corporis ab!
