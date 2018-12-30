@@ -12,7 +12,7 @@ A website that allows dog owners to find a dog daycare center, select dates and 
 
 Users create an account with their personal and dog information. Once they create their account and authenticate, users are able to make a reservation on a specific date and select what activities their dog should have during the day. Users submit their selections and receive confirmation. A separate administration section allows an admin user to add locations, dates available, and activities available that users can then select.
 
-![Project Introduction](../../assets/img/dog-daycare-project.png){:class="project-detail-image"}
+![Project Introduction](../../assets/img/dog-daycare-project.jpg){:class="project-detail-image"}
 {:class="project-detail-container"}
 
 Project Website
