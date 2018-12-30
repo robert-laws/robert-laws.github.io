@@ -86,13 +86,23 @@
           color: $color-wet-asphalt;
         }       
       }
+
+      #{$self}__url {
+        flex: 0;
+        margin: -1.2rem 0 1.8rem;
+
+        span {
+          font-size: 1.6rem;
+        }
+      }
     }
 
     #{$self}__text {
       flex: 1;
-      margin-bottom: 1.2rem;
+      margin: 0 2rem 1.2rem;
 
       h2 {
+        font-size: 2.6rem;
         border-bottom: 1px solid rgba(lighten($color-wet-asphalt, 20%), 0.5);
       }
 
@@ -103,6 +113,11 @@
         &:not(:first-child) {
           margin-top: 4rem;
         }
+      }
+
+      h4 {
+        font-size: 1.8rem;
+        margin: 2rem 0 1rem;
       }
 
       p {
@@ -126,6 +141,7 @@
         margin: 1rem 0;
         border: 1px solid #e6e6e6;
         border-radius: 0.5rem;
+        box-shadow: 0 0.3rem 1.1rem rgba($color-black, 0.1);
       }
 
       figure {
@@ -161,14 +177,14 @@
 }
 
 aside.project-detail__side-nav {
-  top: 10rem;
+  top: 6rem;
   position: sticky;
   position: -webkit-sticky;
   height: 30rem;
 
   background-color: rgba($color-primary-light, 0.05);
   border-radius: 5px;
-  margin: 10rem 5rem 0;
+  margin: 6rem 5rem 0;
   padding: 1rem;
 
   h3 {

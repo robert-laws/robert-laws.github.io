@@ -1,7 +1,8 @@
 ---
 layout: project
 title: "Dog Daycare"
-date: 2018-08-12
+date: 2018-05-12
+website_url: https://rails-dog-daycare.herokuapp.com/
 process_order: 0
 processes:
   - Introduction

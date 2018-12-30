@@ -1,6 +1,7 @@
 ---
 title: Dog Daycare
-date: 2018-08-12
+date: 2018-05-12
+website_url: https://rails-dog-daycare.herokuapp.com/
 description: "This website is meant for dog owners who want to give their dogs something fun to do while they're at work."
 features:
   - Selectable activities based on multiple filters
@@ -8,6 +9,6 @@ features:
 tech_stack:
   - Ruby on Rails
   - Materialize CSS
-  - SQL
+  - PostgreSQL
   - HTML5
 ---
