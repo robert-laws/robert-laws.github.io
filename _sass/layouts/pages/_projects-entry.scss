@@ -75,45 +75,45 @@
       @include sm {
         flex-direction: column;
       }
-    }
 
-    .title {
-      flex: 1;
-      margin-bottom: 0.5rem
-
-      h3 {
-        line-height: 1.25;
-        font-size: 2.8rem;
-      }
-
-      a {
-        text-decoration: none;
-      }
-
-      a:link,
-      a:visited {
-        color: $color-wet-asphalt;
-      }
-      
-      a:hover,
-      a:active {
-        color: lighten($color-wet-asphalt, 15%);
-      }
-    }
-
-    .date {
-      flex: 0 0 17rem;
-      align-self: center;
-      text-align: right;
-
-      @include sm {
+      .title {
         flex: 1;
-        align-self: flex-start;
+        margin-bottom: 0.5rem
+
+        h3 {
+          line-height: 1.25;
+          font-size: 2.8rem;
+        }
+
+        a {
+          text-decoration: none;
+        }
+
+        a:link,
+        a:visited {
+          color: $color-wet-asphalt;
+        }
+        
+        a:hover,
+        a:active {
+          color: lighten($color-wet-asphalt, 15%);
+        }
       }
 
-      time {
-        font-size: 1.7rem;
-        color: $color-wet-asphalt;
+      .date {
+        flex: 0 0 17rem;
+        align-self: center;
+        text-align: right;
+
+        @include sm {
+          flex: 1;
+          align-self: flex-start;
+        }
+
+        time {
+          font-size: 1.7rem;
+          color: $color-wet-asphalt;
+        }
       }
     }
   }
