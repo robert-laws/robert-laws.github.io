@@ -75,7 +75,7 @@
 
       #{$self}__date {
         flex: 0;
-        margin: 0.2rem 0 1.2rem;
+        margin: 0.2rem 0 1.8rem;
 
         span {
           font-size: 1.6rem;
@@ -91,6 +91,10 @@
     #{$self}__text {
       flex: 1;
       margin-bottom: 1.2rem;
+
+      h2 {
+        border-bottom: 1px solid rgba(lighten($color-wet-asphalt, 20%), 0.5);
+      }
 
       h2, h3 {
         color: lighten($color-wet-asphalt, 8%);
