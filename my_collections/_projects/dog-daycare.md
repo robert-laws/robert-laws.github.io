@@ -2,6 +2,7 @@
 title: Dog Daycare
 date: 2018-05-12
 website_url: https://rails-dog-daycare.herokuapp.com/
+featured_image: dog-daycare-project.jpg
 description: "This website is meant for dog owners who want to give their dogs something fun to do while they're at work."
 features:
   - Selectable activities based on multiple filters

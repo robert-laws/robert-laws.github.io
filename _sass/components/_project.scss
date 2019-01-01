@@ -115,6 +115,14 @@
         }
       }
 
+      ul {
+        margin-left: 3rem;
+
+        li {
+          font-size: 1.7rem;
+        }
+      }
+
       h4 {
         font-size: 1.8rem;
         margin: 2rem 0 1rem;
@@ -135,9 +143,25 @@
         font-style: italic;
         color: lighten($color-black, 50%)
       }
-
-      img.project-detail-image {
+      
+      img.project-detail-image--full {
         width: 86%;
+        margin: 1rem 0;
+        border: 1px solid #e6e6e6;
+        border-radius: 0.5rem;
+        box-shadow: 0 0.3rem 1.1rem rgba($color-black, 0.1);
+      }
+
+      img.project-detail-image--three-fourths {
+        width: 75%;
+        margin: 1rem 0;
+        border: 1px solid #e6e6e6;
+        border-radius: 0.5rem;
+        box-shadow: 0 0.3rem 1.1rem rgba($color-black, 0.1);
+      }
+
+      img.project-detail-image--half {
+        width: 50%;
         margin: 1rem 0;
         border: 1px solid #e6e6e6;
         border-radius: 0.5rem;

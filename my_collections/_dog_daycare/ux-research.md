@@ -4,14 +4,34 @@ process_order: 2
 ---
 ## UX Research
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae recusandae dolorem eos nulla ex error velit accusantium quam, corporis ab!
+The User Experience Research phase of the project focused on the development of personas, user stories and scenario mapping.
 
-```css
-img {
-  width: 100%;
-  margin: 10px 0;
-}
-```
+#### Personas
 
-Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores iusto sed optio impedit incidunt quisquam velit cupiditate facilis, maxime amet, ducimus repellendus deserunt illum iste, pariatur veritatis consectetur similique dolorem! Nihil, cum fuga? Cumque, nulla inventore. Nulla, enim alias ad illum nemo aperiam sint amet quasi unde. Illum laudantium velit eos, fugiat, amet, numquam hic tenetur repellendus corporis commodi ab!
-Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga itaque libero aliquid molestias officiis suscipit autem dolore doloremque alias totam consequuntur porro amet tenetur atque, quam impedit iste. Laudantium, exercitationem?
+Several personas were developed of potential users of the website Dog Daycare. A common thread for the personas was dog owners who wanted to use a dog daycare service with the advantages of an online space to schedule and customize their usage.
+
+![Project UX Design](../../assets/img/persona-dog-daycare-project-v1_01.jpg){:class="project-detail-image--full"}
+{:class="project-detail-container"}
+
+Project Persona - Potential User of Dog Daycare
+{:class="project-detail-caption"}
+
+#### User Stories
+
+The user stories were informative of the expectations that a typical user would have for the website. The user stories revealed that the website should have lots of options and give dog owners the ability to fit the service to their specific situations.
+
+![Project UX Design](../../assets/img/dog-daycare-user-stories.jpg){:class="project-detail-image--three-fourths"}
+{:class="project-detail-container"}
+
+User Stories
+{:class="project-detail-caption"}
+
+#### Scenario Mapping
+
+Was built by focusing on several essential features of the website and how users would approach them. Detailed below is the user discovery process of activities available for dogs at the daycare locations.
+
+![Project UX Design](../../assets/img/dog-daycare-scenario-mapping.jpg){:class="project-detail-image--three-fourths"}
+{:class="project-detail-container"}
+
+Scenario Mapping - Activities Discovery
+{:class="project-detail-caption"}

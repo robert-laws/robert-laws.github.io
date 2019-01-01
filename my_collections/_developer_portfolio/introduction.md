@@ -19,7 +19,7 @@ Lorem ipsum, dolor sit amet consectetur adipisicing elit. Totam earum neque eaqu
 
 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora ab illum itaque temporibus, eaque harum ut doloribus explicabo qui consequatur sequi ullam minus modi iste excepturi adipisci aut repellendus blanditiis assumenda voluptates asperiores corrupti, repudiandae fuga. Sed eius ex aliquam sequi, repellendus modi atque laboriosam consectetur omnis vero, itaque suscipit quod numquam nihil! Praesentium, quo!
 
-![Project Introduction](../../assets/img/stock-3.jpg){:class="project-detail-image"}
+![Project Introduction](../../assets/img/stock-3.jpg){:class="project-detail-image--full"}
 {:class="project-detail-container"}
 
 Project Introduction
