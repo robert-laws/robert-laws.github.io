@@ -4,9 +4,11 @@ process_order: 1
 ---
 ## Introduction
 
+This project was created as one of my Flatiron School development course assignments. The purpose of this project was to use the ruby-on-rails framework to create an interactive website backed with a PostgreSQL database. The project also required use of OmniAuth for authentication and retrievable user profiles.
+
 #### Purpose / Vision
 
-A website that allows dog owners to find a dog daycare center, select dates and make reservations, and choose from a range of activities available to entertain the dog during their stay.
+This is a website that allows dog owners to find a dog daycare center, select dates and make reservations, and choose from a range of activities available to entertain the dog during their stay.
 
 #### Overview
 

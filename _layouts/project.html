@@ -19,11 +19,16 @@ layout: default
         <h1>{{page.title}} - Project Page</h1>
       </div>
       <div class="project-detail__date">
-        <span>Project Date:</span> <time itemprop="dateCreated" datetime="{{page.date}}">{{page.date | date: "%B %Y" }}</time>
+        <span>Project Release Date:</span> <time itemprop="dateCreated" datetime="{{page.date}}">{{page.date | date: "%B %Y" }}</time>
       </div>
       {% if page.website_url %}
       <div class="project-detail__url">
         <span><a href="{{page.website_url}}" target="_blank">Project Website</a></span>
+      </div>
+      {% endif %}
+      {% if page.repository_url %}
+      <div class="project-detail__url">
+        <span><a href="{{page.repository_url}}" target="_blank">Project Repository</a></span>
       </div>
       {% endif %}
     </header>

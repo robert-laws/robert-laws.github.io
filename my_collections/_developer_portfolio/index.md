@@ -2,7 +2,8 @@
 layout: project
 title: "Developer Portfolio"
 date: 2018-12-14
-website_url: https:robert-laws.com
+website_url: https://robert-laws.com
+repository_url: https://github.com/robert-laws/robert-laws.github.io
 process_order: 0
 processes:
   - Introduction
