@@ -19,7 +19,7 @@ title: Developer Portfolio & Blog
       {% assign project_tech_stack = project.tech_stack %}
       {% assign project_image = project.featured_image %}
 
-      {% include project.html homepage=false url=project_url title=project_title date=project_date description=project_description features=project_features tech_stack=project_tech_stack featured_image=project_image %}
+      {% include project.html homepage=true url=project_url title=project_title date=project_date description=project_description features=project_features tech_stack=project_tech_stack featured_image=project_image %}
     {% endfor %}
   </section>
 

@@ -56,35 +56,35 @@ $screen-xl-min: 1600px;
 
 @mixin splash-right-wide {
   padding: 20rem 0;
-  background-color: lighten($color-primary-light, 45%);
+  background-color: lighten($color-primary-light, 48%);
   -webkit-clip-path: polygon(0% 10%, 100% 0%, 100% 100%, 0% 90%);
   clip-path: polygon(0% 10%, 100% 0%, 100% 100%, 0% 90%);
 }
 
 @mixin splash-left-wide {
   padding: 20rem 0;
-  background-color: lighten($color-primary-light, 45%);
+  background-color: lighten($color-primary-light, 48%);
   -webkit-clip-path: polygon(0% 0%, 100% 10%, 100% 90%, 0% 100%);
   clip-path: polygon(0% 0%, 100% 10%, 100% 90%, 0% 100%);
 }
 
 @mixin splash-right-wide--mobile {
   padding: 10rem 0;
-  background-color: lighten($color-primary-light, 45%);
+  background-color: lighten($color-primary-light, 48%);
   -webkit-clip-path: polygon(0% 3%, 100% 0%, 100% 100%, 0% 97%);
   clip-path: polygon(0% 3%, 100% 0%, 100% 100%, 0% 97%);
 }
 
 @mixin splash-left-wide--mobile {
   padding: 10rem 0;
-  background-color: lighten($color-primary-light, 45%);
+  background-color: lighten($color-primary-light, 48%);
   -webkit-clip-path: polygon(0% 0%, 100% 3%, 100% 97%, 0% 100%);
   clip-path: polygon(0% 0%, 100% 3%, 100% 97%, 0% 100%);
 }
 
 @mixin splash-blog-dark {
   padding: 20rem 0;
-  background-color: lighten($color-primary-light, 50%);
+  background-color: lighten($color-primary-light, 52%);
   -webkit-clip-path: polygon(0% 10%, 100% 0%, 100% 100%, 0% 90%);
   clip-path: polygon(0% 10%, 100% 0%, 100% 100%, 0% 90%);
 }
@@ -98,7 +98,7 @@ $screen-xl-min: 1600px;
 
 @mixin splash-blog-dark--mobile {
   padding: 10rem 0;
-  background-color: lighten($color-primary-light, 50%);
+  background-color: lighten($color-primary-light, 52%);
   -webkit-clip-path: polygon(0% 3%, 100% 0%, 100% 100%, 0% 97%);
   clip-path: polygon(0% 3%, 100% 0%, 100% 100%, 0% 97%);
 }
