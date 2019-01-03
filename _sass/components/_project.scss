@@ -4,6 +4,11 @@
   -webkit-clip-path: polygon(0% 1%, 100% 0%, 100% 100%, 0% 99%);
   clip-path: polygon(0% 1%, 100% 0%, 100% 100%, 0% 99%);
 
+  @include sm {
+    -webkit-clip-path: none;
+    clip-path: none;
+  }
+
   position: relative;
 
   $self: &;
@@ -232,7 +237,7 @@ aside.project-detail__side-nav {
   top: 6rem;
   position: sticky;
   position: -webkit-sticky;
-  height: 30rem;
+  height: 40rem;
 
   background-color: rgba($color-primary-light, 0.05);
   border-radius: 5px;
