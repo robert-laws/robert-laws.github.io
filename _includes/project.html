@@ -9,7 +9,7 @@
         <h3> <a href="{{site.baseurl}}{{include.url}}">{{include.title}}</a></h3>
       </div>
       <div class="date">
-        <time itemprop="dateCreated" datetime="{{include.date}}">{{include.date | date: "%B %-d, %Y" }}</time>
+        <span>Project Release Date:</span> <time itemprop="dateCreated" datetime="{{include.date}}">{{include.date | date: "%B %Y" }}</time>
       </div>
     </div>
     <div class="project-entry__description">

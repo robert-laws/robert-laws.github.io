@@ -69,12 +69,12 @@
     #{$self}__header {
       flex: 0 1 auto;
       display: flex;
-      flex-direction: row;
+      flex-direction: column;
       margin-bottom: 1.2rem;
 
-      @include sm {
-        flex-direction: column;
-      }
+      // @include sm {
+      //   flex-direction: column;
+      // }
 
       .title {
         flex: 1;
@@ -101,9 +101,9 @@
       }
 
       .date {
-        flex: 0 0 17rem;
-        align-self: center;
-        text-align: right;
+        flex: 1;
+        // align-self: center;
+        // text-align: right;
 
         @include sm {
           flex: 1;
