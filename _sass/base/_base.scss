@@ -13,4 +13,13 @@ body {
   box-sizing: border-box;
 }
 
+body {
+  word-wrap: break-word; /* force long words to break */
+  overflow-wrap: break-word; /* newer syntax standard that replaces word-wrap */
+}
 
+code,
+pre,
+samp {
+  white-space: pre-wrap; /* force long lines to break */
+}

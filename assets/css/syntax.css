@@ -5,6 +5,12 @@
   border-radius: 5px;
 }
 
+@media only screen and (max-width: 930px) {
+  .project-detail__content .highlight {
+    max-width: 49rem;
+  }
+}
+
 pre.highlight, figure.highlight {
   background-color: #151515;
   padding: 15px 15px;

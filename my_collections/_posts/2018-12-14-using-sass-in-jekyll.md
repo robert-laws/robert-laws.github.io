@@ -12,6 +12,7 @@ Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestiae laudantium l
 ```sass
 @include "base/base";
 @include "abstracts/variables";
+// This allows predictability for the most common types of user interactions.
 ```
 
 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem voluptas aperiam illum veritatis aspernatur veniam eaque tempora, incidunt necessitatibus iure dolores dolorem id vel exercitationem ipsa molestias. Atque omnis distinctio optio eos aspernatur quam, adipisci accusamus debitis quibusdam sed reprehenderit?
