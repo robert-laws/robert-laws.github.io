@@ -5,9 +5,9 @@
   border-radius: 5px;
 }
 
-@media only screen and (max-width: 930px) {
+@media only screen and (max-width: 1000px) {
   .project-detail__content .highlight {
-    max-width: 49rem;
+    max-width: 50rem;
   }
 }
 
