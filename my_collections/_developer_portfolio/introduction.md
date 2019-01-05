@@ -19,7 +19,7 @@ To remedy this situation, I've decided to develop a developer portfolio website.
 ![Project Introduction](../../assets/img/developer-portfolio-project.jpg){:class="project-detail-image--full"}
 {:class="project-detail-container"}
 
-Project Introduction
+Project Website Home Page
 {:class="project-detail-caption"}
 
 #### Technologies Used

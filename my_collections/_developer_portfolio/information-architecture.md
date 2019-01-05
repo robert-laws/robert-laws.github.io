@@ -4,16 +4,10 @@ process_order: 4
 ---
 ## Information Architecture
 
-Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio incidunt nam sed esse, nemo totam maiores eius voluptatibus illum sint asperiores laborum architecto ducimus expedita libero omnis recusandae! Reprehenderit aspernatur facilis et delectus earum sequi repellat quae recusandae, impedit voluptates?
+The website structure and major content areas formed the backbone for the website design. The major components of the website are the blog and projects. The website's purpose is to showcase examples of work in the projects and provide commentary and reflection on important issues in web design/development in the blog. Other important components of the website are contact, biographical and resume information. Finally, pages that group content based on categories and tags have been added, although they weren't considered in the initial sitemap. Important social media account links were included in the original sitemap.
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Id quidem perspiciatis est. Qui aperiam deleniti cum neque nemo incidunt maxime nobis blanditiis natus sint commodi veritatis rem cumque ducimus ex, quo at voluptatum asperiores ratione fuga animi dolorem reiciendis. Voluptate placeat aperiam nisi.
-
-![Project IA](../../assets/img/stock-2.jpg){:class="project-detail-image--full"}
+![Project Sitemap](../../assets/img/developer-portfolio-sitemap.jpg){:class="project-detail-image--half"}
 {:class="project-detail-container"}
 
-Project Information Architecture
+Sitemap
 {:class="project-detail-caption"}
-
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad blanditiis officiis, animi aperiam itaque facere corporis quod id accusantium suscipit delectus alias. Accusantium impedit mollitia incidunt minima! Quos, deserunt unde.
-
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam reiciendis aliquid ad sed placeat quae id atque corporis autem quasi rem officia consequatur alias omnis quia nemo, porro quam iure quas, quos eligendi voluptate, esse soluta? Commodi beatae non laboriosam!
