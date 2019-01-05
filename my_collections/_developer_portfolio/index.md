@@ -12,6 +12,7 @@ processes:
   - Information Architecture
   - UX Design
   - Development
+  - Conclusion
 ---
 {% assign developer_portfolio_process = site.developer_portfolio | where_exp:'developer_portfolio_process','developer_portfolio_process.process_order > 0' | sort: 'process_order' %}
 {% for item in developer_portfolio_process %}

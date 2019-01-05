@@ -1,7 +1,6 @@
 ---
 layout: default
 ---
-
 <article class="blog-post">
   <div class="blog-post__sideline"></div>
   <div class="blog-post__content">
@@ -19,8 +18,9 @@ layout: default
         {% if page.date_updated %}
         <p class="divider">|</p>
         <p class="update">Updated - <time itemprop="dateUpdated" datetime="{{page.date_updated}}">{{page.date_updated |
-            date: "%B %-d, %Y" }}</time</p> {% endif %} </div> </header> <section class="blog-post__text">
-            {{page.content}}
+            date: "%B %-d, %Y" }}</time></p> {% endif %} </div> </header>
+            <section class="blog-post__text">
+              {{page.content}}
             </section>
             <footer class="blog-post__tags">
               <p>tags:</p>
