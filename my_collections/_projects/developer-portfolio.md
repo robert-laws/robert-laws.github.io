@@ -11,6 +11,6 @@ features:
 tech_stack:
   - Jekyll
   - Sass
-  - SQL
+  - BEM
   - HTML5
 ---

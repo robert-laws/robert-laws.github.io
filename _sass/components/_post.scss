@@ -183,6 +183,15 @@
     #{$self}__categories--links {
       flex: 0 1 auto;
       align-self: flex-end;
+
+      h4 {
+        color: lighten($color-primary-dark, 10%);
+        font-size: 2rem;
+        font-weight: 600;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        margin-top: 1rem;
+      }
     
       a {
         display: inline-block;
