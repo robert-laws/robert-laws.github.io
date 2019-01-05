@@ -1,8 +1,10 @@
 .project-detail {
   padding: 7rem 0;
-  background-color: lighten($color-primary-dark, 79%);
-  -webkit-clip-path: polygon(0% 1%, 100% 0%, 100% 100%, 0% 99%);
-  clip-path: polygon(0% 1%, 100% 0%, 100% 100%, 0% 99%);
+  background-color: lighten($color-primary-dark, 82%);
+  // -webkit-clip-path: polygon(0% 1%, 100% 0%, 100% 100%, 0% 99%);
+  // clip-path: polygon(0% 1%, 100% 0%, 100% 100%, 0% 99%);
+  -webkit-clip-path: none;
+  clip-path: none;
 
   @include sm {
     -webkit-clip-path: none;
