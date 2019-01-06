@@ -1,5 +1,9 @@
 .project-detail {
+  position: relative;
+  $self: &;
+  display: flex;
   padding: 7rem 0;
+
   background-color: lighten($color-primary-dark, 80%);
   // -webkit-clip-path: polygon(0% 1%, 100% 0%, 100% 100%, 0% 99%);
   // clip-path: polygon(0% 1%, 100% 0%, 100% 100%, 0% 99%);
@@ -7,14 +11,10 @@
   clip-path: none;
 
   @include sm {
+    flex-direction: column;
     -webkit-clip-path: none;
     clip-path: none;
   }
-
-  position: relative;
-
-  $self: &;
-  display: flex;
 
   &__sideline {
     flex: 2;
@@ -22,7 +22,23 @@
 
     @include lg {
       flex: 0;
-    }    
+    }
+
+    &--nav {
+      flex: 2;
+
+      @include xl {
+        flex: 4;
+      }
+
+      @include lg {
+        flex: 4;
+      }
+
+      @include sm {
+        justify-content: center;
+      }
+    }
   }
 
   &__content {
@@ -250,7 +266,16 @@ aside.project-detail__side-nav {
   background-color: rgba($color-primary-light, 0.05);
   border-radius: 5px;
   margin: 6rem 5rem 0;
-  padding: 1rem;
+  padding: 1rem 1.5rem;
+
+  @include sm {
+    top: 0;
+    width: 100%;
+    position: relative;
+    margin-top: -3rem;
+    margin-bottom: 2rem;
+    height: auto;
+  }
 
   h3 {
     color: $color-primary-light;
@@ -265,6 +290,7 @@ aside.project-detail__side-nav {
       a {
         text-decoration: none;
         font-size: 1.5rem;
+        font-weight: 600;
       }
 
       a:link,
