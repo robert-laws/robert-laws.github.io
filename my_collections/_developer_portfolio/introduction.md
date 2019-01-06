@@ -31,29 +31,16 @@ I hadn't done too much work with a Static Site Generator (SSG) - this project gi
 The list below reflects a preliminary assessment of the likely system requirements for the project. It's anticipated that most of the preliminary requirements will be incorporated in the final requirements although possibly with some modifications. Additional requirements will be added that are necessary for the system to function properly. The listed requirements are meant to be as comprehensive as possible to reduce the amount of additional requirements added later.
 
 * The project will consist of a website accessible through an HTTP address and will be viewable on desktop, tablet, and mobile devices with each offering an appropriate user experience.
-
 * The website will have a home page that will offer navigation to important sections of the website, including projects, a blog, and professional information about the author. The homepage will also offer users "previews" of project and blog content through short lists with excerpts.
-
 * The projects page will include a list of all the projects contained within the website, allowing users to select a project to view its details.
-
 * The project detail page will include a contextual navigation that lists the components of the project and allow users to access those sections upon clicking the link.
-
 * The project detail page will mix textual and visual content.
-
 * The blog page will include a list of all the accessible blog posts beginning with the most recent.
-
 * The blog post page will mix textual and visual content.
-
 * The blog post page will include the minimum content of author, date, title, and post text for each post.
-
 * Blog posts will have categories and tags listed when appropriate.
-
 * The website will include a feature to allow users to view blog posts based on selecting categories and/or tags.
-
 * The project and blog page will include pagination to allow users to view projects and blog posts in smaller numbers and proceed to another page to view more.
-
 * The website will include space for 'about me', resume, and 'contact me' sections.
-
 * The website will allow for speedy updating by utilizing a technology stack that favors this type of functionality.
-
 * The website will have a contemporary look and feel.
