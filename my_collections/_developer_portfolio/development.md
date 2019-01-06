@@ -62,7 +62,7 @@ Sass file utilizing BEM naming convention
 
 Another prominent aspect of Jekyll is the use of the liquid syntax for the templating aspects of the website. An example is the way developers can define categories Jekyll and access that content via liquid syntax.
 
-```html
+{% highlight html %}
 {% for category in site.categories %}
 {% capture category_name %}{{ category | first }}{% endcapture %}
 <div id="#{{ category_name | slugize }}">
@@ -70,8 +70,7 @@ Another prominent aspect of Jekyll is the use of the liquid syntax for the templ
     <a href="{{site.baseurl}}/categories/{{category_name | slugize}}">{{category_name | capitalize}}</a>
   </h3>
 </div>
-{% endfor %}
-```
+{% endhighlight %}
 Liquid syntax used for displaying categories 
 {:class="project-detail-caption--code"}
 
@@ -81,22 +80,22 @@ There is a lot of complex development that can be done using liquid, which adds 
 
 Finally, Jekyll makes use of includes to expose repeatable content for use in blog post and other pages. An exmaple from the website is the use of an include for image content. The include can be called on website pages and information about the image and a caption can be passed to the include.
 
-```html
+{% highlight html %}
 <figure>
   <a href="{{include.url}}">
     <img src="{{site.baseurl}}{{include.file}}" style="max-width: {{include.max-width}};" alt="{{include.alt}}">
   </a>
   <figcaption>{{include.caption}}</figcaption>
 </figure>
-```
+{% endhighlight %}
 Include definition - image.html
 {:class="project-detail-caption--code"}
 
 The include is used on the blog page - using Sass in Jekyll in the following way to pass the featured image that is defined in the blog post front matter and using the caption "Web Developer in Action" in the sample below.
 
-```html
+{% highlight html %}
 {% capture post_image %}/assets/img/{{page.featured-image}}{% endcapture %}
 {% include post-image.html file=post_image caption="Web Developer in Action" %}
-```
+{% endhighlight %}
 
 Jekyll is complex and takes time to learn, but has powerful features and has the added bonus of being supported by Github Pages - which hosts the content for access on the Internet.
