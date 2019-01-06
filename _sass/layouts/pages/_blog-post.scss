@@ -142,6 +142,10 @@
         margin: 2.6rem 0 0;
       }
 
+      h4 {
+        margin: 3rem 0 -1rem;
+      }
+
       ul {
         margin-left: 3rem;
 
@@ -160,6 +164,10 @@
         border-radius: 0.5rem;
         width: 60%;
         box-shadow: 0 1.5rem 3rem rgba($color-black, 0.1), 0 0.5rem 1.5rem rgba($color-black, 0.1);
+
+        @include sm {
+          width: 90%;
+        }
 
         p {
           font: {
@@ -181,7 +189,7 @@
       }
 
       p {
-        margin: 1.5rem 0;
+        margin: 2rem 0;
 
         code {
           background: rgba(0,0,0,0.05);

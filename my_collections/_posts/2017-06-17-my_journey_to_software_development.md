@@ -4,7 +4,7 @@ title:  "My Journey to Software Development"
 date:   2017-06-17 23:37:15 +0000
 author: Robert Laws
 categories: [personal]
-tags: [web-design]
+tags: [web design]
 featured-image: stock-4.jpg
 ---
 ### Beginning with Netscape

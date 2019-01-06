@@ -4,7 +4,7 @@ title:  "Fast or Slow?"
 date:   2017-08-15 13:27:34 -0400
 author: Robert Laws
 categories: [personal]
-tags: [web-design]
+tags: [web design]
 featured-image: stock-4.jpg
 ---
 Finding a balance between moving through the course material quickly and retaining what I'm learning<!-- more -->

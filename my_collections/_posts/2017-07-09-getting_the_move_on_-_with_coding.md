@@ -4,7 +4,7 @@ title:  "Getting the Move On - with coding"
 date:   2017-07-09 06:20:08 +0000
 author: Robert Laws
 categories: [personal]
-tags: [web-design]
+tags: [web design]
 featured-image: stock-4.jpg
 ---
 For me, the hardest part moving forward with my coding was being okay with not knowing everything. An example, HTML is hard, but not that hard. <!-- more -->It's tempting to want to get to know, and have full mastery of, all the syntax before feeling able to produce something worthwhile. At least this was the case with me.
