@@ -24,7 +24,7 @@ Project Website Home Page
 
 #### Technologies Used
 
-I hadn't done too much work with a Static Site Generator (SSG) - this project gives me this opportunity. The benefits of a SSG are many, including diminished security risks, fast page loads, and use of sophisticated and well-supported software. I chose Jekyll as the main technology for this project - primarily because it is supported on Github Pages, where I want to host the site. Since I will likely be the only person working with the codebase, the limitations of using a SSG are not so significant. The content will mostly be written with markdown - and it's good to get into regular use of markdown, so that's an added bonus.
+I hadn't done too much work with a Static Site Generator (SSG) - this project gives me this opportunity. The benefits of a SSG are many, including diminished security risks, fast page loads, and use of sophisticated and well-supported software. I chose Jekyll as the main technology for this project - primarily because it is supported on GitHub Pages, where I want to host the site. Since I will likely be the only person working with the codebase, the limitations of using a SSG are not so significant. The content will mostly be written with markdown - and it's good to get into regular use of markdown, so that's an added bonus.
 
 #### Requirements and Considerations
 

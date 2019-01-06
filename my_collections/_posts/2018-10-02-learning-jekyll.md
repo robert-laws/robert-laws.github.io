@@ -1,80 +1,44 @@
 ---
-title: Learning Jekyll
+title: Learning Jekyll - Front Matter
 date: 2018-10-02 09:37:27
-author: Bob Cobb
+author: Robert Laws
 categories: [jekyll]
 tags: [jekyll, web design, liquid]
 featured-image: stock-4.jpg
 ---
-It's not too difficult to learn how to use Jekyll to make a website. Just follow the directions from the [Jekyll Website](https://jekyllrb.com/)<!-- more -->
+Of the many Static Site Generators out there, [Jekyll](https://jekyllrb.com/) is one of the most popular.<!-- more --> There are many reasons why, but what stands out to me is the easy integration of Jekyll into GitHub Pages. Building a site with Jekyll and deploying it to a master branch on GitHub is almost all it takes to get a website up-and-running. There's a bit more to it than that, but not much.
 
-Lorem ipsum dolor, sit amet consectetur adipisicing elit. `<link href="/script.js">` Aut reprehenderit dolores neque consectetur, libero veritatis nihil sit necessitatibus quas? Voluptatem possimus error corrupti sapiente? Sint laboriosam quos a vero, quas, rerum blanditiis ab harum, aut praesentium ullam distinctio! Illo, officiis explicabo quis dolor rem odit inventore eligendi impedit nulla ullam! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas vel voluptatibus impedit laboriosam atque, assumenda omnis dolor veniam, facilis voluptate eaque magni.
+My experience learning Jekyll has been one of iterations. The approach I took with Jekyll, and with software generally, is to begin with a simple version - master the basics - and build complexity going forward with progressive iterations.
 
-{% highlight bash %}
-$ jekyll serve --livereload
-# builds the jekyll site and serves it with live reloading when changes are saved
-{% endhighlight %}
+## Essential Jekyll
 
-Information...
+#### Front Matter
 
-{% highlight css %}
-.info {
-  border: 1px solid #CCC;
-  color: red;
-}
-{% endhighlight %}
+Perhaps the foundational concept of Jekyll is the use of front matter with [yaml syntax](https://yaml.org/spec/1.2/spec.html). Yaml is a data serialization language - which is meant to be straight forward and accessible. Jekyll with interpret yaml and process it before outputting static files. To that end, writing front matter at the beginning of files that make up the source code of a Jekyll website will expose that information for use throughout the application.
 
-Some text
+> "Any file that contains a YAML front matter block will be processed by Jekyll as a special file."
+> <cite>-- Jekyll Documentation</cite>
 
-```css
-header {
-  background-color: #F00;
-  font-size: 1.5rem;
-}
+A simple example of using front matter would be including it in an about page - about.md. To make use of it, Jekyll expects triple-dashed lines to open and close the yaml data.
+
+```yaml
+---
+layout: default
+title: About Me
+---
 ```
 
-Other items
+Yaml front matter can be used for more complex purposes than setting basic values. It can be used for creating lists using the yaml list syntax. That is accomplished many different syntactical ways. Here's just one example:
 
-```javascript
-function getItems() {
-  if (value > 0) {
-    number = 5;
-  }
-}
+```yaml
+---
+tech_stack:
+  - Jekyll
+  - Sass
+  - BEM
+  - HTML5
+---
 ```
 
-more text
+Now, the list can be accessed as a list and iterated over by using liquid syntax such as `{{ "{% for tech in project.tech_stack " }}%}`, which will allow each value of the list to be accessed and processed for use on a webpage. One way to use this is to create a html list of the content and link it to pages using the same tags.
 
-```html
-<blockquote>
-  <p>A very interesting quote goes here.</p>
-  <cite>-- Bob Cobb</cite>
-</blockquote>
-```
-
-More text
-
-{% highlight html %}
-├───css
-├───_includes
-├───_layouts
-├───_posts
-└───_site
-    ├───2018
-    │   └───10
-    │       ├───01
-    │       ├───02
-    │       ├───03
-    │       ├───04
-    │       └───05
-    ├───blog
-    │   ├───page2
-    │   └───page3
-    └───css
-{% endhighlight %}
-
-> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-> Eos autem maxime voluptatibus laboriosam? Fugiat aut quia ex maxime, laboriosam consequatur.
-> <cite>-- Bob Cobb</cite>
-
-Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere quidem voluptatem sequi quas illum mollitia quae hic, totam quasi eligendi accusamus delectus unde esse eum nihil.
