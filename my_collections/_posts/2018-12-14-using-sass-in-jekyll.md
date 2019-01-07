@@ -5,7 +5,7 @@ date_updated: 2018-12-14 14:41:23
 author: Robert Laws
 categories: [jekyll]
 tags: [jekyll, sass]
-featured-image: stock-2.jpg
+featured-image: blog-post-jekyll-and-sass.jpg
 ---
 Sass is supported out-of-the-box by Jekyll. By taking advantage of this feature, CSS development is easier used in conjunction with Jekyll <!-- more -->
 
