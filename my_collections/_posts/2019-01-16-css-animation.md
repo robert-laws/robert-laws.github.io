@@ -15,15 +15,15 @@ Inspired by the Medium post - [A Guide to CSS Animation](https://codeburst.io/a-
 ```css
 /* translation functions accepts a length or percentage value */
 div {
-  translate(100px, 20%);
+  transform: translate(100px, 20%);
 }
 
 h2 {
-  translateX(200em);
+  transform: translateX(200em);
 }
 
 aside {
-  translateY(10%);
+  transform: translateY(10%);
 }
 ```
 
@@ -32,15 +32,15 @@ aside {
 ```css
 /* scale functions accept a number value */
 section {
-  scale(2); /* will scale along the X and Y axes the same value */
+  transform: scale(2); /* will scale along the X and Y axes the same value */
 }
 
 article {
-  scale(3, 0.5);
+  transform: scale(3, 0.5);
 }
 
 div.picture {
-  scaleY(2.5);
+  transform: scaleY(2.5);
 }
 ```
 
