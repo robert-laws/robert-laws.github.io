@@ -1,6 +1,7 @@
 ---
 title: CSS Animation
 date: 2019-01-16 14:41:23
+date_updated: 2019-01-17 14:41:23
 author: Robert Laws
 categories: [css]
 tags: [css]
@@ -9,6 +10,8 @@ featured-image: blog-css-animation.jpg
 Inspired by the Medium post - [A Guide to CSS Animation](https://codeburst.io/a-guide-to-css-animation-part-1-8777f5beb1f8) by Jhey Tompkins and the book [CSS: The Definitive Guide: Visual Presentation for the Web, 4th Edition](https://www.amazon.com/CSS-Definitive-Guide-Visual-Presentation/dp/1449393195) by Eric A. Meyer and Estelle Weyl <!-- more -->
 
 ## Transform
+
+There are several ways to change the position or shape of an element using the transform property. By itself, transform will be applied to an element without any animation.
 
 **Translate**
 
@@ -45,7 +48,6 @@ div.picture {
 ```
 
 **Rotate**
-
 
 Rotation occurs as a flat 2 dimensions without using changing the perspective unless this is specified as with using the perspective() function.
 
@@ -112,6 +114,8 @@ div {
 
 ## Transition
 
+Using the transition property in conjunction with properties like transform or opacity will produce an animation. The animation can be applied upon rendering of the element or using other means like a `:hover` pseudo-class.
+
 **Transition**
 
 ```css
@@ -126,5 +130,22 @@ div {
 div:hover {
   transform: rotate(360deg)
   transform-origin: center center;
+}
+```
+
+Multiple properities can be transitioned at once by using the `all` value for the `transition-property` property. The shorthand for the transition property is `transition: transition-property transition-duration transition-timing-duration transition-delay`.
+
+```css
+/* transition scale and opacity */
+div {
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  transition: all 3s ease-out 1s;
+}
+
+div:hover {
+  opacity: 0.5;
+  transform: scale(1.25);
 }
 ```
