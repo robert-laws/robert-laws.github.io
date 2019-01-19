@@ -108,14 +108,13 @@
     position: relative;
     height: 42rem;
 
-    background-image: 
-      radial-gradient(circle at center right, rgba(#FFF, 0.025), #FFF),
-      url('../img/hero-2.jpg');
-
     background-position: top left;
     background-repeat: no-repeat;
     background-size: cover;
-
+    background-image: 
+      radial-gradient(circle at center right, rgba(#FFF, 0.025), #FFF),
+      url('../img/hero-2.jpg');
+    
     @include md {
       flex: 1;
       align-self: auto;
@@ -124,6 +123,12 @@
       margin-top: -2rem;
       background-image: radial-gradient(circle at right right, rgba(#FFF, 0.125), #FFF), url('../img/hero-2.jpg');
       background-repeat: no-repeat;
+    }
+
+    @include sm {
+      background-size: contain;
+      background-image: url('../img/rdl.jpg');
+      background-color: #B1B1AF;
     }
   }
 }

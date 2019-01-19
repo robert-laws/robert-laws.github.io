@@ -1,7 +1,7 @@
 ---
 title: CSS Animation
 date: 2019-01-16 14:41:23
-date_updated: 2019-01-17 14:41:23
+date_updated: 2019-01-19 14:41:23
 author: Robert Laws
 categories: [css]
 tags: [css]
@@ -147,5 +147,47 @@ div {
 div:hover {
   opacity: 0.5;
   transform: scale(1.25);
+}
+```
+
+## Keyframes
+
+Defining keyframes allows for significant power over the application of animations in CSS. Using the keyframes feature also allows for organization of animations and the ability to apply multiple keyframe animations to a single element.
+
+**Setting up Keyframes**
+
+```css
+@keyframes fadeout {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes grow {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+    background-color: red;
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+```
+
+**Applying Keyframes for an Animation**
+
+```css
+div {
+  animation: grow 2s ease-in 0.2s infinite normal;
+}
+
+button {
+  animation: grow 1s, fadeout 2s;
 }
 ```
