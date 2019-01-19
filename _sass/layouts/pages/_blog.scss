@@ -6,8 +6,16 @@
     display: flex;
 
     &--sideline {
-      flex: 1;
+      flex: 2;
 
+      @include lg {
+        flex: 1;
+      }
+  
+      @include md {
+        flex: 1;
+      }
+  
       @include sm {
         flex: 0;
       }

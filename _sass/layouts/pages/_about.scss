@@ -6,12 +6,20 @@
     flex: 2;
 
     @include lg {
+      flex: 1;
+    }
+
+    @include md {
+      flex: 1;
+    }
+
+    @include sm {
       flex: 0;
     }
   }
 
   &__content {
-    flex: 6;
+    flex: 5;
 
     @include xl {
       flex: 12;
@@ -26,7 +34,7 @@
     }
 
     @include sm {
-      margin: 0 1rem;
+      margin: 0 2rem;
     }
 
     #{$self}__header {
@@ -50,7 +58,7 @@
         color: $color-wet-asphalt;
         text-transform: uppercase;
         letter-spacing: 1px;
-        padding-top: 1rem;
+        padding-top: 2.5rem;
         margin: 3.5rem 0 1rem;
         border-top: 1px solid lighten(#555, 60%);
         overflow: hidden;
@@ -86,7 +94,8 @@
       aside {
         display: block;
         float: right;
-        margin-left: 3rem;
+        margin: 0 3rem;
+        padding: 0px 1rem;
         width: 36rem;
         border: 1px solid lighten($color-black, 90%);
         border-radius: 0.5rem;

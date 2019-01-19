@@ -23,7 +23,7 @@ title: Welcome
     {% endfor %}
   </section>
 
-  <!-- most recnet post -->
+  <!-- most recent post -->
   <section class="blog-list">
     {% assign posts = site.posts | sort: 'date' | reverse %}
     {% for post in posts limit:1 %}

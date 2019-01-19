@@ -6,13 +6,21 @@
     flex: 2;
 
     @include lg {
+      flex: 1;
+    }
+
+    @include md {
+      flex: 1;
+    }
+
+    @include sm {
       flex: 0;
     }
   }
 
   &__content {
     min-height: 42vh;
-    flex: 6;
+    flex: 5;
 
     @include xl {
       flex: 12;
@@ -27,7 +35,7 @@
     }
 
     @include sm {
-      margin: 0 1rem;
+      margin: 0 2rem;
     }
 
     #{$self}__header {

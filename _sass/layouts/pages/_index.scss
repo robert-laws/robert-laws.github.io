@@ -2,3 +2,19 @@
   display: flex;
   flex-direction: column;
 }
+
+.hero__portrait {
+  a {
+    text-decoration: none;
+  }
+
+  a:link,
+  a:visited {          
+    color: lighten($color-primary-dark, 25%);
+  }
+
+  a:hover,
+  a:active {
+    color: darken($color-primary-light, 15%);
+  }
+}

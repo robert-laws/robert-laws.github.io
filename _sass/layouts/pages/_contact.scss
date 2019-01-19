@@ -11,7 +11,7 @@
   }
 
   &__content {
-    flex: 6;
+    flex: 5;
     display: flex;
     flex-direction: column;
 
@@ -28,7 +28,7 @@
     }
   
     @include sm {
-      margin: 0 1rem;
+      margin: 0 2rem;
     }
   
     #{$self}__header {
