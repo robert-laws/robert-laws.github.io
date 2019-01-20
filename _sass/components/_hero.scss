@@ -40,6 +40,12 @@
       margin-bottom: 0.4rem;
     }
 
+    @include lg {
+      h1, h2 {
+        margin-left: 2rem;
+      }
+    }
+
     a {
       text-decoration: none;
       font-weight: bold;
@@ -90,6 +96,26 @@
       font-weight: 500;
       font-size: 1.8rem;
     }
+    
+    a {
+      text-decoration: none;
+    }
+
+    a:link,
+    a:visited {          
+      color: lighten($color-primary-dark, 25%);
+    }
+
+    a:hover,
+    a:active {
+      color: darken($color-primary-light, 15%);
+    }
+
+    @include lg {
+      p {
+        margin-left: 2rem;
+      }
+    }
 
     @include md {
       img {
@@ -98,6 +124,7 @@
 
       p {
         margin-top: 2.5rem;
+        margin-left: 0.2rem;
       }
     }
   }
