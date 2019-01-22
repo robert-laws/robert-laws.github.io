@@ -4,9 +4,11 @@
 
 ---
 
-## Top Code Examples
+## Personal portfolio website
 
-The most important code blocks are highlighted below with some context to their appearance in the project codebase and use
+This website has the primary purpose of documenting my web development and design projects. I also am using this website as a blogging platform.
+
+The primary technology used for the website is Static Site Generator software Jekyll.
 
 ### YAML Front Matter - required for proper processing of Jekyll pages
 
