@@ -255,6 +255,20 @@ $resume-text-font-size: 1.5rem;
               margin-bottom: 1rem;
             }
 
+            a {
+              text-decoration: none;
+            }
+        
+            a:link,
+            a:visited {          
+              color: lighten($color-primary-dark, 25%);
+            }
+        
+            a:hover,
+            a:active {
+              color: darken($color-primary-light, 15%);
+            }
+
             p {
               font-size: inherit;
               margin-bottom: 2rem;
