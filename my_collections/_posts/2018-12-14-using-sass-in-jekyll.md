@@ -9,7 +9,7 @@ featured-image: blog-post-jekyll-and-sass.jpg
 ---
 Sass is supported out-of-the-box by Jekyll. By taking advantage of this feature, CSS development is easier used in conjunction with Jekyll <!-- more -->
 
-{% capture post_image %}/assets/img/{{page.featured-image}}{% endcapture %}
+{% capture post_image %}/assets/img/blog/{{page.featured-image}}{% endcapture %}
 {% include post-image.html file=post_image caption="Jekyll and Sass work well together" %}
 
 #### Getting Sass to work in Jekyll
