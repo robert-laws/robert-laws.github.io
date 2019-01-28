@@ -16,7 +16,7 @@ This website was developed to meet specific requirements including:
 
 The database made use of several related tables. The reservation table was set up with associations to users and through the reservations users and dogs were associated with activities.
 
-![Project Introduction](../../assets/img/dog-daycare-erd.png){:class="project-detail-image--full"}
+![Project Introduction](../../assets/img/project/dog-daycare-erd.png){:class="project-detail-image--full"}
 {:class="project-detail-container"}
 
 Entity Relationship Diagram for Dog Daycare
@@ -118,7 +118,7 @@ from config/routes.rb
 
 The user interface styling was achieved with the [Bulma CSS Framework](https://bulma.io/). Bulma was chosen for it's modern look & feel and modular structure. A particularly interesting component of Bulma for this application was the [card component](https://bulma.io/documentation/components/card/). This component had a polished presentation and was highly customizable.
 
-![Project UX Design](../../assets/img/dog-daycare-card.jpg){:class="project-detail-image--half"}
+![Project UX Design](../../assets/img/project/dog-daycare-card.jpg){:class="project-detail-image--half"}
 {:class="project-detail-container"}
 
 Bulma Card - Dog information from user profile page

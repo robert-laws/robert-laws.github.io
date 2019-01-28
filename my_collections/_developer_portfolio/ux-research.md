@@ -10,7 +10,7 @@ The project phase for UX Research was somewhat protracted since the website is m
 
 The persona for the website is based on myself as the developer. The core aim of the persona is to have an effective self-promotion tool via a website.
 
-![Developer Portfolio - Persona](../../assets/img/developer-portfolio-persona.jpg){:class="project-detail-image--half"}
+![Developer Portfolio - Persona](../../assets/img/project/developer-portfolio-persona.jpg){:class="project-detail-image--half"}
 {:class="project-detail-container"}
 
 UX Research - Persona

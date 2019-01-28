@@ -10,7 +10,7 @@ The User Experience Research phase of the project focused on the development of 
 
 Several personas were developed of potential users of the website Dog Daycare. A common thread for the personas was dog owners who wanted to use a dog daycare service with the advantages of an online space to schedule and customize their usage.
 
-![Project UX Design](../../assets/img/persona-dog-daycare-project-v1_01.jpg){:class="project-detail-image--full"}
+![Project UX Design](../../assets/img/project/dog-daycare-persona.jpg){:class="project-detail-image--full"}
 {:class="project-detail-container"}
 
 Project Persona - Potential User of Dog Daycare
@@ -20,7 +20,7 @@ Project Persona - Potential User of Dog Daycare
 
 The user stories were informative of the expectations that a typical user would have for the website. The user stories revealed that the website should have lots of options and give dog owners the ability to fit the service to their specific situations.
 
-![Project UX Design](../../assets/img/dog-daycare-user-stories.jpg){:class="project-detail-image--three-fourths"}
+![Project UX Design](../../assets/img/project/dog-daycare-user-stories.jpg){:class="project-detail-image--three-fourths"}
 {:class="project-detail-container"}
 
 User Stories
@@ -30,7 +30,7 @@ User Stories
 
 Was built by focusing on several essential features of the website and how users would approach them. Detailed below is the user discovery process of activities available for dogs at the daycare locations.
 
-![Project UX Design](../../assets/img/dog-daycare-scenario-mapping.jpg){:class="project-detail-image--three-fourths"}
+![Project UX Design](../../assets/img/project/dog-daycare-scenario-mapping.jpg){:class="project-detail-image--three-fourths"}
 {:class="project-detail-container"}
 
 Scenario Mapping - Activities Discovery

@@ -16,7 +16,7 @@ Throughout my career, I've spent a lot of time reading code, writing code, and h
 
 To remedy this situation, I've decided to develop a developer portfolio website. The goal of this website will be to provide a space for me to describe in detail my developer projects. It will also provide me a space to blog about my web developer experience and ideas. And finally, the website will include a space for my professional details - including a resume, contact information, and social media links.
 
-![Project Introduction](../../assets/img/developer-portfolio-project.jpg){:class="project-detail-image--full"}
+![Project Introduction](../../assets/img/project/developer-portfolio-project.jpg){:class="project-detail-image--full"}
 {:class="project-detail-container"}
 
 Project Website Home Page

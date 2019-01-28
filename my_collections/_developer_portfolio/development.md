@@ -64,6 +64,6 @@ Another prominent aspect of Jekyll is the use of the liquid syntax for the templ
 
 #### Layouts and Includes
 
-Finally, Jekyll makes use of includes to expose repeatable content for use in blog post and other pages. An exmaple from the website is the use of an include for image content. The include can be called on website pages and information about the image and a caption can be passed to the include. The include is used on the blog page - using Sass in Jekyll in the following way to pass the featured image that is defined in the blog post front matter and using the caption "Web Developer in Action" in the sample below.
+Finally, Jekyll makes use of includes to expose repeatable content for use in blog post and other pages. An example from the website is the use of an include for image content. The include can be called on website pages and information about the image and a caption can be passed to the include. The include is used on the blog page - using Sass in Jekyll in the following way to pass the featured image that is defined in the blog post front matter and using the caption "Web Developer in Action" in the sample below.
 
 Jekyll is complex and takes time to learn, but has powerful features and has the added bonus of being supported by Github Pages - which hosts the content for access on the Internet.
