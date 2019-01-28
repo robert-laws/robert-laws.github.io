@@ -13,12 +13,12 @@ I decided to take some time to get through the course material in the rails sect
 
 ### Challenges
 
-One of the most challenging aspects of the project was creating a many-to-many relationship with a join table that also contained data other than the assoicated ids of other tables. In my case, I chose to create a table with reservation data with a many-to-many relationship with a set of available activities. The join table contained some extra data - the duration of the activity. This data made sense to include in the join table since it would vary for each reservation and for each activity associated with the reservation. The diagram shown below shows the relationships. I also had to associate the reservation with a user and with a dog, which is the whole point of having a reservation in the first place.
+One of the most challenging aspects of the project was creating a many-to-many relationship with a join table that also contained data other than the associated ids of other tables. In my case, I chose to create a table with reservation data with a many-to-many relationship with a set of available activities. The join table contained some extra data - the duration of the activity. This data made sense to include in the join table since it would vary for each reservation and for each activity associated with the reservation. The diagram shown below shows the relationships. I also had to associate the reservation with a user and with a dog, which is the whole point of having a reservation in the first place.
 
 {% capture post_image %}http://www.robdlaws.com/photos/erd-rails.png{% endcapture %}
 {% include post-image.html file=post_image caption="Entity Relationship Diagram - Rails Project" %}
 
-Figuring out how to handle committing data to the database using custom methods was also challenging. The form I created for this included date and time information, checkboxes for the activities available, inputs for the duration data, and another set of form fields for creating a custom activity if user wanted something other than the listed activities.
+Figuring out how to handle committing data to the database using custom methods was also challenging. The form I created for this included date and time information, check-boxes for the activities available, inputs for the duration data, and another set of form fields for creating a custom activity if user wanted something other than the listed activities.
 
 After battling with how to update the join table with the additional data (integer values for a duration field), I settled on a solution that worked. The key for me was to determine how the form hash was structured and modifying the form fields for duration to create a duration array that held key, value pairs for the activity_id and the duration. If there was no value listed in the hash, then that told me that the duration was zero and the activity (represented by the key value) was not checked.
 

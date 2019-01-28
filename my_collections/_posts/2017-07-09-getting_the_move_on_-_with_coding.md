@@ -14,7 +14,7 @@ The image below tells the story. It's easy to say that since what I am able to d
 {% capture post_image %}https://s-media-cache-ak0.pinimg.com/736x/bf/82/0b/bf820baf1e094d0a9d5f7ad9da07ac6d--procrastination-quotes-perfection-quotes.jpg{% endcapture %}
 {% include post-image.html max-width=25 file=post_image caption="Against Procrastination" %}
 
-I've embraced some of the concepts of the Agile software development model, particluarly principle number 3 from the Manifesto for Agile Software:
+I've embraced some of the concepts of the Agile software development model, particularly principle number 3 from the Manifesto for Agile Software:
 
 > Working software is delivered frequently (weeks rather than months)
 

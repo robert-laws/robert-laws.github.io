@@ -12,7 +12,7 @@ So, this blog post utilizes Markdown. I first got introduced to Markdown, probab
 {% capture post_image %}https://www.socialtalent.co/wp-content/uploads/2015/03/github-logo.jpg{% endcapture %}
 {% include post-image.html max-width=20 file=post_image caption="Github Logo" %}
 
-At first, I was cusious about the README.md file. I just thought it was a regular readme file, just like a text file. But I was wrong, it was something really impressive.
+At first, I was curious about the README.md file. I just thought it was a regular readme file, just like a text file. But I was wrong, it was something really impressive.
 
 In my mind, **Markdown** was meant to help write for the web fast, but still include most of the stylistic, structural, and media features we like to add in HTML. One of the most attractive features of **Markdown** that I've heard highlighted by others is that it helps keep writers within the flow of writing, without needing to break from the keyboard to click on a formatting button, etc.
 
