@@ -1,7 +1,7 @@
 ---
 title: CSS Animation
 date: 2019-01-16 14:41:23
-date_updated: 2019-01-19 14:41:23
+date_updated: 2019-02-02 14:41:23
 author: Robert Laws
 categories: [css]
 tags: [css]
@@ -9,7 +9,7 @@ featured-image: blog-css-animation.jpg
 ---
 Inspired by the Medium post - [A Guide to CSS Animation](https://codeburst.io/a-guide-to-css-animation-part-1-8777f5beb1f8) by Jhey Tompkins and the book [CSS: The Definitive Guide: Visual Presentation for the Web, 4th Edition](https://www.amazon.com/CSS-Definitive-Guide-Visual-Presentation/dp/1449393195) by Eric A. Meyer and Estelle Weyl.<!-- more -->
 
-
+CSS Animations add a degree of polish to a user interface. Animations can give users valuable information about how to use a website. Animations also can reflect on a high degree of professionalism and set it apart from websites that don't use animations. Animations can be applied via CSS using two common methods - `transition` and `animation`.
 
 ## Transform
 
@@ -130,12 +130,12 @@ div {
 }
 
 div:hover {
-  transform: rotate(360deg)
+  transform: rotate(360deg);
   transform-origin: center center;
 }
 ```
 
-Multiple properities can be transitioned at once by using the `all` value for the `transition-property` property. The shorthand for the transition property is `transition: transition-property transition-duration transition-timing-duration transition-delay`.
+Multiple properties can be transitioned at once by using the `all` value for the `transition-property` property. The shorthand for the transition property is `transition: transition-property transition-duration transition-timing-duration transition-delay`.
 
 ```css
 /* transition scale and opacity */
@@ -151,6 +151,15 @@ div:hover {
   transform: scale(1.25);
 }
 ```
+
+## Working Example - Transition
+
+<p class="codepen" data-height="265" data-theme-id="0" data-default-tab="css,result" data-user="robert_laws" data-slug-hash="NojXYR" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid black; margin: 1em 0; padding: 1em;" data-pen-title="CSS Animation - Transition">
+  <span>See the Pen <a href="https://codepen.io/robert_laws/pen/NojXYR/">
+  CSS Animation - Transition</a> by Robert Laws (<a href="https://codepen.io/robert_laws">@robert_laws</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 
 ## Keyframes
 
@@ -193,3 +202,12 @@ button {
   animation: grow 1s, fadeout 2s;
 }
 ```
+
+## Working Example - Keyframes and Animation
+
+<p class="codepen" data-height="300" data-theme-id="0" data-default-tab="css,result" data-user="robert_laws" data-slug-hash="VgbywG" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid black; margin: 1em 0; padding: 1em;" data-pen-title="CSS Animation - Keyframes">
+  <span>See the Pen <a href="https://codepen.io/robert_laws/pen/VgbywG/">
+  CSS Animation - Keyframes</a> by Robert Laws (<a href="https://codepen.io/robert_laws">@robert_laws</a>)
+  on <a href="https://codepen.io">CodePen</a>.</span>
+</p>
+<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
