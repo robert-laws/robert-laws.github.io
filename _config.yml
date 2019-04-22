@@ -68,6 +68,9 @@ collections:
   dog_daycare:
     output: true
     permalink: /project/dog-daycare/:name
+  instruction_menu:
+    output: true
+    permalink: /project/instruction-menu/:name
 
 # Front Matter Defaults
 defaults:

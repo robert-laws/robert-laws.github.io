@@ -1,5 +1,5 @@
 ---
-title: Library Instruction Menu
+title: Instruction Menu
 date: 2019-04-22
 website_url: https://menu.guqlibrary.georgetown.domains
 repository_url: https://github.com/robert-laws/project-instruction-menu-documentation
