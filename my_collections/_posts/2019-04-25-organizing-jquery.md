@@ -6,6 +6,8 @@ categories: [jquery]
 tags: [jquery, javascript, gulp]
 featured-image: blog-post-organizing-jquery.jpg
 ---
+An important aspect of mastering JQuery is knowing how and when it will run your javascript code.<!-- more -->
+
 I've been using Gulp.js for a while now as my tool of choice for workflow automation. One feature that is very useful is the [https://www.npmjs.com/package/gulp-concat](gulp-concat) package, which allows me to develop with separate js files and combine them into one final javascript file at production. The advantage of this is that I only load one javascript file for the website instead of multiple files. However, this adds some challenges too. The biggest challenge is that on certain pages of a project, I want to run JQuery code when the page's DOM has finished loading. However, I don't need the JQuery code to run on every page when the DOM has finished loading.
 
 {% capture post_image %}/assets/img/blog/{{page.featured-image}}{% endcapture %}
