@@ -8,6 +8,11 @@ process_order: 0
 processes:
   - Introduction
   - UX Research
+  - UX Exploration
+  - Information Architecture
+  - Content Development
+  - UX Design
+  - Development
 ---
 {% assign instruction_menu_process = site.instruction_menu | where_exp:'instruction_menu_process','instruction_menu_process.process_order > 0' | sort: 'process_order' %}
 {% for item in instruction_menu_process %}
