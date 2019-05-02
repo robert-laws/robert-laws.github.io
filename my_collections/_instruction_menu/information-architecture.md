@@ -30,7 +30,7 @@ The website will also have an 404 error page for content not found
 
 The home page will either be the web form for instruction details or the class builder tool.
 
-![Information Architecture - Sitemap](../../assets/img/project/instruction-menu-sitemap.jpg){:class="project-detail-image--half"}
+![Information Architecture - Sitemap](../../assets/img/project/instruction-menu-sitemap.jpg){:class="project-detail-image--three-fourths"}
 {:class="project-detail-container"}
 
 Information Architecture - Sitemap
@@ -44,7 +44,7 @@ The wireframes reflect the major components of the website - the class builder p
 
 A user encounters the class builder with some instructions to drag an instruction component from the left side to the right side in the drop zone.
 
-![Information Architecture - Wireframes](../../assets/img/project/instruction-menu-wireframe-2.jpg){:class="project-detail-image--half"}
+![Information Architecture - Wireframes](../../assets/img/project/instruction-menu-wireframe-2.jpg){:class="project-detail-image--three-fourths"}
 {:class="project-detail-container"}
 
 Starting Page
@@ -54,7 +54,7 @@ Starting Page
 
 Once the user has begun to add components the drop zone the class begins to stack. The components can be reordered to reflect a sequence for instruction.
 
-![Information Architecture - Wireframes](../../assets/img/project/instruction-menu-wireframe-3.jpg){:class="project-detail-image--half"}
+![Information Architecture - Wireframes](../../assets/img/project/instruction-menu-wireframe-3.jpg){:class="project-detail-image--three-fourths"}
 {:class="project-detail-container"}
 
 Building the Class
@@ -64,7 +64,7 @@ Building the Class
 
 Once the user has finished building a class, the next button will bring the user to a details form, where information about the class date, time, etc. is collected.
 
-![Information Architecture - Wireframes](../../assets/img/project/instruction-menu-wireframe-4.jpg){:class="project-detail-image--half"}
+![Information Architecture - Wireframes](../../assets/img/project/instruction-menu-wireframe-4.jpg){:class="project-detail-image--three-fourths"}
 {:class="project-detail-container"}
 
 User Input
@@ -74,7 +74,7 @@ User Input
 
 Users can also view prebuilt class examples and potentially use it directly for a class they want to request.
 
-![Information Architecture - Wireframes](../../assets/img/project/instruction-menu-wireframe-5.jpg){:class="project-detail-image--half"}
+![Information Architecture - Wireframes](../../assets/img/project/instruction-menu-wireframe-5.jpg){:class="project-detail-image--three-fourths"}
 {:class="project-detail-container"}
 
 Pre-filled Class Examples
@@ -84,7 +84,7 @@ Pre-filled Class Examples
 
 Users can also view a text-only version of the full catalog of instructional services via a data table.
 
-![Information Architecture - Wireframes](../../assets/img/project/instruction-menu-wireframe-6.jpg){:class="project-detail-image--half"}
+![Information Architecture - Wireframes](../../assets/img/project/instruction-menu-wireframe-6.jpg){:class="project-detail-image--three-fourths"}
 {:class="project-detail-container"}
 
 Instructional Services
@@ -94,7 +94,7 @@ Instructional Services
 
 Various concepts were developed for the drag and drop component as part of the wireframe exploration.
 
-![Information Architecture - Wireframes](../../assets/img/project/instruction-menu-wireframe-1.jpg){:class="project-detail-image--half"}
+![Information Architecture - Wireframes](../../assets/img/project/instruction-menu-wireframe-1.jpg){:class="project-detail-image--quarter"}
 {:class="project-detail-container"}
 
 Drag and Drop Component Development
