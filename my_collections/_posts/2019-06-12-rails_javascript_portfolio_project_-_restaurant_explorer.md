@@ -26,20 +26,20 @@ It's not a requirement for the curriculum, but I feel it's important to spend so
 
 An important part of the design process (and coding) process is planning. This is something I don't take for granted as I progress through the curriculum. I spent time creating some wireframes for the important pages of the application - an index page listing all restaurants and a show page that displays individual restaurant details.
 
-![Restaurant Explorer - Wireframe - Home Page](../../assets/img/project/restaurant-wireframe-home.jpg){:class="project-detail-image--three-fourths"}
+![Restaurant Explorer - Wireframe - Home Page](../../assets/img/project/restaurant-wireframe-home.png){:class="project-detail-image--three-fourths"}
 {:class="project-detail-container"}
 
-![Restaurant Explorer - Wireframe - Index Page](../../assets/img/project/restaurant-wireframe-index.jpg){:class="project-detail-image--three-fourths"}
+![Restaurant Explorer - Wireframe - Index Page](../../assets/img/project/restaurant-wireframe-index.png){:class="project-detail-image--three-fourths"}
 {:class="project-detail-container"}
 
-![Restaurant Explorer - Wireframe - Show Page](../../assets/img/project/restaurant-wireframe-show.jpg){:class="project-detail-image--three-fourths"}
+![Restaurant Explorer - Wireframe - Show Page](../../assets/img/project/restaurant-wireframe-show.png){:class="project-detail-image--three-fourths"}
 {:class="project-detail-container"}
 
 #### Data Model
 
 Another important part of the project is the data model. This is also something best to be planned out before coding anything. With this in mind, I spent some time putting together an entity relationship diagram that visualized my data tables and their associations.
 
-![Restaurant Explorer - Entity Relationship Diagram](../../assets/img/project/restaurant-erd.jpg){:class="project-detail-image--three-fourths"}
+![Restaurant Explorer - Entity Relationship Diagram](../../assets/img/project/restaurant-erd.png){:class="project-detail-image--three-fourths"}
 {:class="project-detail-container"}
 
 The main focus of the site was the `Restaurants` table. And the associated many-to-one `Comments` table is where my `has_many` relationship is located for the project. Wanting to do something more interesting than just this, I also added other tables, including a `Users` table that supported the login/logout feature. I added some other tables associated to the Restaurants table to add data that I could use later as data for filters.
@@ -206,7 +206,7 @@ class Restaurant {
 
 Working with json content, I used iterators and JQuery to process the data and append content to the DOM. The challenge here was to work through the logical process step-by-step of collecting the data, parsing it, and displaying it on the page in an organized way as well as responding to user interactions properly. The final result was satisfying.
 
-![Restaurant Explorer - Detail for Individual Restaurant with Comments](../../assets/img/project/restaurant-detail-screen.jpg){:class="project-detail-image--three-fourths"}
+![Restaurant Explorer - Detail for Individual Restaurant with Comments](../../assets/img/project/restaurant-detail-screen.png){:class="project-detail-image--three-fourths"}
 {:class="project-detail-container"}
 
 #### Final Thoughts
