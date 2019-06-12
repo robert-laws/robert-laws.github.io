@@ -18,7 +18,7 @@ After a bit of a slow period progressing through the [Flatiron School](https://f
 I feel pretty happy about the results I achieved. The basic concepts of **Restaurant Explorer** is a website that allows users to view both a long list of local restaurants and individual pages for each restaurant. The individual pages include an associated comments section. A logged in user can also add comments to a restaurant - which displays the new comment without any page refresh.
 
 {% capture post_image %}/assets/img/blog/{{page.featured-image}}{% endcapture %}
-{% include post-image.html file=post_image caption="JQuery - Still Useful & Powerful" %}
+{% include post-image.html file=post_image caption="Restaurant Explorer Website Homepage" %}
 
 #### Don't Skip the Design
 
@@ -206,7 +206,7 @@ class Restaurant {
 
 Working with json content, I used iterators and JQuery to process the data and append content to the DOM. The challenge here was to work through the logical process step-by-step of collecting the data, parsing it, and displaying it on the page in an organized way as well as responding to user interactions properly. The final result was satisfying.
 
-![Restaurant Explorer - Detail for Individual Restaurant with Comments](../../assets/img/project/restaurant-detail-screen.png){:class="project-detail-image--three-fourths"}
+![Restaurant Explorer - Detail for Individual Restaurant with Comments](../../assets/img/project/restaurant-detail-screen.png){:class="project-detail-image--half"}
 {:class="project-detail-container"}
 
 #### Final Thoughts
