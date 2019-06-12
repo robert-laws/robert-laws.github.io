@@ -1,8 +1,8 @@
 .blog-post {
   padding: 7rem 0;
   background-color: lighten($color-primary-dark, 79%);
-  -webkit-clip-path: polygon(0% 0.5%, 100% 0%, 100% 100%, 0% 99.5%);
-  clip-path: polygon(0% 0.5%, 100% 0%, 100% 100%, 0% 99.5%);
+  // -webkit-clip-path: polygon(0% 0.5%, 100% 0%, 100% 100%, 0% 99.5%);
+  // clip-path: polygon(0% 0.5%, 100% 0%, 100% 100%, 0% 99.5%);
 
   $self: &;
   display: flex;
