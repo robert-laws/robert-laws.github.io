@@ -7,7 +7,7 @@ tags: [jquery, javascript, ruby-on-rails]
 featured-image: restaurant-explorer.png
 ---
 
-For my Rails & Javascript portfolio project - Restaurant Explorer - I wanted to fulfill the requirements and challenge myself.<!-- more -->
+For my Rails & Javascript portfolio project - [Restaurant Explorer](https://rails-js-restaurant-explorer.herokuapp.com) - I wanted to fulfill the requirements and challenge myself.<!-- more -->
 
 After a bit of a slow period progressing through the [Flatiron School](https://flatironschool.com/) curriculum, I've jumped back in and pushed forward - arriving at the Ruby on Rails + Javascript project. For this project, I wanted to accomplish a few different things:
 
