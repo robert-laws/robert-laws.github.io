@@ -10,7 +10,7 @@ The point of the project is, of course, the skills shown in the development phas
 
 The data model for the project included several tables - as described below in the project entity relationship diagram (ERD). The focal database table for the project is the `Restaurants` table. From this table is a many-to-one relationship with the `Comments` table. Users are also attached to a restaurant via comments. I also made use of look-up tables for locations and a many-to-many table for possible cuisines each restaurant offered.
 
-![Entity Relationship Diagram](../../assets/img/project/restaurant-erd.jpg){:class="project-detail-image--three-fourths"}
+![Entity Relationship Diagram](../../assets/img/project/restaurant-erd.png){:class="project-detail-image--full"}
 {:class="project-detail-container"}
 
 Entity Relationship Diagram

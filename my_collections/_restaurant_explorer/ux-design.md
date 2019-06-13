@@ -10,19 +10,19 @@ Although I didn't undertake a full-fledged UX process for this project, some des
 
 The main aspect of UX Design for this project was creating wireframes that laid out the page organization and element spacing. Using Bootstrap 4 allowed me to take advantage of many of their components - like navbars and cards - to plan my design. I produced three wireframes for the major sections of the project - the home page, the restaurant list page, and the restaurant detail page.
 
-![Wireframe - Home Page](../../assets/img/project/restaurant-wireframe-home.png){:class="project-detail-image--quarter"}
+![Wireframe - Home Page](../../assets/img/project/restaurant-wireframe-home.png){:class="project-detail-image--full"}
 {:class="project-detail-container"}
 
 Wireframe - Home Page
 {:class="project-detail-caption"}
 
-![Wireframe - List Page](../../assets/img/project/restaurant-wireframe-index.png){:class="project-detail-image--quarter"}
+![Wireframe - List Page](../../assets/img/project/restaurant-wireframe-index.png){:class="project-detail-image--full"}
 {:class="project-detail-container"}
 
 Wireframe - List Page
 {:class="project-detail-caption"}
 
-![Wireframe - Detail Page](../../assets/img/project/restaurant-wireframe-show.png){:class="project-detail-image--quarter"}
+![Wireframe - Detail Page](../../assets/img/project/restaurant-wireframe-show.png){:class="project-detail-image--full"}
 {:class="project-detail-container"}
 
 Wireframe - Detail Page
