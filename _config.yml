@@ -71,6 +71,9 @@ collections:
   instruction_menu:
     output: true
     permalink: /project/instruction-menu/:name
+  restaurant_explorer:
+    output: true
+    permalink: /project/restaurant-explorer/:name
 
 # Front Matter Defaults
 defaults:
