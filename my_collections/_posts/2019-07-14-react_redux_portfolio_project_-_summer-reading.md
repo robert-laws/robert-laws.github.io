@@ -26,7 +26,7 @@ Reading other student posts on the React and Redux project, it seemed that the A
 
 The focus of the project, of course, was React and Redux. For my project, I really focused on meeting the requirements first then looked at adding some design and extra touches. Working with React and Redux can quickly become frustrating between keeping track of all the import statements, actions, reducers, containers, etc. There's a lot of parts that need to come together.
 
-##### Actions
+#### Actions
 
 The most frustrating part was working with the API and the Redux store at the beginning. Making async API requests required precise setup and then understanding how to move the resulting JSON into the Redux store correctly was tricky at first. First, I setup an action for the async call to the API and sent the dispatch to the reducer along with the response data.
 
@@ -41,7 +41,7 @@ export function fetchBooks() {
 }
 ```
 
-##### Reducers
+#### Reducers
 
 Next, the dispatch is received by the reducer, which will match against the action type to determine how to update the store. In the case of the API call, the data received from the API call replaced all the data in the store for the `books` segment.
 
