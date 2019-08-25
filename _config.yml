@@ -74,6 +74,9 @@ collections:
   restaurant_explorer:
     output: true
     permalink: /project/restaurant-explorer/:name
+  library_website:
+    output: true
+    permalink: /project/library-website/:name
 
 # Front Matter Defaults
 defaults:

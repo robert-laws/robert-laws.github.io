@@ -29,7 +29,7 @@ class RestaurantSerializer < ActiveModel::Serializer
 end
 ```
 
-In the example above, my `Restaurants` model had associations with the `Locaions`, `Cuisines`, and `Comments` tables. And the `Comments` table had its own associations, which I also wanted to capture in my json output. In order to create the output, I utilized the `respond_to` block to execute the serializer and produce the json output.
+In the example above, my `Restaurants` model had associations with the `Locations`, `Cuisines`, and `Comments` tables. And the `Comments` table had its own associations, which I also wanted to capture in my json output. In order to create the output, I utilized the `respond_to` block to execute the serializer and produce the json output.
 
 ```ruby
 def show
