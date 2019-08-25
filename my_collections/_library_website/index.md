@@ -12,7 +12,7 @@ processes:
   - Development
   - Conclusion
 ---
-{% assign library_website_process = site.restaurant_explorer | where_exp:'library_website_process','library_website_process.process_order > 0' | sort: 'process_order' %}
+{% assign library_website_process = site.library_website | where_exp:'library_website_process','library_website_process.process_order > 0' | sort: 'process_order' %}
 {% for item in library_website_process %}
   {{item.content | markdownify }}
 {% endfor %}
