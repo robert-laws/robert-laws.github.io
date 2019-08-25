@@ -1,6 +1,6 @@
 ---
 title: Library Website
-date: 2019-08-15
+date: 2019-07-15
 website_url: https://qatar.library.georgetown.edu/
 repository_url: https://github.com/robert-laws/project-june-2019-library-website-redevelopment
 featured_image: library-website-home-page.png

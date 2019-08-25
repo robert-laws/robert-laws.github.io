@@ -1,7 +1,7 @@
 ---
 layout: project
 title: "Library Website"
-date: 2019-06-12
+date: 2019-07-15
 website_url: https://qatar.library.georgetown.edu/
 repository_url: https://github.com/robert-laws/project-june-2019-library-website-redevelopment
 process_order: 0
