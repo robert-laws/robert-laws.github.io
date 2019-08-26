@@ -13,4 +13,5 @@ tech_stack:
   - Bootstrap 4
   - Pug
   - Sass
+  - BEM
 ---
