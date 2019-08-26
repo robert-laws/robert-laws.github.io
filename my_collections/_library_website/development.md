@@ -8,13 +8,13 @@ The development phase of the project involved building the site in an environmen
 
 The most challenging and interesting aspect of the developmental phase was creating mixins with Pug to create the side navigation bar for each sub page on the site. The feature works through use of multiple components. First, a yaml data object contains the different sub sections of the category - in this case the services category.
 
-```jade
+```ruby
 - var navServices = {'Borrowing':'borrowing', 'Renewing':'renewing', 'Interlibrary Loans':'interlibrary-loans', 'Course Reserves':'course-reserves'}
 ```
 
 This data will be looped over inside the mixin, which will make each item a link unless the item is the same as the current page. The mixin is inserted within the pug template.
 
-```jade
+```ruby
 mixin side-nav(page, items)
   div(class="list-group d-none d-md-block")
     each val, index in items
@@ -26,7 +26,7 @@ mixin side-nav(page, items)
 
 The pug template is built using the Bootstrap 4 CSS framework. The development also focused on making use of the responsive features of Bootstrap, which are reflected in the use of column sizing for various display widths.
 
-```jade
+```ruby
 extends layouts/default.pug
 
 block content
