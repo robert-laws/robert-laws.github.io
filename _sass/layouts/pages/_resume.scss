@@ -4,6 +4,10 @@ $resume-text-font-size: 1.5rem;
   $self: &;
   display: flex;
 
+  .add-top-margin {
+    margin-top: 2rem;
+  }
+
   &__sideline {
     flex: 2;
 
