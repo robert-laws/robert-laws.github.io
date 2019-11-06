@@ -10,6 +10,9 @@ There's a lot of interesting features that come with React Hooks and useEffect i
 
 [React Hooks](https://reactjs.org/docs/hooks-intro.html) has been a feature of React since the release of React version 16.8. Although there's a lot of complexity within React Hooks, I was particularly interested in the **Effect Hook** to perform some side effects when a particular part of state changed.
 
+{% capture post_image %}/assets/img/blog/{{page.featured-image}}{% endcapture %}
+{% include post-image.html file=post_image caption="React Hooks - Effect Hook" %}
+
 React's documentation can be a little dense at first. I actually was initially frustrated by the documentation, since I didn't find an example that matched my particular use case. However, reading over it a second time (and while not trying to implement the feature in my code as I was reading through the documentation), I was able to discover that the documentation did in fact have an example matching my use case.
 
 #### My Use Case
