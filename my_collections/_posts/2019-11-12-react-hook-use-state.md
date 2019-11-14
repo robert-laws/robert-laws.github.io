@@ -11,7 +11,7 @@ Let's discuss the basics of how to use React Hooks and useState.<!-- more -->
 [React Hooks](https://reactjs.org/docs/hooks-intro.html) provides a new set of tools to handle state locally within components. A big change introduced along with React Hooks is the ability to make use of state within functional components. The way I've used the State Hook take two forms - to set a single value like **true**, **false**, or some variable value. I'll also use state to update an object or array collection. Doing this with Hooks introduces some challenges, particularly with objects and arrays. However, after gaining experience with React, some of the patterns for working with data become familiar and comfortable.
 
 {% capture post_image %}/assets/img/blog/{{page.featured-image}}{% endcapture %}
-{% include post-image.html file=post_image caption="React Hooks - Effect Hook" %}
+{% include post-image.html file=post_image caption="React Hooks - State Hook" %}
 
 #### Updating simple data values with the State Hook
 
