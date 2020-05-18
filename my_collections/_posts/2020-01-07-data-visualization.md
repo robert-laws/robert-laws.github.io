@@ -5,4 +5,4 @@ author: Robert Laws
 tags: [data visualization]
 featured-image: stock-3.jpg
 ---
-Notes on Data Visualization <!-- more -->...
+Notes on Data Visualization <!-- more -->... Learning about Data Visualization.
