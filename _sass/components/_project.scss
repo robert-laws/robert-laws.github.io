@@ -286,6 +286,10 @@
   }
 }
 
+.scroll.textBold {
+  font-weight: bold;
+}
+
 aside.project-detail__side-nav {
   top: 6rem;
   position: sticky;
@@ -319,7 +323,7 @@ aside.project-detail__side-nav {
       a {
         text-decoration: none;
         font-size: 1.5rem;
-        font-weight: 600;
+        font-weight: 300;
       }
 
       a:link,
