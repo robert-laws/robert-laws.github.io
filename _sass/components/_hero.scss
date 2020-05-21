@@ -139,12 +139,10 @@
     background-position: top left;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: 
-      radial-gradient(circle at center right, rgba(#FFF, 0.025), #FFF),
-      url('../img/hero-2.jpg');
+    background-image: radial-gradient(circle at center right, rgba(#FFF, 0.025), #FFF), url('../img/hero-2.jpg');
     
     @include md {
-      flex: 1;
+      flex: none;
       align-self: auto;
       height: 40rem;
       background-size: cover;
