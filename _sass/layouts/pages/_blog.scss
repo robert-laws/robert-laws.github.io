@@ -6,7 +6,7 @@
     display: flex;
 
     &--sideline {
-      flex: 2;
+      flex: 1;
 
       @include lg {
         flex: 1;
