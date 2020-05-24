@@ -183,6 +183,17 @@
     #{$self}__categories--links {
       flex: 0 1 auto;
       align-self: flex-end;
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+
+      .tags, .category {
+        flex: 1;
+        margin: 0 0.4rem;
+        padding: 4px 10px;
+        border: 1px solid rgba(lighten($color-wet-asphalt, 50%), 0.25);
+        border-radius: 0.5rem;
+      }
 
       h4 {
         color: lighten($color-primary-dark, 10%);

@@ -4,7 +4,7 @@ title:  "The Power of Blocks"
 date:   2017-08-21 14:51:44 -0400
 author: Robert Laws
 categories: [ruby]
-tags: [core-concepts]
+tags: [core concepts]
 featured-image: stock-4.jpg
 ---
 Having a fairly good background in Javascript, the concept of a block in Ruby is a bit different for me. <!-- more -->Yes, Javascript does have a few features similar to blocks (anonymous functions), but I'm feeling that blocks in Ruby are something unique in many ways. I'm making progress through procedural Ruby at the moment and felt like I made a mental breakthrough getting the hang of blocks (so far...).

@@ -18,10 +18,18 @@
         <a href="{{site.baseurl}}{{include.url}}">Read More <i class="fas fa-external-link-square-alt"></i></a>
     </section>
     <section class="blog-entry__categories--links">
-      <h4>Tags</h4>
-      {% for tag in include.tags %}
-        <a href="{{site.baseurl}}/tags/{{tag | slugify}}">{{tag}}</a> 
-      {% endfor %}    
+      <div class="category">
+        <h4>Category</h4>
+        {% for category in include.categories | first %}
+          <a href="{{site.baseurl}}/categories/{{category | slugify}}">{{category}}</a> 
+        {% endfor %}    
+      </div>
+      <div class="tags">
+        <h4>Tags</h4>
+        {% for tag in include.tags %}
+          <a href="{{site.baseurl}}/tags/{{tag | slugify}}">{{tag}}</a> 
+        {% endfor %}    
+      </div>
     </section>
   </div>
   <div class="blog-entry__visual">

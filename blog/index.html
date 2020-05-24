@@ -15,10 +15,11 @@ title: Blog Posts
     {% capture post_date %}{{post.date}}{% endcapture %}
     {% capture post_author %}{{post.author}}{% endcapture %}
     {% capture post_excerpt %}{{post.excerpt}}{% endcapture %}
+    {% assign post_categories = post.categories %}
     {% assign post_tags = post.tags %}
     {% capture featured_image %}{{post.featured-image}}{% endcapture %}
 
-    {% include post.html homepage=false url=post_url title=post_title date=post_date author=post_author excerpt=post_excerpt tags=post_tags image=featured_image %}
+    {% include post.html homepage=false url=post_url title=post_title date=post_date author=post_author excerpt=post_excerpt tags=post_tags categories=post_categories image=featured_image %}
   {% endfor %}
   <div class="paginator">
     <div class="paginator__previous">
