@@ -9,7 +9,7 @@ featured-image: stock-4.jpg
 ---
 So, this blog post utilizes Markdown. I first got introduced to Markdown, probably like many others, when using GitHub.<!-- more -->
 
-{% capture post_image %}https://robert-laws.com/assets/img/blog/github-logo.png{% endcapture %}
+{% capture post_image %}https://robert-laws.com/assets/img/blog/github-logo.jpg{% endcapture %}
 {% include post-image.html max-width=50 file=post_image caption="Github Logo" %}
 
 At first, I was curious about the README.md file. I just thought it was a regular readme file, just like a text file. But I was wrong, it was something really impressive.
