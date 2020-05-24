@@ -58,8 +58,8 @@
 
       #{$self}__category {
         flex: 0;
-        font-size: 1.2rem;
-        text-transform: uppercase;
+        font-size: 1.4rem;
+        text-transform: capitalize;
         margin-bottom: 0;
 
         a:link,
@@ -274,6 +274,10 @@
       display: flex;
       align-items: center;
       font-size: 1.5rem;
+
+      &.no-rule {
+        border-top: none;
+      }
 
       p {
         font-size: inherit;

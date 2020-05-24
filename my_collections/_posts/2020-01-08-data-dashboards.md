@@ -2,6 +2,7 @@
 title: "Data Dashboards"
 date: 2020-01-08 14:56:32
 author: Robert Laws
+categories: [data visualization]
 tags: [data dashboards]
 featured-image: blog-post-data-dashboard.jpg
 ---
