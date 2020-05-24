@@ -11,7 +11,7 @@ layout: default
       <div class="blog-post__author">by<span> <a href="{{site.baseurl}}/authors/{{page.author | slugify}}">{{page.author}}</a></span></div>
       <div class="blog-post__category">
         {% for category in page.categories limit:1 %}
-        Category: <a href="{{site.baseurl}}/categories/{{category}}">{{category}}</a>
+        Category: <a href="{{site.baseurl}}/categories/{{category | slugify}}">{{category}}</a>
         {% endfor %}
       </div>
       <div class="blog-post__meta">

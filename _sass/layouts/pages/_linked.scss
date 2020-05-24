@@ -38,6 +38,41 @@
       margin: 0 2rem;
     }
 
+    #{$self}__container {
+      display: flex;
+
+      @include md {
+        flex-direction: column;
+      }
+  
+      @include sm {
+        flex-direction: column;
+      }
+    }
+
+    #{$self}__taglist {
+      border-right: 1px solid rgba(lighten($color-wet-asphalt, 50%), 0.5);
+      padding: 0 2rem 0 0;
+
+      @include md {
+        border-right: none;
+        border-bottom: 1px solid rgba(lighten($color-wet-asphalt, 50%), 0.5);
+        padding: 0 0 2rem 0;
+        margin: 0 0 2rem 0;
+      }
+  
+      @include sm {
+        border-right: none;
+        border-bottom: 1px solid rgba(lighten($color-wet-asphalt, 50%), 0.5);
+        padding: 0 0 2rem 0;
+        margin: 0 0 2rem 0;
+      }
+    }
+
+    #{$self}__tagcards {
+      padding: 0 0 0 2rem;
+    }
+
     #{$self}__header {
       h1 {
         color: $color-wet-asphalt;
