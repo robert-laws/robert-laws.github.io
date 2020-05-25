@@ -3,7 +3,7 @@ title: React Hooks - Working with useEffect
 date: 2019-11-03 09:49:00
 author: Robert Laws
 categories: [react]
-tags: [react, javascript]
+tags: [react, react hooks, javascript]
 featured-image: blog-post-react-hooks-use-effect.jpg
 ---
 There's a lot of interesting features that come with React Hooks and useEffect is particularly interesting.<!-- more -->
