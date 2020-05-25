@@ -39,8 +39,9 @@ pre.highlight, figure.highlight {
   background-color: #151515;
 }
 .highlight .err {
-  color: #151515;
-  background-color: #ac4142;
+  color: #d0d0d0;
+  /* color: #151515;
+  background-color: #ac4142; */
 }
 .highlight .c, .highlight .cd, .highlight .cm, .highlight .c1, .highlight .cs {
   color: #505050;
