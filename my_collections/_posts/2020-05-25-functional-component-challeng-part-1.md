@@ -1,6 +1,6 @@
 ---
 title: "Functional Component Challenge - Part 1"
-date: 2020-05-25 14:56:32
+date: 2020-05-23 14:56:32
 author: Robert Laws
 categories: [learn]
 tags: [react, react hooks]
