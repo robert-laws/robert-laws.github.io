@@ -90,7 +90,7 @@
         background-color: #fff;
       }
 
-      tr:nth-child(2n)  {
+      tr:nth-child(2n) {
         background-color: rgba(255, 255, 255, 0.808);
       }
 
@@ -136,7 +136,7 @@
         time {
           font-size: 1.6rem;
           color: $color-wet-asphalt;
-        }       
+        }
       }
 
       #{$self}__url {
@@ -158,7 +158,8 @@
         border-bottom: 1px solid rgba(lighten($color-wet-asphalt, 20%), 0.5);
       }
 
-      h2, h3 {
+      h2,
+      h3 {
         color: lighten($color-wet-asphalt, 8%);
         margin: 1.2rem 0 1rem;
 
@@ -175,7 +176,8 @@
         }
       }
 
-      h4 {
+      h4,
+      h5 {
         font-size: 1.8rem;
         margin: 3rem 0 -1rem;
       }
@@ -184,7 +186,7 @@
         margin: 2rem 0;
 
         code {
-          background: rgba(0,0,0,0.05);
+          background: rgba(0, 0, 0, 0.05);
           padding: 3px 4px;
           margin: 0 2px;
         }
@@ -199,7 +201,7 @@
         margin-top: -2rem;
         margin-bottom: 2.6rem;
         font-style: italic;
-        color: lighten($color-black, 50%)
+        color: lighten($color-black, 50%);
       }
 
       p.project-detail-caption--code {
@@ -207,9 +209,9 @@
         margin-top: -0.5rem;
         margin-bottom: 2.6rem;
         font-style: italic;
-        color: lighten($color-black, 50%)
+        color: lighten($color-black, 50%);
       }
-      
+
       img.project-detail-image--full {
         width: 86%;
         margin: 1rem 0;
