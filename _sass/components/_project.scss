@@ -168,11 +168,16 @@
         }
       }
 
-      ul {
+      ul,
+      ol {
         margin-left: 3rem;
 
         li {
           font-size: 1.7rem;
+
+          ul {
+            margin-bottom: -1rem;
+          }
         }
       }
 
