@@ -1,7 +1,8 @@
 ---
-title: "Information Architecture"
+title: 'Information Architecture'
 process_order: 4
 ---
+
 ## Information Architecture
 
 Information architecture provides a detailed listing of the structure and makeup of the website. Included are the sitemap, which describing site structure and relationships and wireframes, which describe page structure.
@@ -10,21 +11,18 @@ Information architecture provides a detailed listing of the structure and makeup
 
 The website will consist of a few informational pages:
 
-* Text only version of the instructional services
-
-* The library instructional services policy
+- Text only version of the instructional services
+- The library instructional services policy
 
 Interactive pages:
 
-* The class builder tool
-
-* A web form for the instruction request details
-
-* A web form to retrieve a previously built class
+- The class builder tool
+- A web form for the instruction request details
+- A web form to retrieve a previously built class
 
 And example pages:
 
-* Prebuilt class examples
+- Prebuilt class examples
 
 The website will also have an 404 error page for content not found
 
