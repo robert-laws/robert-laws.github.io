@@ -1,9 +1,9 @@
 ---
-title: Checkmark List App
-date: 2019-07-15
+title: Checkmark List
+date: 2019-09-15
 website_url: https://project-sep-2020-todo-app.netlify.app/
 repository_url: https://github.com/robert-laws/project-sep-2020-checkmark-list-app
-featured_image: checkmark-list-app-home-page.png
+featured_image: checkmark-list-app-home-page.jpg
 description: 'Classic To Do App with React, Firebase, and Tailwindcss'
 features:
   - Responsive design using Tailwind CSS
