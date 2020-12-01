@@ -77,6 +77,9 @@ collections:
   library_website:
     output: true
     permalink: /project/library-website/:name
+  checkmark_list:
+    output: true
+    permalink: /project/checkmark-list/:name
 
 # Front Matter Defaults
 defaults:
