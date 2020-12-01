@@ -9,7 +9,7 @@ The app includes only a handful of top-level pages, including a home page, an ab
 
 The most complex structure of the site is the To Do lists, which includes a `/lists` page that displays all of the users' lists. Each list card has an button to edit the list. When clicked the user will be directed to a `/lists/:id` page that displays information for the list matching the id value.
 
-![Entity Relationship Diagram](../../assets/img/project/checkmark-list-app-erd.jpg){:class="project-detail-image--full"}
+![Entity Relationship Diagram](../../assets/img/project/checkmark-list-app-erd.png){:class="project-detail-image--full"}
 {:class="project-detail-container"}
 
 Entity Relationship Diagram
