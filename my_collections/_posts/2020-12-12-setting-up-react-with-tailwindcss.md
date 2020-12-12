@@ -9,19 +9,19 @@ featured-image: blog-post-setting-up-react-with-tailwindcss.jpg
 
 Over the past few months, I've been exploring and learning Tailwind CSS. There's lots of great content available to help learn just Tailwind CSS by itself.<!-- more --> Some of the best learning materials, in my opinion, include:
 
-- [https://www.youtube.com/playlist?list=PL4cUxeGkcC9gpXORlEHjc5bgnIi5HEGhw](Tailwind CSS Tutorial) by The Net Ninja
-- [https://www.youtube.com/playlist?list=PL7CcGwsqRpSM3w9BT_21tUU8JN2SnyckR](Designing with Tailwind CSS) by
+- [Tailwind CSS Tutorial](https://www.youtube.com/playlist?list=PL4cUxeGkcC9gpXORlEHjc5bgnIi5HEGhw) by The Net Ninja
+- [Designing with Tailwind CSS](https://www.youtube.com/playlist?list=PL7CcGwsqRpSM3w9BT_21tUU8JN2SnyckR) by
   Adam Wathan
-- [https://www.youtube.com/channel/UCOe-8z68tgw9ioqVvYM4ddQ](Tailwind Labs) from the creators of Tailwind CSS
+- [Tailwind Labs](https://www.youtube.com/channel/UCOe-8z68tgw9ioqVvYM4ddQ) from the creators of Tailwind CSS
 
 Each has their strength. Tailwind CSS Tutorial by The Net Ninja is great to understand fundamentals of using Tailwind CSS. Designing with Tailwind CSS by
 Adam Wathan is really good for fundamentals and to see how to create clones of popular websites with Tailwind CSS. Finally, Tailwind Labs is good to learn about new features, especially with the release of version 2.0 just a few weeks ago.
 
 #### Incorporating Tailwind CSS into a React Project
 
-I do a lot of development with React and wanted to learn how to properly set up Tailwind CSS to work within a typical React project workflow. I watched a really good video tutorial on this by codewithchu called [https://www.youtube.com/watch?v=mmFAW6t5G7Q](Tailwind CSS v2.0 | Setup & Install React with Tailwind Css). I recommend watching the tutorial, which gives a good explanation of the steps to add in Tailwind CSS to a React project starting from scratch. The are several important steps to get everything set up properly.
+I do a lot of development with React and wanted to learn how to properly set up Tailwind CSS to work within a typical React project workflow. I watched a really good video tutorial on this by codewithchu called [Tailwind CSS v2.0 | Setup & Install React with Tailwind CSS](https://www.youtube.com/watch?v=mmFAW6t5G7Q). I recommend watching the tutorial, which gives a good explanation of the steps to add in Tailwind CSS to a React project starting from scratch. The are several important steps to get everything set up properly.
 
-While going through the video, I created a [https://github.com/robert-laws/practice-dec-2020-react-app-with-tailwindcss](Github Repository) that contains a working sample project.
+While going through the video, I created a [Github Repository](https://github.com/robert-laws/practice-dec-2020-react-app-with-tailwindcss) that contains a working sample project.
 
 #### 1. Initialize the project and install dependencies
 
@@ -76,7 +76,7 @@ module.exports = {
 };
 ```
 
-The Tailwind CSS configuration includes set up for purging, which is a great feature to reduce the final CSS output by removing unused CSS definitions from the final CSS. The Tailwind CSS configuration file also allows for easy extension, variants, and plugins by adding them into the configuration. Thankfully, the creators of Tailwind CSS provides some really good [https://tailwindcss.com/docs/configuration](documentation on how to configure Tailwind CSS) on their website.
+The Tailwind CSS configuration includes set up for purging, which is a great feature to reduce the final CSS output by removing unused CSS definitions from the final CSS. The Tailwind CSS configuration file also allows for easy extension, variants, and plugins by adding them into the configuration. Thankfully, the creators of Tailwind CSS provides some really good [documentation on how to configure Tailwind CSS](https://tailwindcss.com/docs/configuration) on their website.
 
 #### 3. Include Tailwind in the Project
 
