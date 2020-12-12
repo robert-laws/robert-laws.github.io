@@ -19,7 +19,7 @@ Adam Wathan is really good for fundamentals and to see how to create clones of p
 
 #### Incorporating Tailwind CSS into a React Project
 
-I do a lot of development with React and wanted to learn how to properly set up Tailwind CSS to work within a typical React project workflow. I watched a really good video tutorial on this by codewithchu called [Tailwind CSS v2.0 | Setup & Install React with Tailwind CSS](https://www.youtube.com/watch?v=mmFAW6t5G7Q). I recommend watching the tutorial, which gives a good explanation of the steps to add in Tailwind CSS to a React project starting from scratch. The are several important steps to get everything set up properly.
+I do a lot of development with React and wanted to learn how to properly set up Tailwind CSS to work within a typical React project workflow. I watched a really good video tutorial on this by codewithchu called [Tailwind CSS v2.0 - Setup & Install React with Tailwind CSS](https://www.youtube.com/watch?v=mmFAW6t5G7Q). I recommend watching the tutorial, which gives a good explanation of the steps to add in Tailwind CSS to a React project starting from scratch. The are several important steps to get everything set up properly.
 
 While going through the video, I created a [Github Repository](https://github.com/robert-laws/practice-dec-2020-react-app-with-tailwindcss) that contains a working sample project.
 
