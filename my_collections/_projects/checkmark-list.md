@@ -1,6 +1,6 @@
 ---
 title: Checkmark List
-date: 2019-09-15
+date: 2020-09-15
 website_url: https://project-sep-2020-todo-app.netlify.app/
 repository_url: https://github.com/robert-laws/project-sep-2020-checkmark-list-app
 featured_image: checkmark-list-app-home-page.jpg
