@@ -1,7 +1,8 @@
 ---
-title: "UX Design"
+title: 'UX Design'
 process_order: 2
 ---
+
 ## UX Design
 
 Because the library website's look and feel were being updated with the redevelopment project it was important to create prototypes before beginning any coding. Prototypes allowed me to get a sense of the design feasibility before working on any coding.
