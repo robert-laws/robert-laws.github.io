@@ -80,6 +80,9 @@ collections:
   checkmark_list:
     output: true
     permalink: /project/checkmark-list/:name
+  data_viz_cafe:
+    output: true
+    permalink: /project/data-viz-cafe/:name
 
 # Front Matter Defaults
 defaults:

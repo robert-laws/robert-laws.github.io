@@ -1,7 +1,7 @@
 ---
 layout: project
 title: 'Data Viz Cafe'
-date: 2021-1-15
+date: 2021-01-15
 website_url: https://data-viz-cafe.libtech.georgetown.domains/
 repository_url: https://github.com/robert-laws/project-jan-2021-data-viz-cafe
 process_order: 0
