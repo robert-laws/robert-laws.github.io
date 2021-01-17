@@ -93,7 +93,7 @@
         a:visited {
           color: $color-wet-asphalt;
         }
-        
+
         a:hover,
         a:active {
           color: lighten($color-wet-asphalt, 15%);
@@ -130,7 +130,7 @@
           a:visited {
             color: $color-wet-asphalt;
           }
-          
+
           a:hover,
           a:active {
             color: lighten($color-wet-asphalt, 15%);
@@ -141,7 +141,7 @@
 
     #{$self}__summary {
       flex: 0 1 auto;
-      
+
       p {
         font-size: 1.6rem;
       }
@@ -154,7 +154,7 @@
       }
 
       a:link,
-      a:visited {        
+      a:visited {
         color: $color-primary-dark;
       }
 
@@ -192,7 +192,8 @@
         flex-direction: column;
       }
 
-      .tags, .category {
+      .tags,
+      .category {
         flex: 1;
         margin: 0 0.4rem;
         padding: 4px 10px;
@@ -216,7 +217,7 @@
           display: block;
         }
       }
-    
+
       a {
         display: inline-block;
         color: $color-white;
@@ -257,10 +258,18 @@
       }
     }
 
+    a:hover {
+      img {
+        box-shadow: 0 2rem 3.5rem rgba($color-black, 0.1),
+          0 1rem 2rem rgba($color-black, 0.1);
+      }
+    }
+
     img {
       width: 100%;
       display: block;
-      box-shadow: 0 1.5rem 3rem rgba($color-black, 0.1), 0 0.5rem 1.5rem rgba($color-black, 0.1);
+      box-shadow: 0 1.5rem 3rem rgba($color-black, 0.1),
+        0 0.5rem 1.5rem rgba($color-black, 0.1);
     }
   }
 }

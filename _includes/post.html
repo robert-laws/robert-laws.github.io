@@ -2,41 +2,56 @@
   <div class="blog-entry__sideline--left"></div>
   <div class="blog-entry__text">
     {% if include.homepage %}
-      <h4>Latest Blog Post</h4>
+    <h4>Latest Blog Post</h4>
     {% endif %}
     <header class="blog-entry__header">
       <div class="title">
         <h3><a href="{{site.baseurl}}{{include.url}}">{{include.title}}</a></h3>
       </div>
       <div class="date">
-        <time itemprop="dateCreated" datetime="{{include.date}}">{{include.date | date: "%B %-d, %Y" }}</time>
+        <time itemprop="dateCreated" datetime="{{include.date}}"
+          >{{include.date | date: "%B %-d, %Y" }}</time
+        >
       </div>
-      <div class="author"><span>by <a href="{{site.baseurl}}/authors/{{include.author | slugify}}">{{include.author}}</a></span></div>
+      <div class="author">
+        <span
+          >by
+          <a href="{{site.baseurl}}/authors/{{include.author | slugify}}"
+            >{{include.author}}</a
+          ></span
+        >
+      </div>
     </header>
     <section class="blog-entry__summary">
-        {{include.excerpt}}
-        <a href="{{site.baseurl}}{{include.url}}">Read More <i class="fas fa-external-link-square-alt"></i></a>
+      {{include.excerpt}}
+      <a href="{{site.baseurl}}{{include.url}}"
+        >Read More <i class="fas fa-external-link-square-alt"></i
+      ></a>
     </section>
     <section class="blog-entry__categories--links">
       <div class="category">
         <h4>Category</h4>
         {% for category in include.categories | first %}
-          <a href="{{site.baseurl}}/categories/{{category | slugify}}">{{category}}</a> 
-        {% endfor %}    
+        <a href="{{site.baseurl}}/categories/{{category | slugify}}"
+          >{{category}}</a
+        >
+        {% endfor %}
       </div>
       <div class="tags">
         <h4>Tags</h4>
         {% for tag in include.tags %}
-          <a href="{{site.baseurl}}/tags/{{tag | slugify}}">{{tag}}</a> 
-        {% endfor %}    
+        <a href="{{site.baseurl}}/tags/{{tag | slugify}}">{{tag}}</a>
+        {% endfor %}
       </div>
     </section>
   </div>
   <div class="blog-entry__visual">
     {% if include.homepage %}
-      <h4>Latest Blog Post</h4>
+    <h4>Latest Blog Post</h4>
     {% endif %}
-    <img src="{{site.baseurl}}/assets/img/blog/{{include.image}}">
+    <a href="{{site.baseurl}}{{include.url}}"
+      ><img src="{{site.baseurl}}/assets/img/blog/{{include.image}}"
+    /></a>
   </div>
   <div class="blog-entry__sideline--right"></div>
 </article>
