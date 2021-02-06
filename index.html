@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Welcome
+title: Robert Duncan Laws Portfolio and Blog
 ---
 
 <section class="index-page-content">
@@ -9,34 +9,30 @@ title: Welcome
 
   <!-- most recent project -->
   <section class="project-list">
-    {% assign projects = site.projects | sort: 'date' | reverse %}
-    {% for project in projects limit:1 %}
-      {% capture project_url %}/project/{{project.title | slugify}}{% endcapture %}
-      {% capture project_title %}{{project.title}}{% endcapture %}
-      {% capture project_date %}{{project.date}}{% endcapture %}
-      {% capture project_description %}{{project.description}}{% endcapture %}
-      {% assign project_features = project.features %}
-      {% assign project_tech_stack = project.tech_stack %}
-      {% assign project_image = project.featured_image %}
-
-      {% include project.html homepage=true url=project_url title=project_title date=project_date description=project_description features=project_features tech_stack=project_tech_stack featured_image=project_image %}
-    {% endfor %}
+    {% assign projects = site.projects | sort: 'date' | reverse %} {% for
+    project in projects limit:1 %} {% capture project_url
+    %}/project/{{project.title | slugify}}{% endcapture %} {% capture
+    project_title %}{{project.title}}{% endcapture %} {% capture project_date
+    %}{{project.date}}{% endcapture %} {% capture project_description
+    %}{{project.description}}{% endcapture %} {% assign project_features =
+    project.features %} {% assign project_tech_stack = project.tech_stack %} {%
+    assign project_image = project.featured_image %} {% include project.html
+    homepage=true url=project_url title=project_title date=project_date
+    description=project_description features=project_features
+    tech_stack=project_tech_stack featured_image=project_image %} {% endfor %}
   </section>
 
   <!-- most recent post -->
   <section class="blog-list">
-    {% assign posts = site.posts | sort: 'date' | reverse %}
-    {% for post in posts limit:1 %}
-      {% capture post_url %}{{post.url}}{% endcapture %}
-      {% capture post_title %}{{post.title}}{% endcapture %}
-      {% capture post_date %}{{post.date}}{% endcapture %}
-      {% capture post_author %}{{post.author}}{% endcapture %}
-      {% capture post_excerpt %}{{post.excerpt}}{% endcapture %}
-      {% assign post_categories = post.categories %}
-      {% assign post_tags = post.tags %}
-      {% capture featured_image %}{{post.featured-image}}{% endcapture %}
-
-      {% include post.html homepage=true url=post_url title=post_title date=post_date author=post_author excerpt=post_excerpt categories=post_categories tags=post_tags image=featured_image %}
-    {% endfor %}
+    {% assign posts = site.posts | sort: 'date' | reverse %} {% for post in
+    posts limit:1 %} {% capture post_url %}{{post.url}}{% endcapture %} {%
+    capture post_title %}{{post.title}}{% endcapture %} {% capture post_date
+    %}{{post.date}}{% endcapture %} {% capture post_author %}{{post.author}}{%
+    endcapture %} {% capture post_excerpt %}{{post.excerpt}}{% endcapture %} {%
+    assign post_categories = post.categories %} {% assign post_tags = post.tags
+    %} {% capture featured_image %}{{post.featured-image}}{% endcapture %} {%
+    include post.html homepage=true url=post_url title=post_title date=post_date
+    author=post_author excerpt=post_excerpt categories=post_categories
+    tags=post_tags image=featured_image %} {% endfor %}
   </section>
 </section>
