@@ -94,7 +94,7 @@
       aside {
         display: block;
         float: right;
-        margin: 0 3rem;
+        margin: 0 3rem 1rem;
         padding: 0px 1rem;
         width: 36rem;
         border: 1px solid lighten($color-black, 90%);
@@ -124,7 +124,7 @@
         }
 
         a:link,
-        a:visited {          
+        a:visited {
           color: $color-primary-dark;
         }
 
@@ -172,7 +172,7 @@
 
           &::before {
             display: block;
-            content: "";
+            content: '';
             position: absolute;
             top: 50%;
             left: 0;
@@ -184,6 +184,6 @@
           }
         }
       }
-    }    
+    }
   }
 }
