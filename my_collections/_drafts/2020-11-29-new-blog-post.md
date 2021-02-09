@@ -1,9 +1,10 @@
 ---
-title: "New Blog Post"
-date: 2020-11-29 14:00:00
+title: 'New Blog Post'
+date: 2021-02-11 14:00:00
 author: Robert Laws
 categories: [learn]
-tags: [css, react]
+tags: [data-visualization, tableau]
 featured-image: blog-post-new-blog-post.jpg
 ---
-So, the MERN stack stands for MongoDB, Express, React and Node.js. It's a combination of these different technologies to create a dynamic website that utilizes database technology and RESTful API concepts.<!-- more --> 
+
+There are many options for creating compelling data visualizations and performing complex data analysis and reporting. Tableau is in many ways the most accessible of the many tools available.<!-- more --> Tableau is different than other tools like Microsoft Power BI and Google Data Studio in that it is not integrated into a suite of other tools that come with Microsoft and Google. This is both a benefit and a limitation, but perhaps only for some particular use-cases.
