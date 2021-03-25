@@ -24,7 +24,9 @@ The result of this process is data. Sometimes quantitative, but often qualitativ
 
 ## UX Design
 
-#### Persona Development
+#### Personas
+
+After gathering a good amount of qualitative data during the user research process, it's time to put that information to use. An important piece of information for developing a website is who are the most likely users of the website and what characteristics do they all have in common?
 
 #### User Goals/Stories
 
