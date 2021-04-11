@@ -53,7 +53,7 @@ Creating and analyzing user scenarios and user stories adds some real-world cont
 
 A user story is typically written with the following structure: "As a **persona** or **user**, I **want to**, so I can **fulfill a goal**". With a user story, the design and development team can get to work on solving the story and discussing ways that it can be implemented from a design and technical point of view.
 
-> "As a student, I want a quick way to contact the library, so I can get my question answered quickly."
+> "As a student, I want an easy way to contact the library, so I can get my question answered quickly."
 
 In addressing the user story above, the design team might imagine the creation of a persistent chat widget that would be available on all pages of a website. The development team might think about how they could use CSS and Javascript to implement a feature like this and what functionality it might include.
 
