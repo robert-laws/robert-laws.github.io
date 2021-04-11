@@ -43,7 +43,7 @@ Having several different personas available helps the usability process by keep 
 Another early stage of the user research process is to create [empathy maps](https://www.uxbooth.com/articles/empathy-mapping-a-guide-to-getting-inside-a-users-head/). These are tools to capture a user's expressions, intentions, actions, and emotions. They can be useful for diving deeper into a user's experience with a website and highlight pain points or more complex user expectations and goals.
 
 {% capture post_image %}/assets/img/blog/blog-post-usability-empathy-mapping.png{% endcapture %}
-{% include post-image.html max-width=60 file=post_image caption="Example of a Empathy Map divided into quadrants for what a user says, does, thinks, and feels." %}
+{% include post-image.html max-width=60 file=post_image caption="Empathy maps can be divided into quadrants for what a user says, does, thinks, and feels." %}
 
 Each quadrant of the empathy map is filled with quotes or actions of the user to describe the process of engagement with a website.
 
