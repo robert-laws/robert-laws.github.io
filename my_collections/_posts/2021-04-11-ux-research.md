@@ -34,7 +34,7 @@ The result of this process is data. Sometimes quantitative, but often qualitativ
 After gathering a good amount of qualitative data during the user research process, it's time to put that information to use. An important piece of information for developing a website is who are the most likely users of the website and what characteristics do they all have in common and what makes groups of users unique? This is where [creating personas](https://www.usability.gov/how-to-and-tools/methods/personas.html) can be beneficial. Personas are real-world and research-based representations of important users that can be referenced throughout different stages of the usability process.
 
 {% capture post_image %}/assets/img/blog/blog-post-usability-persona.png{% endcapture %}
-{% include post-image.html max-width=75 file=post_image caption="Example of a Persona for an Undergraduate Student" %}
+{% include post-image.html max-width=80 file=post_image caption="Example of a Persona for an Undergraduate Student" %}
 
 Having several different personas available helps the usability process by keep focus on the important types of users. This information can be consulted as the usability process continues.
 
@@ -43,7 +43,7 @@ Having several different personas available helps the usability process by keep 
 Another early stage of the user research process is to create [empathy maps](https://www.uxbooth.com/articles/empathy-mapping-a-guide-to-getting-inside-a-users-head/). These are tools to capture a user's expressions, intentions, actions, and emotions. They can be useful for diving deeper into a user's experience with a website and highlight pain points or more complex user expectations and goals.
 
 {% capture post_image %}/assets/img/blog/blog-post-usability-empathy-mapping.png{% endcapture %}
-{% include post-image.html max-width=75 file=post_image caption="Example of a Empathy Map divided into quadrants for what a user says, does, thinks, and feels." %}
+{% include post-image.html max-width=60 file=post_image caption="Example of a Empathy Map divided into quadrants for what a user says, does, thinks, and feels." %}
 
 Each quadrant of the empathy map is filled with quotes or actions of the user to describe the process of engagement with a website.
 
