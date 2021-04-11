@@ -21,7 +21,7 @@ Before having a user interact with a website, it's often very helpful to sit dow
 It's essential to include all levels of stakeholders in the process. This includes both casual users of a website and managerial level users that have involvement in the oversight of the website. Incorporating different users with different perspectives, goals, and expectations for the website can help to avoid blind-spots that can result by speaking with only a limited number of users and user categories.
 
 {% capture post_image %}/assets/img/blog/blog-post-usability-interview.jpg{% endcapture %}
-{% include post-image.html max-width=75 file=post_image caption="User research often involves speaking directly with users" %}
+{% include post-image.html max-width=50 file=post_image caption="User research often involves speaking directly with users" %}
 
 The form of speaking with users can take on several different forms including interviews with individual users, focus groups with several users at once, or surveys that users fill out. Such surveys can include open-ended questions that allow users to provide feedback outside of the usually structured survey question.
 
