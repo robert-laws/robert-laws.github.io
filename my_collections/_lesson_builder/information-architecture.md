@@ -5,17 +5,7 @@ process_order: 3
 
 ## Information Architecture
 
-The information architecture of the public-facing website is very straight-forward. The website has a home page and five "sub-pages" - login, about, lists, list item detail, and the new lesson pages.
-
-{% highlight html %}
-├───home page
-└───sub-pages
-├───login
-├───about
-├───lists
-├───detail
-└───new
-{% endhighlight %}
+The information architecture of the public-facing website is very straight-forward. The website has a home page and five "sub-pages" - **login**, **about**, **lists**, **list item detail**, and the **new lesson** pages.
 
 #### The Back-End
 

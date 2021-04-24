@@ -23,10 +23,10 @@ Wireframe - Simple Navigation
 
 Once a user has logged into the site, all the other navigational links are listed along side the site title - including new options that a logged in user is able to access.
 
-![Wireframe - Simple Navigation](../../assets/img/project/lesson-builder-wireframe-simple-navigation.png){:class="project-detail-image--full"}
+![Wireframe - Logged-In Navigation](../../assets/img/project/lesson-builder-wireframe-complex-navigation.png){:class="project-detail-image--full"}
 {:class="project-detail-container"}
 
-Wireframe - Simple Navigation
+Wireframe - Logged-In Navigation
 {:class="project-detail-caption"}
 
 The more complex design elements of the site are the list for all the lesson plans and the form used to create a new lesson plan. The list of lesson plans is designed to encapsulate each individual lesson plan into a card-like element. The purpose of this is to clearly differentiate each lesson plan from each other. Each list element contains enough key information for the user to understand the contents of the list item and a link within the card to view more information about the item.
