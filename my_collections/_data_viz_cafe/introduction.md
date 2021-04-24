@@ -17,7 +17,7 @@ The solution is to design a website that replicates a real-world scenario of dat
 
 ---
 
-![Library Website - Project Website](../../assets/img/project/data-viz-cafe-home-page.png){:class="project-detail-image--full"}
+![Data Viz Cafe - Project Website Homepage](../../assets/img/project/data-viz-cafe-home-page.png){:class="project-detail-image--full"}
 {:class="project-detail-container"}
 
 Data Viz Cafe - Project Website Homepage

@@ -83,6 +83,9 @@ collections:
   data_viz_cafe:
     output: true
     permalink: /project/data-viz-cafe/:name
+  lesson_builder:
+    output: true
+    permalink: /project/lesson-builder/:name
 
 # Front Matter Defaults
 defaults:
