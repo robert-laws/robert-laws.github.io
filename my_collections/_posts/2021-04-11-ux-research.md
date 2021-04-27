@@ -64,10 +64,6 @@ A hands-on activity that a UX research team can do is create an [affinity diagra
 {% capture post_image %}/assets/img/blog/blog-post-usability-affinity-diagram.jpg{% endcapture %}
 {% include post-image.html max-width=75 file=post_image caption="Example of a team creating an affinity diagram" %}
 
-#### Card Sorting
-
-[Card sorting](https://www.usability.gov/how-to-and-tools/methods/card-sorting.html) is an activity to understand site and/or page structure or labeling and categorization. Users can be asked to perform a card sort. This is done by giving a user a stack of cards that correspond to important pages or segments of a website and asking the user how they think the cards should be group and/or organized.
-
 ## Don't Skip this Step
 
 For developers and designers, conducting meaningful user research may seem tedious and a way to slow down the process of building a website, but it actually can be the most important part of the entire process. If designers and developers build a website that does nothing to address users wants or needs, a lot of time and effort can easily be wasted. Having solid knowledge of who are the users of a website, why they come to a website, and their desires for what they will accomplish using the website can build the foundation for a successful design and development process.
