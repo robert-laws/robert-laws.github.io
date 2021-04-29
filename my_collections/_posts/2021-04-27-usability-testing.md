@@ -9,6 +9,9 @@ featured-image: blog-post-usability-testing.png
 
 Usability involves the testing of the functionality, layout, or flow processes a website or mobile app. The process of usability testing typically involves having users interact with a website or app with the goal of observing their actions to reveal potential problems or improvements.<!-- more --> A key component of the process is observation of the users interacting with a website or app in normal manner. Although the usability tester or researcher will at times give the user direction, the user is otherwise left to do certain tasks unencumbered by the observer.
 
+{% capture post_image %}/assets/img/blog/{{page.featured-image}}{% endcapture %}
+{% include post-image.html file=post_image caption="Usability Testing" %}
+
 #### Why do Usability Testing?
 
 Although for web designer and development professionals usability testing may seem tedious and as something that slows down their work it can provide valuable information. For example, usability testing can help to provide support for a prototype under development if users find it easy to use. Usability testing can also provide justification for exploring alternate solutions to elements on a website or app if users have difficulty completing a task or don't understand aspects of the design. Finally, usability testing can reveal subtle insights into user behavior or uncover errors in a design that may have eluded the design or development teams.
