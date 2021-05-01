@@ -87,18 +87,6 @@ case GET_LIBRARIANS: {
 
 At this point, the data stored in state, as well as the function used to request the data, can be made available through the Context API `Provider` component.
 
-```javascript
-<OptionsContext.Provider
-  value={{
-    librarians: state.librarians,
-    optionsError: state.optionsError,
-    getLibrarians,
-  }}
->
-  {children}
-</OptionsContext.Provider>
-```
-
 The website makes use of data from the librarians post type in a few places within the website and can be accessed through the Context API. This reduces the need to pass data and functions between components as props, which helps reduce the amount of code within components and helps keep track of data within a component since there's no need to pass and receive data as props.
 
 #### Implementing a drag and drop feature with React-DnD
