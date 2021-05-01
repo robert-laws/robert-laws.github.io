@@ -7,7 +7,7 @@ tags: [usability, user experience]
 featured-image: blog-post-usability.png
 ---
 
-Usability is an essential part of a web design and development process. Unlike a defined process or step, usability happens throughout the UX design process.<!-- more --> During early stages of a UX research process, especially for a new website, usability involves talking with users about what they want from a website. Further down the road, when wireframes and prototypes are developed, users can give feedback on the flow of the website or it's structure. Finally, when a website is launched, or when beginning a redesign process with an existing website, usability can shed light on how users successfully, or unsuccessfully, interact with a working website.
+UX Research is an essential part of a web design and development process. UX research usually occurs before major development work begins and helps inform the design and development stages of a web design and development project.<!-- more --> During early stages of a UX design process, especially for a new website, UX research involves talking with users about what they want from a website and imagining ways that a website can fulfill a user's goals and desires. Further down the road, when wireframes and prototypes are developed, users can give feedback on the flow of the website or it's structure. Finally, when a website is launched, or when beginning a redesign process with an existing website, UX research can shed light on how users successfully, or unsuccessfully, interact with a working website.
 
 {% capture post_image %}/assets/img/blog/{{page.featured-image}}{% endcapture %}
 {% include post-image.html file=post_image caption="UX Research" %}
