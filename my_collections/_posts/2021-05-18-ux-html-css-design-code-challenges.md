@@ -12,7 +12,7 @@ My personal goal for 2021 is to prepare myself to get a web developer job. To th
 {% capture post_image %}/assets/img/blog/{{page.featured-image}}{% endcapture %}
 {% include post-image.html file=post_image caption="UX/HTML/CSS Design and Code Challenges" %}
 
-#### Process
+## Process
 
 The first step in the challenge process is to identify a website as inspiration. The idea is not to copy an existing website's content, but to use the website as the foundation for testing out my design and coding skills. The websites identified should present challenges for extracting core design elements and coding it. Once a good website is identified, I'll take a full screenshot to serve as a reference for the next stage, the UX Design process.
 
@@ -112,6 +112,8 @@ Although designing and coding different examples of websites presents a challeng
 ---
 
 #### Challenge Workflow
+
+The following workflow is a condensed version of the detailed information presented above. It's meant to serve as a general guideline for working through a challenge.
 
 1. identify a website as inspiration for the challenge
 1. take a full screenshot to serve as a reference
