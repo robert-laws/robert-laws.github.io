@@ -36,7 +36,7 @@ With the design, I adopted an [Atomic Design approach](https://xd.adobe.com/idea
 
 Since this challenge is fairly easy, the components of the website are relatively uncomplicated from an atomic design perspective. The majority of the content of the site consists of atoms and molecules.
 
-### Atoms and Molecules making up the Sidebar Section of the Template
+#### Atoms and Molecules making up the Sidebar Section of the Template
 
 <!-- image of sidebar atoms -->
 
@@ -56,7 +56,7 @@ The same applies to the _Sidebar Search_ molecule. The heading, text input, and 
 
 The _Sidebar Search_ becomes a molecule based on the dependency between the atoms. The content information of each atoms matters in this case since different content could be used in different combinations to the same effect. For example, if the button text said "Search Blog Posts" then it could be argued that the text input and button don't necessarily depend on the heading to be meaningful and the heading therefore could be removed. The text input and button would still exist as a molecule.
 
-### Final Design Template
+#### Final Design Template
 
 For this challenge, applying atomic design was useful, but it is also a work in progress. Since this is the first challenge, part of the process is figuring out a good workflow and the best way to produce a final result. The design produced in the end is correct from a visual point of view - it visually matches the original website used for inspiration. The underlying process of building a design from the ground up, however, will need refinement. Applying an atomic design approach may work best by breaking a design down into its constituent atoms and then rebuilding it into molecules and organisms. Parallel with this process is the creation of a template in which atoms, molecules, and organisms are placed. The process could stop here, but to give the challenge more realism, actual content could be used to produce pages that are meaningful as well as visual consistent with the original inspirational website.
 
@@ -67,7 +67,7 @@ For this challenge, applying atomic design was useful, but it is also a work in 
 
 ## Code
 
-### HTML
+#### HTML
 
 In theory, the work done in the design phase developing a template and building components should make the coding phase much easier and quicker. The template lends itself to the creation of a rough semantic structure for the webpage. Based on the template, the HTML for the page takes the following shape.
 
@@ -110,7 +110,7 @@ The sidebar search has a simple HTML structure, as shown below. The three atoms 
 </section>
 ```
 
-### CSS
+#### CSS
 
 A big part of this challenge was implementing the layout of the design. The solution relied heavily on [Flexbox](https://developer.mozilla.org/en-US/docs/Glossary/Flexbox). For this challenge, no responsive options are provided for non-desktop layouts. A few features employed for this challenge were [CSS variables](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties) for the colors, which made them easier to translate from the design to the CSS. Also, [web fonts](https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Web_fonts) for the typography, more on that later.
 
