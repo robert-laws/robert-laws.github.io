@@ -1,5 +1,5 @@
 ---
-title: 'Challenge One'
+title: 'Challenge One - Blogging Website'
 date: 2021-05-19 15:20:00
 author: Robert Laws
 categories: [learn]
