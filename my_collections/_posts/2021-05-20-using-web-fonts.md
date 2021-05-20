@@ -7,16 +7,14 @@ tags: [typography]
 featured-image: blog-post-using-web-fonts.jpg
 ---
 
-Typography on the web has evolved greatly since the early years of the Internet. For many years, web developers were limited to a handful of reliably available system fonts installed on most user's computers. Today, however, there are many more options available.<!-- more --> Depending on the needs of the users of a website, there are different solutions from the basic and built-in fonts that come with most computers to elaborate and decorative fonts that are available for free and as a paid resource.
+Typography and Fonts used on the web has evolved greatly since the early years of the Internet. For many years, web developers were limited to a handful of reliably available system fonts installed on most user's computers. Today, however, there are many more options available.<!-- more --> Depending on the needs of the users of a website, there are different solutions from the basic and built-in fonts that come with most computers to elaborate and decorative fonts that are available for free and as a paid resource.
 
 Using fonts on the web can be done through different methods, the most prominent methods are described below. The ability to manipulate and serve users customized and interesting fonts helps make a unique and pleasing experience for visitors of a website.
 
 {% capture post_image %}/assets/img/blog/{{page.featured-image}}{% endcapture %}
-{% include post-image.html file=post_image caption="Using Web Fonts" %}
+{% include post-image.html file=post_image caption="Using Fonts on the Web" %}
 
-## Typography on the Web
-
-#### The Basics
+## The Basics
 
 From the web's inception typography has been at its core. With the use of CSS, it's possible to modify and customize how text is presented within webpages. The most basic way this is done is through the different [styling properties](https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Fundamentals) that can be applied to text elements on a webpage.
 
@@ -86,7 +84,7 @@ The fonts listed together `"Times New Roman", Times, Georgia, serif` are called 
 
 The problem with using the default, or web safe, font options is that developers have very little option for providing a customized, interesting, and unique user experience on their websites. Relying on only web safe fonts means that almost every website will have a similar typographical look and feel, which is not very fun for a developer and not very appealing for the user.
 
-#### Web Fonts
+## Web Fonts
 
 To address the problem of the limited number of fonts available to users, the solution was to provide browsers with the capability to use fonts loaded from external files. [Web fonts](https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Web_fonts) allow developers to select and use custom fonts without worrying if the font is or is not already installed on the user's computer. For this reason, web fonts offer a good solution to add new and interesting fonts for an improved user experience.
 
@@ -135,7 +133,7 @@ These are situations where the browser is waiting to download and use an externa
 
 A great resource for dealing with some of the quirks of web fonts is a guide to [Font Loading Strategies](https://www.zachleat.com/web/comprehensive-webfonts/) and the article [Fighting FOIT and FOUT Together](https://css-tricks.com/fighting-foit-and-fout-together/) by CSS-Tricks.
 
-#### Variable Fonts
+## Variable Fonts
 
 A recently development in browser and CSS technology offers another solution and improvement for using custom fonts in webpages. [Variable Fonts](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide) are designed to include many variations of a font's weight, style, width, and more (each one called different **axis of variation** or **variable axes**) into a single file that can be accessed through different CSS properties. This solution reduces the number and size of font files that need to be downloaded for their use on a webpage and it offers developers a lot of options for how they can use a particular font.
 
