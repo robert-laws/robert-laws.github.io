@@ -69,13 +69,9 @@ Since application of a font defined in a stylesheet is dependent upon the user's
 To apply the web safe fonts to an element on a web page, the following CSS is used:
 
 ```css
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
+p,
+ol,
+ul {
   font-family: 'Times New Roman', Times, Georgia, serif;
 }
 ```
