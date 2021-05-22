@@ -53,7 +53,7 @@ After downloading the files needed to load and reference files locally within a 
 Since the icons that are being rendered are actually just part of a font file, similar to common typographic fonts, some of the styles that can be applied to those types of fonts can also be applied to icon fonts. In the example above, the inline styling for `font-size` and `color` are applied and produce the expected results. This gives some nice flexibility when using icon fonts.
 
 {% capture post_image %}/assets/img/blog/blog-post-icons-icon-fonts.png{% endcapture %}
-{% include post-image.html file=post_image caption="Icon Fonts with Styling Applied" %}
+{% include post-image.html max-width=50 file=post_image caption="Icon Fonts with Styling Applied" %}
 
 The fonts for Font Awesome are also provided in a variety of different file types, including Embedded OpenType (EOT), TrueType (TTF), and Web Open Font Format (WOFF) versions 1 and 2. The fonts for Bootstrap icons are available in woff and woff2 file formats. For Materialize icons, the process is a little different. Since the icons used are provided through Google Fonts, they make use of the Google Fonts API to request the fonts: `https://fonts.googleapis.com/icon?family=Material+Icons` and then request woff and woff2 font icon files.
 
@@ -149,7 +149,7 @@ Next, the CSS is applied to change the SVG graphic size and color.
 The resulting graphic is larger and red.
 
 {% capture post_image %}/assets/img/blog/blog-post-icons-double-arrows.png{% endcapture %}
-{% include post-image.html file=post_image caption="SVG Icon with CSS styling" %}
+{% include post-image.html max-width=50 file=post_image caption="SVG Icon with CSS styling" %}
 
 There are many services that provide SVG graphics - both free and paid - for use. [Simple Icons](https://simpleicons.org/), [SVG Repo](https://www.svgrepo.com/), and [Flaticons](https://www.flaticon.com/) are all good sources for SVG icons. The first two have free options.
 
