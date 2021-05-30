@@ -73,6 +73,10 @@ By assigning the position property a value of absolute, the element will be take
 }
 ```
 
+The result appears as the following:
+
+<!-- Image of Positioning -->
+
 #### Fixed
 
 A position defined as `fixed` will behave exactly like an absolutely positioned element, except that the element will remain fixed in place relative to it's nearest positioned ancestor or the initial containing block if no ancestor is positioned.
@@ -88,6 +92,57 @@ When positioning elements with most of the positioning options there will be sit
 ## Floats
 
 For situations where an element should have text content flow around it, floats can be useful. One issue with floats is controlling how content flows around it properly, especially if floats are applied to a container element like a `<div>`. This is done either through a "clearfix" hack or by using the `display: flow-root` css rule.
+
+#### Clearfix
+
+Traditionally, the problem with using floats is that there was always the problem of a floated element overflowing it's container, resulting in an unsatisfying display, as shown below.
+
+```html
+<section class="my-section">
+  <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem ullam dolores
+    expedita aliquid, veritatis pariatur omnis doloremque, tenetur consequuntur
+    numquam, modi voluptatum quisquam esse fuga voluptates?
+  </p>
+  <img src="https://picsum.photos/200" alt="random image" />
+  <p>
+    Distinctio sit perferendis odit, eligendi dolor incidunt aliquam. Libero
+    esse vel quasi voluptas provident iusto quidem commodi et culpa rerum
+    expedita quibusdam, ratione odio.
+  </p>
+</section>
+```
+
+```css
+.my-section {
+  background-color: #ddd;
+  padding: 1px 10px;
+  width: 500px;
+}
+
+.my-section img {
+  float: left;
+  margin: 0 10px 10px;
+}
+```
+
+<!-- Image of Bad Float -->
+
+To correct this problem, a hack was introduced called the **clearfix hack** to force the container element to expand itself beyond the floated content. The CSS below accomplished this task.
+
+```css
+.clearfix::after {
+  content: '';
+  clear: both;
+  display: table;
+}
+```
+
+Once applied, the resulting display is improved.
+
+<!-- Image of Cleared Float -->
+
+A more modern ways of handling this problem is by using the `display: flow-root;` property, which will have the same result as the clearfix hack.
 
 # Multi-Column
 
