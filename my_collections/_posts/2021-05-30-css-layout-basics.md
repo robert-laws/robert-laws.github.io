@@ -78,7 +78,7 @@ The result appears as the following:
 <!-- Image of Positioning -->
 
 {% capture post_image %}/assets/img/blog/blog-post-css-layout-basics-positioning.png{% endcapture %}
-{% include post-image.html max-width=50 file=post_image caption="Positioning with position: absolute" %}
+{% include post-image.html max-width=30 file=post_image caption="Positioning with position: absolute" %}
 
 #### Fixed
 
