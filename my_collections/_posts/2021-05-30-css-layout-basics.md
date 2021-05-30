@@ -77,6 +77,9 @@ The result appears as the following:
 
 <!-- Image of Positioning -->
 
+{% capture post_image %}/assets/img/blog/blog-post-css-layout-basics-positioning.png{% endcapture %}
+{% include post-image.html max-width=50 file=post_image caption="Positioning with position: absolute" %}
+
 #### Fixed
 
 A position defined as `fixed` will behave exactly like an absolutely positioned element, except that the element will remain fixed in place relative to it's nearest positioned ancestor or the initial containing block if no ancestor is positioned.
@@ -128,6 +131,9 @@ Traditionally, the problem with using floats is that there was always the proble
 
 <!-- Image of Bad Float -->
 
+{% capture post_image %}/assets/img/blog/blog-post-css-layout-basics-clearfix-1.png{% endcapture %}
+{% include post-image.html max-width=50 file=post_image caption="Float without a clearfix applied" %}
+
 To correct this problem, a hack was introduced called the **clearfix hack** to force the container element to expand itself beyond the floated content. The CSS below accomplished this task.
 
 ```css
@@ -141,6 +147,9 @@ To correct this problem, a hack was introduced called the **clearfix hack** to f
 Once applied, the resulting display is improved.
 
 <!-- Image of Cleared Float -->
+
+{% capture post_image %}/assets/img/blog/blog-post-css-layout-basics-clearfix-2.png{% endcapture %}
+{% include post-image.html max-width=50 file=post_image caption="Float with clearfix applied" %}
 
 A more modern ways of handling this problem is by using the `display: flow-root;` property, which will have the same result as the clearfix hack.
 
