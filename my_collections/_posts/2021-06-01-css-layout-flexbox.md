@@ -133,3 +133,7 @@ article {
   order: -1; /* moves to the start of a group */
 }
 ```
+
+## Resources
+
+There's many good resources available about Flexbox. Perhaps the most helpful and most often cited resource is [A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) from CSS-Tricks. This guide provides a comprehensive look at Flexbox with many good visual examples. Another helpful resource is the [MDN Guide to the Basic Concepts of Flexbox](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox), which includes some learning activities to test your skills. A resource that is helpful for learning flexbox and fun is [Flexbox Froggy](https://flexboxfroggy.com/).
