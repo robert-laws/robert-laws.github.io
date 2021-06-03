@@ -9,7 +9,7 @@ featured-image: blog-post-challenge-two.jpg
 
 The second challenge in the UX/HTML/CSS Design and Code Challenge series is another blogging website. In contrast to the first challenge, the inspiration website for this challenge is much more complex and offers opportunities to test out my skills.<!-- more --> The website I used as the inspiration for this challenge is [Pinch of Yum](https://pinchofyum.com/), a blogging website about food, cooking, and recipes.
 
-Just like with the [first challenge](https://robert-laws.com/blog/challenge-one), the intent is to recreate the website through a process of building a design and then translating that design to HTML and CSS to produce a working version of the inspirational website.
+Just like with the [first challenge](https://robert-laws.com/blog/challenge-one), the intent is to recreate the website through a process of building a design and then translating that design to HTML and CSS to produce a [final working version](https://www.robert-developer.com/challenges/two/) of the inspirational website.
 
 {% capture post_image %}/assets/img/blog/{{page.featured-image}}{% endcapture %}
 {% include post-image.html file=post_image caption="Challenge Two - Blogging Website" %}
