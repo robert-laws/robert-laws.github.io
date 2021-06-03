@@ -81,7 +81,7 @@ Finally, putting it all together - the atoms, molecules, organisms were placed i
 
 ###### Search and Icons
 
-{% capture post_image %}/assets/img/blog/blog-post-challenge-two-design-search-and-icons.png{% endcapture %}
+{% capture post_image %}/assets/img/blog/blog-post-challenge-two-design-search-icons.png{% endcapture %}
 {% include post-image.html file=post_image caption="Page Construction - Search and Icons" %}
 
 ###### Bio
