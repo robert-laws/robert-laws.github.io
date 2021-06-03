@@ -50,8 +50,11 @@ The next step of the design phase was to identify atoms and molecules on the web
 
 Other major molecules include the blog post entry, which is made up of an image atom and four text atoms. This molecule is repeated for a few blog entries on the page. Other textual content form molecules by combining text and other atoms (like buttons and list numbers) to form additional textual molecules. Forms come together in a similar way. The input for the search is combined with an icon and the email signup form is a combination of text, two inputs and a button to make up a more complex form molecule. The sign up form could even be considered as an organism since it combines all the pieces needed to make up a full-functional form that can be submitted.
 
-{% capture post_image %}/assets/img/blog/blog-post-challenge-two-design-features.png{% endcapture %}
-{% include post-image.html file=post_image caption="Design Phase - Atoms and Molecules" %}
+{% capture post_image %}/assets/img/blog/blog-post-challenge-two-atoms.png{% endcapture %}
+{% include post-image.html file=post_image caption="Design Phase - Atoms" %}
+
+{% capture post_image %}/assets/img/blog/blog-post-challenge-two-molecules.png{% endcapture %}
+{% include post-image.html file=post_image caption="Design Phase - Molecules" %}
 
 #### Layout Analysis
 
