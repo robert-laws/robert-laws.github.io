@@ -152,7 +152,7 @@ These line-names, either created automatically or user-defined, can be used to c
 ```css
 .container h1 {
   grid-column: 1 / 2;
-  grid-row 1 / 2;
+  grid-row: 1 / 2;
 }
 ```
 
@@ -160,7 +160,7 @@ The same thing can be expressed with the user defined line-names as the followin
 
 ```css
 .container h1 {
-  grid-column one / two;
+  grid-column: one / two;
   grid-row: one / two;
 }
 ```
@@ -169,7 +169,7 @@ Grid items can occupy multiple grid cells within the grid. To make the `<h1>` oc
 
 ```css
 .container h1 {
-  grid-column one / six;
+  grid-column: one / six;
 }
 ```
 
