@@ -134,7 +134,7 @@ Consider the grid above. It has five columns, each `1fr` unit and three rows, ea
 For example, for the grid created by the CSS above, the track lines are automatically created to look like this: `[1] 1fr [2] 1fr [3] 1fr [4] 1fr [5] 1fr [6];`. What this means is that the first grid cell occupies the column space from 1 to 2 or equal to 1fr. The rows follow the same logic.
 
 {% capture post_image %}/assets/img/blog/blog-post-css-layout-grid-lines.jpg{% endcapture %}
-{% include post-image.html file=post_image caption="Example of Space Between" %}
+{% include post-image.html file=post_image caption="Grid Construction and Lines" %}
 
 Custom line names can be used for each line, such as the following.
 
