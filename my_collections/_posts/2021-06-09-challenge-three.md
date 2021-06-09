@@ -4,7 +4,7 @@ date: 2021-06-09 16:00:00
 author: Robert Laws
 categories: [learn]
 tags: [html, html5, css, responsive design, grid]
-featured-image: blog-post-challenge-three.jpg
+featured-image: blog-post-challenge-three.png
 ---
 
 The third challenge in the UX/HTML/CSS Design and Code Challenge series is an e-commerce website. The rationale for this particular challenge was to find a site that could easily lend itself to use of CSS Grid layout.<!-- more --> The inspiration for this challenge comes from the website [Bohemian Traders](https://bohemiantraders.com/), which is an online shop to purchase clothing based in Australia.
@@ -48,17 +48,17 @@ The first step in the design process to prepare it for working with CSS Grid was
 
 The result of this process concluded with the production of two finished prototype screens - mobile and desktop - which I would use as the basis for building each with HTML and CSS in the Development phase.
 
-{% capture post_image %}/assets/img/blog/blog-post-challenge-three-combined-layouts.png{% endcapture %}
+{% capture post_image %}/assets/img/blog/blog-post-challenge-three-combined-layouts.jpg{% endcapture %}
 {% include post-image.html file=post_image caption="Final Design for Mobile and Desktop" %}
 
 Part of the value of the design process is in planning how to structure the layout and grids that will eventually be created with the HTML and CSS. This design has two major grids - a site grid that would layout the entire page contents and a nested grid for the main content, which mostly included a mosaic of images.
 
-{% capture post_image %}/assets/img/blog/blog-post-challenge-three-site-grid.png{% endcapture %}
+{% capture post_image %}/assets/img/blog/blog-post-challenge-three-site-grid.jpg{% endcapture %}
 {% include post-image.html file=post_image caption="Site Grid - 3 Columns" %}
 
 The site grid is composed of three columns. The central column will encompass the main content of the site, otherwise the other sections - header, hero, and footer will be full bleed sections. The central column is more complex in its layout.
 
-{% capture post_image %}/assets/img/blog/blog-post-challenge-three-main-grid.png{% endcapture %}
+{% capture post_image %}/assets/img/blog/blog-post-challenge-three-main-grid.jpg{% endcapture %}
 {% include post-image.html file=post_image caption="Main Grid - 6 Columns" %}
 
 The main grid is six columns. This number was chosen based on the need to divide the layout into sections for rows that include 3 photos, 2 photos, and a single photo. Using a six column grid is ideals since it can be divided and combined in multiple ways.
