@@ -7,7 +7,7 @@ tags: [html, html5, css, responsive design, grid]
 featured-image: blog-post-challenge-three.jpg
 ---
 
-The third challenge in the UX/HTML/CSS Design and Code Challenge series is an e-commerce website. The rationale for this particular challenge was to find a site that could easily lend itself to use of CSS Grid layout. The inspiration for this challenge comes from the website [Bohemian Traders](https://bohemiantraders.com/), which is an online shop to purchase clothing based in Australia.
+The third challenge in the UX/HTML/CSS Design and Code Challenge series is an e-commerce website. The rationale for this particular challenge was to find a site that could easily lend itself to use of CSS Grid layout.<!-- more --> The inspiration for this challenge comes from the website [Bohemian Traders](https://bohemiantraders.com/), which is an online shop to purchase clothing based in Australia.
 
 The challenge, like [previous](https://robert-laws.com/blog/challenge-one) [challenges](https://robert-laws.com/blog/challenge-two), is to recreate the design of the website homepage ([live version of the final website](https://www.robert-developer.com/challenges/three/)). The focus of this challenge is slightly different than previous challenges in that the focus for this challenge is less on design process and more on application of CSS Grid for mobile and desktop.
 
