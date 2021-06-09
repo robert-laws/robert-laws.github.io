@@ -4,7 +4,7 @@ date: 2021-06-09 16:00:00
 author: Robert Laws
 categories: [learn]
 tags: [html, html5, css, responsive design, grid]
-featured-image: blog-post-challenge-three.png
+featured-image: blog-post-challenge-three.jpg
 ---
 
 The third challenge in the UX/HTML/CSS Design and Code Challenge series is an e-commerce website. The rationale for this particular challenge was to find a site that could easily lend itself to use of CSS Grid layout.<!-- more --> The inspiration for this challenge comes from the website [Bohemian Traders](https://bohemiantraders.com/), which is an online shop to purchase clothing based in Australia.
@@ -34,7 +34,7 @@ The challenge, like [previous](https://robert-laws.com/blog/challenge-one) [chal
 
 The inspirational website for this challenge was a perfect candidate for the use of CSS Grid. Two key features of this website made it a good candidate. First, the design employs a full bleed header, hero section, and footer. And second, the main content area is a series of images contained within a fixed column and laid out in a grid pattern. Traditionally, a layout like this would be somewhat tricky to implement without using a lot of div containers and extensive CSS, especially considering the need to create both a design for mobile and larger screen sizes.
 
-{% capture post_image %}/assets/img/blog/blog-post-challenge-three-inspiration.png{% endcapture %}
+{% capture post_image %}/assets/img/blog/blog-post-challenge-three-inspiration.jpg{% endcapture %}
 {% include post-image.html file=post_image caption="Inspirational Website - Bohemian Traders" %}
 
 ## Working through the Design
