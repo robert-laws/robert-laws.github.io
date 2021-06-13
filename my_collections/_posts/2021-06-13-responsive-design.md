@@ -10,13 +10,15 @@ featured-image: blog-post-responsive-design.jpg
 Responsive design is the practice of designing webpages to maximize the visual appeal and usability of a webpage based on the type of device or screen size being used. The goal is to deliver the best possible user experience regardless of how a user arrives at a webpage.<!-- more --> At the heart of responsive design is the [CSS Media Query](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries). Using media queries allows the developer to target specific browser sizes or attributes to deliver styling customized for a particular device, resolution, or screen orientation.
 
 {% capture post_image %}/assets/img/blog/{{page.featured-image}}{% endcapture %}
-{% include post-image.html file=post_image caption="Responsive Design" %}
+{% include post-image.html file=post_image caption="Responsive Design & Media Queries" %}
 
 ## Learning Resources
 
 There are several good resources to help learn about responsive design and media queries.
 
 #### Responsive Design
+
+The concept of responsive design has been around for a while now. Articles from 2010 (A List Apart) and 2011 (Smashing Magazine) describe the initial description of the concept of responsive design. Other articles reinforce the ideas from the initial stages and add new techniques to improve development with responsive design in mind.
 
 - [MDN - Responsive Design](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_Design)
 - [A List Apart - Responsive Web Design](https://alistapart.com/article/responsive-web-design/)
@@ -25,6 +27,8 @@ There are several good resources to help learn about responsive design and media
 - [CSS-Tricks - Responsive Designs and CSS Custom Properties: Defining Variables and Breakpoints](https://css-tricks.com/responsive-designs-and-css-custom-properties-defining-variables-and-breakpoints/)
 
 #### Media Queries
+
+The two articles provide good information about the syntax and best practices for using media queries.
 
 - [CSS-Tricks - A Complete Guide to CSS Media Queries](https://css-tricks.com/a-complete-guide-to-css-media-queries/)
 - [MDN - Media Queries](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries)
