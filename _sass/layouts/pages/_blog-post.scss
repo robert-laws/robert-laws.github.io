@@ -117,7 +117,7 @@
           flex-direction: column;
         }
 
-        &>* {
+        & > * {
           font-size: 1.4rem;
 
           time {
@@ -159,6 +159,10 @@
         margin: 3rem 0 -1rem;
       }
 
+      h4 + ul {
+        margin-top: 2rem;
+      }
+
       ul,
       ol {
         margin-left: 3rem;
@@ -177,7 +181,8 @@
         margin: 2rem auto 2.5rem;
         border-radius: 0.5rem;
         width: 60%;
-        box-shadow: 0 1.5rem 3rem rgba($color-black, 0.1), 0 0.5rem 1.5rem rgba($color-black, 0.1);
+        box-shadow: 0 1.5rem 3rem rgba($color-black, 0.1),
+          0 0.5rem 1.5rem rgba($color-black, 0.1);
 
         @include sm {
           width: 90%;
@@ -235,7 +240,8 @@
         border: 1px solid lighten($color-black, 90%);
         border-radius: 0.5rem;
         overflow: hidden;
-        box-shadow: 0 1.5rem 3rem rgba($color-black, 0.1), 0 0.5rem 1.5rem rgba($color-black, 0.1);
+        box-shadow: 0 1.5rem 3rem rgba($color-black, 0.1),
+          0 0.5rem 1.5rem rgba($color-black, 0.1);
 
         @include sm {
           width: 100%;

@@ -21,7 +21,7 @@ The challenge, like [previous](https://robert-laws.com/blog/challenge-one) [chal
 #### Learning Resources
 
 - [A Complete Guides to Grid - CSS-Tricks](https://css-tricks.com/snippets/css/complete-guide-grid/)
-- [Learn CSS Grid]()https://learncssgrid.com/
+- [Learn CSS Grid](https://learncssgrid.com/)
 - [Grid in CSS](https://cssreference.io/css-grid/)
 - [Grid Cheatsheet](https://yoksel.github.io/grid-cheatsheet/)
 
