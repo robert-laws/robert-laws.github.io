@@ -183,7 +183,7 @@ mathAssignment.partThree = 'Take the quiz';
 console.log(mathAssignment); // { partOne: 'Read the textbook', partTwo: 'Complete the homework questions', partThree: 'Take the quiz' }
 ```
 
-# Conclusion
+## Conclusion
 
 Variables are used everywhere in JavaScript programs. One problem that can come up is from having variables in different scopes with the same name. This can produce problems when values assigned to one variable are overwritten by other variables unintentionally. This is a type of problem that may not produce an error message, but will still result in problems. Likewise, many assigned values are created without the need to change them at any point during the program. However, it's possible to overwrite the value of variable unintentionally, causing problems in the program.
 
