@@ -9,10 +9,10 @@ featured-image: blog-post-javascript-variables.jpg
 
 Variables are a foundational aspect of programming with JavaScript, or any programming language. It's essential to understand what variable are and what to expect when using them.<!-- more --> For the longest time, JavaScript generally had only one way to declare variables, with the `var` keyword. Since the arrival of ES6 (ES2015), the keywords `let` and `const` have been available for variable declaration. The idea behind adding these features to the language was to provide ways to control how variables are declared, assigned values, and visible to other parts of a JavaScript program through the concept of scope.
 
-This article focuses on the basics of variables in JavaScript and examples of their use. The core concept of a variable is to provide a way to declare and store values that can be used in a program. Declaring a variable is like giving a value a pointer that can be used again and again to reference the value stored at that pointer. This functionality
+This article focuses on the basics of variables - also known as [Declarations](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements#declarations) - in JavaScript and examples of their use. The core concept of a variable is to provide a way to declare and store values that can be used in a program. Declaring a variable is like giving a value a pointer that can be used again and again to reference the value stored at that pointer. This functionality
 
 {% capture post_image %}/assets/img/blog/{{page.featured-image}}{% endcapture %}
-{% include post-image.html file=post_image caption="Basics of CSS Animation" %}
+{% include post-image.html file=post_image caption="JavaScript Variables" %}
 
 Variables can be declared using the `var`, `let`, and `const` keywords.
 
