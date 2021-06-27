@@ -200,9 +200,9 @@ function() {
 }
 ```
 
-#### [Arrow Functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
+#### Arrow Functions
 
-Arrow functions are a special type of function call that can be called like named functions or function expressions, but behave somewhat differently from other functions.
+[Arrow functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions) are a special type of function call that can be called like named functions or function expressions, but behave somewhat differently from other functions.
 
 ```javascript
 let getProduct = (name) => {
