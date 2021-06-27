@@ -163,7 +163,7 @@ newEmployee.name; // 'melvin'
 
 #### Function
 
-[Functions](https://developer.mozilla.org/en-US/docs/Glossary/Function) are a non-data structural type that can call on other snippets of code to execute. Functions are of the data type 'object', but will return `function` when the typeof operator is called on it. Functions can be declared several different ways.
+[Functions](https://developer.mozilla.org/en-US/docs/Glossary/Function) are a non-data structural type that can call other snippets of code to execute. Functions are of the data type 'object', but will return `function` when the typeof operator is called on it. Functions can be declared several different ways.
 
 #### Named Function
 
