@@ -135,6 +135,8 @@ company.location.description; // 'Los Angeles'
 
 #### Object Creation with the Object() Constructor
 
+The object constructor is a way to initialize an object without needing to assign it value immediately.
+
 ```javascript
 let myItem = Object(); // creates an empty object {}
 
@@ -146,6 +148,8 @@ myItem; // { name: 'hat', size: 'large', price: 21.47 }
 ```
 
 #### Object Creation using object literal syntax
+
+Using the object literal syntax is a way to implicitly create an object without the need to explicitly use the Object() constructor.
 
 ```javascript
 let newEmployee = {
@@ -163,6 +167,8 @@ newEmployee.name; // 'melvin'
 
 #### Named Function
 
+A named function declares a function and assigns a name to it which can be used to call the function as needed.
+
 ```javascript
 function sayHello() {
   return 'hello!';
@@ -172,6 +178,8 @@ sayHello(); // 'hello!'
 ```
 
 #### Function Expression
+
+A function can also be assigned to a variable, which can used in different ways including to call the function directly or as a variable that can be passed as a parameter in other functions like other variables - such as strings or numbers.
 
 ```javascript
 let greeting = function (name) {
@@ -183,7 +191,7 @@ greeting('bob'); // "Welcome, bob. It's nice to meet you."
 
 #### Anonymous Functions
 
-Are written without a declared name, but must be used as a function expression this way
+Are written without a declared name, but must be used as a function expression this way.
 
 ```javascript
 // Will produce an error without a name or assignment to a variable
