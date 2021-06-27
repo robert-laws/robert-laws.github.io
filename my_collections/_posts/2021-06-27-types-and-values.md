@@ -10,7 +10,7 @@ featured-image: blog-post-types-and-values.jpg
 The foundation of any programming language is data. Without data, creating a program is very difficult, if not impossible. Most interactions on the Internet involve data of some kind.<!-- more --> Perhaps it's bank account data, or data about a list of products in a shopping cart, or a message on a social media network, or the latest score from the basketball playoffs. Data is the reason why people start up a browser and explore the Internet. JavaScript allows programmers to control data **values** and the **types** of data used in a program.
 
 {% capture post_image %}/assets/img/blog/{{page.featured-image}}{% endcapture %}
-{% include post-image.html file=post_image caption="Types and Values" %}
+{% include post-image.html file=post_image caption="Basics of JavaScript Types and Values" %}
 
 JavasScript allows programmers to work with a lot of different values. These values can include the _total dollar amount_ in an online bank account, a _list of the product names_ in a shopping cart TV on a e-commerce website, the _text_ of a post on a social media website, or the _final score_ of a basketball game. The common feature of all of these examples is that they are values - numbers, text, a list of text, etc. that is displayed on a webpage.
 
@@ -163,7 +163,7 @@ newEmployee.name; // 'melvin'
 
 #### Function
 
-[Functions](https://developer.mozilla.org/en-US/docs/Glossary/Function) is a non-data structural type that can call on other snippets of code to execute. Functions are of the data type 'object', but will return `function` when the typeof operator is called on it. Functions can be declared several different ways.
+[Functions](https://developer.mozilla.org/en-US/docs/Glossary/Function) are a non-data structural type that can call on other snippets of code to execute. Functions are of the data type 'object', but will return `function` when the typeof operator is called on it. Functions can be declared several different ways.
 
 #### Named Function
 
