@@ -18,7 +18,7 @@ A unary operation is an operation that involves only one operand. This means tha
 
 #### delete
 
-The [Delete](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/delete) operator will remove a property from an object. This includes arrays. Using `delete` with an array, however, will delete the value, but won't change the overall length of the array. Delete can be useful to remove a single property from an object without leaving anything behind like an undefined value for the property.
+The [delete](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/delete) operator will remove a property from an object. This includes arrays. Using `delete` with an array, however, will delete the value, but won't change the overall length of the array. Delete can be useful to remove a single property from an object without leaving anything behind like an undefined value for the property.
 
 Example of deleting a property from a object.
 
@@ -48,7 +48,7 @@ items[0]; // undefined
 
 #### void
 
-The void operator will evaluate a given expression and then returns a value of `undefined`. This is used often when its useful to return an undefined value as part of a code process. It was often used with hyperlinks as `javascript:void(0)` to return undefined from a user click to prevent page reloading.
+The [void](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/void) operator will evaluate a given expression and then returns a value of `undefined`. This is used often when its useful to return an undefined value as part of a code process. It was often used with hyperlinks as `javascript:void(0)` to return undefined from a user click to prevent page reloading.
 
 ```javascript
 function sayHello() {
@@ -61,7 +61,7 @@ void sayHello(); // undefined
 
 #### typeof
 
-The typeof operator will evaluate and return a string of the type of the operand value. This can be useful when checking the type of the value being held by a variable before performing additional operations upon the value.
+The [typeof](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof) operator will evaluate and return a string of the type of the operand value. This can be useful when checking the type of the value being held by a variable before performing additional operations upon the value.
 
 ```javascript
 let name = 'hal';
