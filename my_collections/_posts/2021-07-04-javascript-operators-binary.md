@@ -20,7 +20,7 @@ In contrast to unary operators, which require just one operand to perform its op
 
 #### [addition](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Addition) **+**
 
-The addition operator will add together two numbers. When the two operands are either not number or only one is a number, the operation performed will be different. If the two operands are strings, the result will be string concatenation. If one or more of the operands is a boolean, the value of the boolean will be converted to a number and the operation will be performed. Note also that a number added to a number that is in the form of a string will concatenate the two numbers together as a string, ex. `'23' + 5; // '235'`.
+The addition operator will add together two numbers. When the two operands are either not number or only one is a number, the operation performed will be different. If the two operands are strings, the result will be string concatenation. If one or more of the operands is a boolean, the value of the boolean will be converted to a number and the operation will be performed. Note also that a number added to a number that is in the form of a string will concatenate the two numbers together as a string, ex. `'23' + 5; // '235'`. This also works similarly for boolean values, ex. `5 + false; // 5`. In this case, JavaScript converts the false boolean value into `0` and a true boolean value into `1`.
 
 ```javascript
 5 + 2; // 7
