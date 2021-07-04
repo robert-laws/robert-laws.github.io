@@ -352,8 +352,8 @@ The remainder assignment will divide the variable value by the value on the righ
 
 ```javascript
 let value = 18;
-value %= 2;
-value; // 9
+value %= 5;
+value; // 3
 ```
 
 #### [addition assignment](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Addition_assignment) +=
