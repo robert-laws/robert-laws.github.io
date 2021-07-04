@@ -20,7 +20,7 @@ In contrast to unary operators, which require just one operand to perform its op
 
 #### [addition](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Addition) **+**
 
-The addition operator will add together two numbers. When the two operands are either not number or only one is a number, the operation performed will be different. If the two operands are strings, the result will be string concatenation. If one or more of the operands is a boolean, the value of the boolean will be converted to a number and the operation will be performed. Note also that a number added to a number that is in the form of a string will concatenate the two numbers together as a string, ex. `'23' + 5; // '235'`. This also works similarly for boolean values, ex. `5 + false; // 5`. In this case, JavaScript converts the false boolean value into `0` and a true boolean value into `1`.
+The addition operator will add together two numbers. When the two operands are either not number or only one is a number, the operation performed will be different. If the two operands are strings, the result will be string concatenation. If one or more of the operands is a boolean, the value of the boolean will be converted to a number and the operation will be performed. Note also that a number added to a number that is in the form of a string will _concatenate_ the two numbers together as a string, ex. `'23' + 5; // '235'`. This also works similarly for boolean values, ex. `5 + false; // 5`. In this case, JavaScript converts the false boolean value into `0` and a true boolean value into `1`.
 
 ```javascript
 5 + 2; // 7
@@ -29,7 +29,7 @@ The addition operator will add together two numbers. When the two operands are e
 
 8 + true; // 9
 
-[5, 7, 2] + 4; // [5, 7, 24]
+[5, 7, 2] + 4; // '5,7,24'
 
 'hello' + ' there'; // 'hello there'
 ```
@@ -43,7 +43,7 @@ The subtraction operator will subtract one number from another. However, when a 
 
 2 - '4'; // -2
 
-8 - true;
+8 - true; // 7
 
 [5, 7, 2] - 4; // NaN
 
@@ -417,3 +417,7 @@ let value2 = null;
 value2 ??= 'default value';
 value2; // 'default value'
 ```
+
+## Conclusion
+
+Operators, particularly binary operators, are used extensively in any JavaScript program. Some, like arithmetic, relational and logical operators, are used frequently. using some assignment operators, like the logical OR assignment, can be very useful for particular situations - such as assigning a default value when a variable has a falsy value. Becoming familiar with binary operators and practicing their use is important to become an expert JavaScript developer.
