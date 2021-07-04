@@ -14,7 +14,7 @@ This is the second post in the **JavaScript Operators** series. Following up on 
 
 ## Binary Operators
 
-In contrast to unary operators, which require just one operand to perform its operation, binary operators require two operands - as the name applies.
+In contrast to unary operators, which require just one operand to perform its operation, binary operators require two operands - as the name applies. Mozilla Web Docs (MDN) has an extensive section on [expressions and operators](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators), which include binary operators. Each different type of operator includes a link to the relevant section in MDN web Docs documentation sub-sections.
 
 ## Arithmetic operator
 
