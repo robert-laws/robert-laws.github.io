@@ -7,14 +7,14 @@ tags: [javascript]
 featured-image: blog-post-javascript-operators-ternary.jpg
 ---
 
-JavaScript has a [ternary operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator), which as the name implies, requires three operands. This post continues the series on [unary](https://robert-laws.com/blog/javascript-operators-unary) and [binary](https://robert-laws.com/blog/javascript-operators-binary) operators. <!-- more -->The ternary operator is sometimes called a conditional operator and is used often for a shortened version of the `if...else` statement. Using the ternary operator can help to condense code, although is sometimes criticized for being [less transparent](https://betterprogramming.pub/the-javascript-ternary-operator-1589238d929b) and [readable](https://jrsinclair.com/articles/2021/rethinking-the-javascript-ternary-operator/) code compared to the `if...else` statement.
+JavaScript includes one operator that features three operands. This is called the ternary operator. <!-- more -->This post continues the series on javascript operators, including the [unary](https://robert-laws.com/blog/javascript-operators-unary) and [binary](https://robert-laws.com/blog/javascript-operators-binary) operators. The ternary operator is sometimes called a conditional operator and is used often for a shortened version of the `if...else` statement. Using the ternary operator can help to condense code, although is sometimes criticized for being [less transparent](https://betterprogramming.pub/the-javascript-ternary-operator-1589238d929b) and [readable](https://jrsinclair.com/articles/2021/rethinking-the-javascript-ternary-operator/) code compared to the `if...else` statement.
 
 {% capture post_image %}/assets/img/blog/{{page.featured-image}}{% endcapture %}
 {% include post-image.html file=post_image caption="JavaScript Operators - Ternary Operators" %}
 
 #### Constructing a Ternary Operators
 
-The ternary operator statement includes a condition, which is evaluated. The conditional statement is followed by a question mark. Upon evaluation, the operator will execute the code before the colon if the result of the condition is true and the code after the colon if the result of the condition is false.
+The [ternary operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator), as the name implies, requires three operands. The ternary operator statement includes a condition, which is evaluated. The conditional statement is followed by a question mark. Upon evaluation, the operator will execute the code before the colon if the result of the condition is true and the code after the colon if the result of the condition is false.
 
 ```javascript
 condition (truthy or falsy) ? `code to execute if truthy` : `code to execute if falsy`;
