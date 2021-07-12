@@ -22,6 +22,8 @@ An important concept in JavaScript is the **block statement**, which are used ex
   let lastName = 'cobb';
   console.log(`${firstName} ${lastName}`);
 }
+
+// bob cobb
 ```
 
 #### Conditional Statements
@@ -42,6 +44,8 @@ if (age <= 18) {
 } else {
   console.log('elderly options');
 }
+
+// 'adult options'
 ```
 
 #### switch
@@ -65,6 +69,8 @@ switch (customerType) {
     console.log('new customer menu');
     return;
 }
+
+// 'vip menu'
 ```
 
 #### Loops
@@ -81,6 +87,12 @@ while (counter <= 5) {
   console.log(`count number is ${counter}`);
   counter += 1;
 }
+
+// count number is 1
+// count number is 2
+// count number is 3
+// count number is 4
+// count number is 5
 ```
 
 #### do...while
@@ -93,6 +105,9 @@ do {
   console.log(`running loop ${counter} times`);
   counter += 1;
 } while (counter < 3);
+
+// running loop 1 times
+// running loop 2 times
 ```
 
 #### for
@@ -100,9 +115,14 @@ do {
 The `for` loop provides a way to control a loop by giving control over an initializing value, a condition under which the loop should continue or finish, and a post-iteration operation - usually to update the initialized value.
 
 ```javascript
-for (let i = 0; i < 5; i++) {
+for (let i = 0; i < 4; i++) {
   console.log(`for loop iteration #${i + 1}`);
 }
+
+// for loop iteration #1
+// for loop iteration #2
+// for loop iteration #3
+// for loop iteration #4
 ```
 
 #### for...in
@@ -116,6 +136,12 @@ for (let index in numbers) {
   console.log(`number is ${numbers[index]}`);
 }
 
+// number is 2
+// number is 4
+// number is 6
+// number is 8
+// number is 10
+
 // Object
 let employee = {
   name: 'Bob Cobb',
@@ -125,6 +151,10 @@ let employee = {
 for (let key in employee) {
   console.log(employee[key]);
 }
+
+// Bob Cobb
+// 35
+// true
 ```
 
 #### Conclusion
