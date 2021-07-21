@@ -9,6 +9,9 @@ featured-image: blog-post-javascript-arrays.jpg
 
 Arrays at their most basic level are collections (or lists) of data. Since programs are constantly working with data, arrays are used extensively in JavaScript. A typical program will add data to list, like products in a shopping cart, which can be stored in an array.<!-- more --> The shopping cart array can have items added, removed, and rearranged. To accomplish tasks like this, arrays come with many built-in methods that provide a lot of flexibility when working with them. This article will examine how to create arrays, access data with them, and work with arrays.
 
+{% capture post_image %}/assets/img/blog/{{page.featured-image}}{% endcapture %}
+{% include post-image.html file=post_image caption="JavaScript Arrays" %}
+
 There is extensive support for arrays including a [detailed MDN article on arrays](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array).
 
 #### Creating an Array
