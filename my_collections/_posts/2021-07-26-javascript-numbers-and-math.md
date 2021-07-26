@@ -1,6 +1,6 @@
 ---
 title: 'JavaScript - Numbers and Math'
-date: 2021-07-21 19:00:00
+date: 2021-07-26 16:00:00
 author: Robert Laws
 categories: [learn]
 tags: [javascript]
