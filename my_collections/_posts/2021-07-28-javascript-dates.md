@@ -99,11 +99,17 @@ myDate.getDay(); // 0 (Sunday)
 There are several other useful methods available to use with the `Date` object.
 
 - **getTime()** - returns a number representing a time stamp
+
 - **valueOf()** - like `getTime()`, returns a number representing a time stamp
+
 - **toString()** - returns a fully formatted date and time string
+
 - **toDateString()** - returns a formatted date string
+
 - **toTimeString()** - returns a formatted time string
+
 - **toLocaleDateString()** - returns a locally sensitive date string
+
 - **toLocaleTimeString()** - returns a locally sensitive time string
 
 ```javascript
