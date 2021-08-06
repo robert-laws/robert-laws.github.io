@@ -92,11 +92,11 @@ person.set(contacts, 'work and home');
 
 The `Map` object also has several different ways to iterate. It can iterator over its keys and/or values through the Map object methods or by using the `for..of` or `forEach` loops.
 
-- keys() - returns an iterator object that contains the keys for each item.
+- **keys()** - returns an iterator object that contains the keys for each item.
 
-- values() - returns an iterator object that contains the values for each item.
+- **values()** - returns an iterator object that contains the values for each item.
 
-- entries() - returns an iterator object that contains the array of [key, value] for each element of the `Map` object.
+- **entries()** - returns an iterator object that contains the array of [key, value] for each element of the `Map` object.
 
 ```javascript
 let employee = new Map();
@@ -178,11 +178,11 @@ employees.size; // 0
 
 The `Set` object also has several different ways to iterate over the Set object, which unlike a Map, only has values. It can be iterated either through the Set object methods or by using the `forEach` loop.
 
-- values() - returns an iterator object that contains the values for each item.
+- **values()** - returns an iterator object that contains the values for each item.
 
-- keys() - functions identically to the `values()` method for a `Set` object
+- **keys()** - functions identically to the `values()` method for a `Set` object
 
-- entries() - returns an iterator object that contains the array of [value, value] for each element of the `Set` object.
+- **entries()** - returns an iterator object that contains the array of [value, value] for each element of the `Set` object.
 
 ```javascript
 let holidays = new Set();
