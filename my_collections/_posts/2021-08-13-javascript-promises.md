@@ -30,7 +30,7 @@ let v2 = square(v1);
 console.log(v2); // 169
 ```
 
-This code executes in order, each function is able to return a result before the next function that uses the result executes. However, there are situations where a function will take some time to complete before returning a result.
+This code executes in order from top to bottom. Each function is able to return a result before the next function that uses the result executes. However, there are situations where a function will take some time to complete before returning a result and JavaScript doesn't wait as it executes the code.
 
 ```javascript
 const add = (n1, n2) => {
@@ -47,7 +47,7 @@ let result = add(5, 8);
 console.log(square(result)); // NaN
 ```
 
-The difference here is that the `add` function now has a delay of 2 seconds before it completes its operation and returns a result. By the time that has happened, the remainder of the code has already run. At the moment the second function executes, the variable `v1` has a value of `undefined`, which when passed into the `square` function returns `NaN`, which is outputted before the first function can return its calculated value.
+The difference in the code above is that the `add` function has a delay of 2 seconds before it completes its operation and returns a result. By the time that has happened, the remainder of the code has already run. At the moment the second function executes, the variable `v1` has a value of `undefined`, which when passed into the `square` function returns `NaN`, which is outputted before the first function can return its calculated value.
 
 #### Callbacks to the rescue
 
@@ -131,7 +131,7 @@ Entering into either the resolved or rejected option will trigger their associat
 
 #### Working with Promises
 
-Making use of promises can be done by using pre-existing promises, typically in the form of external libraries or apis that can be consumed as promises or by creating a new Promise with the constructor. By creating a promise from scratch, it's possible to understand what a promise is doing internally.
+Making use of promises can be done by using pre-existing promises, typically in the form of external libraries or apis that can be consumed as promises or by creating a [new Promise](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/Promise) with the constructor. By creating a promise from scratch, it's possible to understand what a promise is doing internally.
 
 The following example shows the basics of how to create a new promise. A promise expects an `executor` function that contains custom code to instruct the promise how to either resolve or reject the promise. The executor function includes signatures for a resolve function and reject function, which can be used to pass a value to be handled by the corresponding resolve and reject functions.
 
