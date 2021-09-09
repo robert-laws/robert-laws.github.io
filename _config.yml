@@ -5,12 +5,12 @@ description: > # this means to ignore newlines until "baseurl:"
   Robert Laws - Librarian & Web Developer / Professional Showcase and Blog
 email: roblaws@me.com
 twitter_username: robdlaws
-github_username:  robert-laws
+github_username: robert-laws
 learn_profile: robert-laws
 email_username: roblaws@me.com
 copyright_name: robert-laws
 
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: '' # the subpath of your site, e.g. /blog
 url: https://robert-laws.com
 excerpt_separator: <!-- more -->
 
@@ -86,30 +86,29 @@ collections:
   lesson_builder:
     output: true
     permalink: /project/lesson-builder/:name
+  primary_sources:
+    output: true
+    permalink: /project/primary_sources/:name
 
 # Front Matter Defaults
 defaults:
-  - 
-    scope:
-      path: ""
-      type: "projects"
+  - scope:
+      path: ''
+      type: 'projects'
     values:
-      layout: "project"
-  - 
-    scope:
-      path: ""
-      type: "posts"
+      layout: 'project'
+  - scope:
+      path: ''
+      type: 'posts'
     values:
-      layout: "post"
-      author: "Robert Laws"
-  -
-    scope:
-      path: ""
-      type: "pages"
+      layout: 'post'
+      author: 'Robert Laws'
+  - scope:
+      path: ''
+      type: 'pages'
     values:
-      layout: "default"
-  -
-    scope:
-      path: "assets/img"
+      layout: 'default'
+  - scope:
+      path: 'assets/img'
     values:
       image: true
