@@ -7,7 +7,7 @@ tags: [accessibility]
 featured-image: blog-post-web-accessibility.jpg
 ---
 
-Website designed and developed in the 21st century cannot take accessibility for granted. In fact, in many places organizations have a legal obligation to make their websites accessible. Making websites accessible to all users is simply the right thing to do.<!-- more --> Thankfully, today accessibility is a big deal and there are many different techniques to make websites more accessible.
+Websites developed in the 21st century cannot take accessibility for granted. In fact, in many places organizations have a legal obligation to make their websites accessible. Making websites accessible to all users is simply the right thing to do.<!-- more --> Thankfully, today accessibility is a big deal and there are many different techniques to make websites more accessible.
 
 {% capture post_image %}/assets/img/blog/{{page.featured-image}}{% endcapture %}
 {% include post-image.html file=post_image caption="Web Accessibility" %}
