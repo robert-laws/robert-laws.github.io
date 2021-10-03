@@ -114,4 +114,10 @@ For users who access websites only with a keyboard, some important accessibility
 </body>
 ```
 
-It's also important to provide users with a logical progression through a website using the tab key. Also, users who can view a webpage but use a keyboard to navigate through the page content need clear visual cues when an element on the webpage is focused, typically with a prominent and color-blind safe border around the element.
+It's also important to provide users with a logical progression through a website using the tab key. Also, users who can view a webpage but use a keyboard to navigate through the page content need clear visual cues when an element on the webpage is focused, typically with a prominent and color-blind safe border around the element. 
+
+Another important consideration is helping users to move through web pages without any unexpected problems. For example, when modal boxes are used, it's important to allow a user to progress through the modal with the keyboard and provide the user a way to progress through the context as well as exit it without being trapped. The concept is described as [No Keyboard Trap](https://www.w3.org/TR/UNDERSTANDING-WCAG20/keyboard-operation-trapping.html) and is described in detail on the W3C website.
+
+## Conclusion
+
+These are just a few of the many considerations and techniques that can be used to improve website accessibility. What's most important is to not assume that a website will be accessible without making any effort to make it accessible. Good planning and prioritizing accessible user experiences is vital as part of any modern web design and development workflow. Accessible websites also are able to be used by the maximum number of people, which should be a goal for every website.
