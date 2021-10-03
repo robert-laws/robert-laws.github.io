@@ -55,9 +55,18 @@ The elements and tags used in HTML to construct a website carry both structural 
 </main>
 ```
 
-#### WAI-ARIA
+Some HTML elements provide built-in ways to improve their accessibility. The most obvious example is with images. For users who have a visual impairment, images are not viewable. In these cases, it's important for some textual content to be provided to describe what is displayed in the image. This can be done using the **alt** attribute. Screen readers will read out the text in the alt attribute and provide this type of information for the user.
 
-One resource that is available to help improve the meaning of different elements on a webpage for screen readers is [WAI-ARIA](https://www.w3.org/WAI/standards-guidelines/aria/), the Accessible Rich Internet Applications standards for accessibility. WAI-ARIA defines a set of roles and properties for elements that improve their accessibility. For example, elements may be used for decorative purposes, but are not meaningful for users with screen readers. WAI-ARIA provides a way to remove these types of elements from screen readers to avoid confusion.
+```html
+<img
+  src="zoo-penguins.jpg"
+  alt="A group of penguins within an exhibit at the zoo."
+/>
+```
+
+#### WAI-ARIA One resource that is available to help improve the meaning of
+
+different elements on a webpage for screen readers is [WAI-ARIA](https://www.w3.org/WAI/standards-guidelines/aria/), the Accessible Rich Internet Applications standards for accessibility. WAI-ARIA defines a set of roles and properties for elements that improve their accessibility. For example, elements may be used for decorative purposes, but are not meaningful for users with screen readers. WAI-ARIA provides a way to remove these types of elements from screen readers to avoid confusion.
 
 ```html
 <!-- Using the role="presentation" attribute will tell screen readers to ignore the element -->
@@ -114,9 +123,13 @@ For users who access websites only with a keyboard, some important accessibility
 </body>
 ```
 
-It's also important to provide users with a logical progression through a website using the tab key. Also, users who can view a webpage but use a keyboard to navigate through the page content need clear visual cues when an element on the webpage is focused, typically with a prominent and color-blind safe border around the element. 
+It's also important to provide users with a logical progression through a website using the tab key. Also, users who can view a webpage but use a keyboard to navigate through the page content need clear visual cues when an element on the webpage is focused, typically with a prominent and color-blind safe border around the element.
 
 Another important consideration is helping users to move through web pages without any unexpected problems. For example, when modal boxes are used, it's important to allow a user to progress through the modal with the keyboard and provide the user a way to progress through the context as well as exit it without being trapped. The concept is described as [No Keyboard Trap](https://www.w3.org/TR/UNDERSTANDING-WCAG20/keyboard-operation-trapping.html) and is described in detail on the W3C website.
+
+#### Reduced Motion
+
+For some users, websites that contain either quick or persistent motion or animations in the page or by interactive elements on the page can produce could cause problems like dizziness or even induce seizures in the worst cases. It's recommended to limit the amount of animations, but in cases where animations do have significant motion, the developer can offer a _reduced motion_ option. Users on modern operating systems have the ability to indicate that they prefer reduced motion, which is then used by the browser to request a version of the animation that conforms to this setting.
 
 ## Conclusion
 
