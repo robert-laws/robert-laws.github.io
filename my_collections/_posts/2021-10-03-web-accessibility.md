@@ -1,6 +1,6 @@
 ---
 title: 'Web Accessibility'
-date: 2021-08-13 19:00:00
+date: 2021-10-03 19:00:00
 author: Robert Laws
 categories: [learn]
 tags: [accessibility]
