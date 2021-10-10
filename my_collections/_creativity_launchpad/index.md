@@ -7,6 +7,13 @@ repository_url: https://github.com/robert-laws/project-sep-2021-creativity-launc
 process_order: 0
 processes:
   - Introduction
+  - UX Research
+  - UX Exploration
+  - Information Architecture
+  - UX Design
+  - Content Development
+  - Development
+  - Conclusion
 ---
 
 {% assign creativity_launchpad_process = site.creativity_launchpad | where_exp:'creativity_launchpad_process','creativity_launchpad_process.process_order > 0' | sort: 'process_order' %}
