@@ -91,7 +91,7 @@ collections:
     permalink: /project/primary-sources/:name
   creativity:
     output: true
-    permalink: /project/creativity
+    permalink: /project/creativity/:name
 
 # Front Matter Defaults
 defaults:
