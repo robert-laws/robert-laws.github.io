@@ -16,7 +16,7 @@ processes:
   - Conclusion
 ---
 
-{% assign creativity_launchpad_process = site.creativity_launchpad | where_exp:'creativity_launchpad_process','creativity_launchpad_process.process_order > 0' | sort: 'process_order' %}
-{% for item in creativity_launchpad_process %}
+{% assign creativity_process = site.creativity | where_exp:'creativity_process','creativity_process.process_order > 0' | sort: 'process_order' %}
+{% for item in creativity_process %}
 {{item.content | markdownify }}
 {% endfor %}
