@@ -11,6 +11,5 @@ features:
   - Responsive design with CSS Grid & Flexbox
 tech_stack:
   - CSS Grid
-  - CSS Custom Properties
   - Fetch API
 ---
