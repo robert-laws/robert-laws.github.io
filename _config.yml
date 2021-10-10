@@ -91,7 +91,7 @@ collections:
     permalink: /project/primary-sources/:name
   creativity_launchpad:
     output: true
-    permalink: /project/creativity_launchpad/:name
+    permalink: /project/creativity_launchpad
 
 # Front Matter Defaults
 defaults:
