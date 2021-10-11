@@ -10,6 +10,7 @@ The information architecture of the website aims to reduce the number of pages a
 The following information architecture was proposed for the website:
 
 - Home Page
+
   - All resources with links to individual resources
   - All projects with links to individual projects
   - All articles with links to individual articles
