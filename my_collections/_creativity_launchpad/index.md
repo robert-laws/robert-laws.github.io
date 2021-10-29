@@ -2,7 +2,7 @@
 layout: project
 title: 'Creativity Launchpad'
 date: 2021-10-10
-website_url: https://creativity-launchpad.libtech.georgetown.domains/index.html
+website_url: https://creativity-launchpad.guqlibrary.georgetown.domains
 repository_url: https://github.com/robert-laws/project-sep-2021-creativity-launchpad
 process_order: 0
 processes:
