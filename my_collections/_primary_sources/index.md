@@ -2,7 +2,7 @@
 layout: project
 title: 'Primary Sources'
 date: 2021-09-09
-website_url: https://primary-sources.libtech.georgetown.domains/
+website_url: https://primary-sources.guqlibrary.georgetown.domains
 repository_url: https://github.com/robert-laws/project-aug-2021-primary-sources
 process_order: 0
 processes:
