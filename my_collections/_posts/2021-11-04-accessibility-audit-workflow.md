@@ -1,20 +1,20 @@
 ---
-title: 'Accessibility Audit Workflow'
+title: 'Accessibility Workflows'
 date: 2021-11-04 19:00:00
 author: Robert Laws
 categories: [learn]
 tags: [accessibility]
-featured-image: blog-post-accessibility-audit-workflow.jpg
+featured-image: blog-post-accessibility-workflows.jpg
 ---
 
 Making websites accessible is in the best interest of everyone involved in developing, building content, and using a website. When websites are more accessible, everyone wins.<!-- more --> This is true because compelling content can be accessed by more people in more ways when websites are accessible. Having a highly accessible website also reflects well on the organization since they are demonstrating that they take issues of access seriously. An important step to assure that a website is accessible is performing an accessibility audit to identify where websites do and do not meet the recognized, and often required, accessibility standards.
 
 {% capture post_image %}/assets/img/blog/{{page.featured-image}}{% endcapture %}
-{% include post-image.html file=post_image caption="Accessibility Audit Workflow" %}
+{% include post-image.html file=post_image caption="Accessibility Workflows" %}
 
 #### Why Accessibility?
 
-An important step in running an accessibility audit is convincing those involved of its importance. Without the "buy-in" and support of the people involved in making a website accessible, it is difficult to motivate them to be vigilant about implementing accessibility standards in their work. Although there are many reasons for why it's important to make websites accessible, three reasons are most important:
+An important step in developing an accessibility workflow is convincing those involved of its importance. Without the "buy-in" and support of the people involved in making a website accessible, it is difficult to motivate them to be vigilant about implementing accessibility standards in their work. Although there are many reasons for why it's important to make websites accessible, three reasons are most important:
 
 - For many industries, including education, there are specific legal requirements that institutions must follow to ensure that their websites are accessible. Most notably, [Section 508 of the Rehabilitation Act of 1973](https://www.section508.gov/manage/laws-and-policies/), which requires Federal agencies to make electronic and information technology accessible to people with disabilities. Also, the [American Disabilities Act (1990)](https://www.ada.gov/) requires organizations to provide “reasonable accommodations” to employees with disabilities. Under Title II of the ADA, universities and colleges are mandated to provide reasonable accommodations to students with disabilities.
 - Websites that are accessible increases the number of people that can access and use the information and services available from an organization. Providing information and services to more people is a good goal for any organization.
