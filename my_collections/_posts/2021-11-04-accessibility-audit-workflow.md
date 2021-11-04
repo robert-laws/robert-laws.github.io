@@ -26,7 +26,7 @@ An essential step in solving problems with accessibility as knowing what needs t
 
 The W3C has also put together a [list of web accessibility evaluation tools](https://www.w3.org/WAI/ER/tools/) that help developers test their websites and identify potential issues that need to be addressed. Thankfully, most of the listed tools provide comprehensive feedback about a range of accessibility issues found on a website. Some of the more notable tools listed include:
 
-- Online Accessibility Tester
+- **Online Accessibility Testers**
 
   - [Accessibility Checker](https://www.accessibilitychecker.org/)
   - [aCe](https://ace.accessibe.com/) by accessiBe
@@ -35,14 +35,14 @@ The W3C has also put together a [list of web accessibility evaluation tools](htt
   - [TAW](https://www.tawdis.net/)
   - [WAVE](https://wave.webaim.org/) web accessibility evaluation tool
 
-- Browser Extension
+- **Browser Extensions**
 
   - [ARC Toolkit](https://chrome.google.com/webstore/detail/arc-toolkit) Chrome Extension
   - [axe DevTools](https://chrome.google.com/webstore/detail/axe-devtools-web-accessib) Chrome Extension
   - [axe DevTools](https://microsoftedge.microsoft.com/addons/detail/axe-devtools-web-access) Microsoft Edge Add-on
   - [axe Web Accessibility Testing](https://addons.mozilla.org/en-US/firefox/addon/axe-devtools/) Firefox Add-on
 
-- Commercial Accessibility Audits
+- **Commercial Accessibility Audits**
 
   - [axe Auditor](https://www.deque.com/axe/auditor/)
   - [Siteimprove](https://siteimprove.com/en-us/)
@@ -66,12 +66,12 @@ Web developers are critical for implementing key accessibility features on websi
 
 For example, some of the most common accessibility features that developers can add include:
 
-- Color combinations - helps color blind user to view content the uses appropriate color combinations
-- Skip to Content links - provides keyboard-only users a way to quickly jump to the main content of a page
-- Wai-ARIA tags - provides screen readers with information about the page's structure and content
-- Tab index order - provides keyboard-only users a way to quickly jump to the main content of a page
-- Focus color cues - allows keyboard users to visually identify which element has focus
-- Reduced motion (CSS) - reduces the amount of motion that occurs when a user interacts with a website
+- **Color combinations** - helps color blind user to view content the uses appropriate color combinations
+- **Skip to Content links** - provides keyboard-only users a way to quickly jump to the main content of a page
+- **Wai-ARIA tags** - provides screen readers with information about the page's structure and content
+- **Tab index order** - provides keyboard-only users a way to quickly jump to the main content of a page
+- **Focus color cues** - allows keyboard users to visually identify which element has focus
+- **Reduced motion (CSS)** - reduces the amount of motion that occurs when a user interacts with a website
 
 All of the accessibility features listed above can be added to the website by a developer. However, it's essential for the developer also to communicate these features to the staff and explain the rationale behind each of them so that staff members can recognize their need and how users with disabilities can benefit from them.
 
