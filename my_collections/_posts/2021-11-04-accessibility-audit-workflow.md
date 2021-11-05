@@ -22,28 +22,27 @@ An important step in developing an accessibility workflow is convincing those in
 
 #### How to Identify Accessibility Issues
 
-An essential step in solving problems with accessibility as knowing what needs to be improved. Fortunately, there are many tools available that can help identify and even offer suggestions to improve accessibility. The World Wide Web Consortium (W3C) created the [Web Accessibility Initiative](https://www.w3.org/WAI/) (WAI) to help developers and organizations improve the accessibility of websites. The WAI provides many helpful resources to understand accessibility better, including [Web Content Accessibility Guidelines](w3.org/WAI/standards-guidelines/wcag/) (WCAG), which provide detailed information about the definitions of accessibility standards and how to implement them in websites. These guidelines are very useful to understand the specific requirements that should be implemented and detailed information about the reasons for each requirement.
+An essential step in solving problems with accessibility as knowing what needs to be improved. Fortunately, there are many tools available that can help identify and even offer suggestions to improve accessibility. The World Wide Web Consortium (W3C) created the [Web Accessibility Initiative](https://www.w3.org/WAI/) (WAI) to help developers and organizations improve the accessibility of websites. The WAI provides many helpful resources to understand accessibility better, including [Web Content Accessibility Guidelines](https://www.w3.org/WAI/standards-guidelines/wcag/) (WCAG), which provide detailed information about the definitions of accessibility standards and how to implement them in websites. These guidelines are very useful to understand the specific requirements that should be implemented and detailed information about the reasons for each requirement.
 
 The W3C has also put together a [list of web accessibility evaluation tools](https://www.w3.org/WAI/ER/tools/) that help developers test their websites and identify potential issues that need to be addressed. Thankfully, most of the listed tools provide comprehensive feedback about a range of accessibility issues found on a website. Some of the more notable tools listed include:
 
 - **Online Accessibility Testers**
 
-  - [Accessibility Checker](https://www.accessibilitychecker.org/)
-  - [aCe](https://ace.accessibe.com/) by accessiBe
-  - [MAUVE](http://mauve.isti.cnr.it/) by Human Interfaces in Information Systems Laboratory
-  - [Rocket Validator](https://rocketvalidator.com/)
-  - [TAW](https://www.tawdis.net/)
+  - [aCe](https://ace.accessibe.com/) by accessiBe (pro version available)
+  - [MAUVE](http://mauve.isti.cnr.it/) by Human Interfaces in Information Systems Laboratory (pro version available)
   - [WAVE](https://wave.webaim.org/) web accessibility evaluation tool
 
 - **Browser Extensions**
 
-  - [ARC Toolkit](https://chrome.google.com/webstore/detail/arc-toolkit) Chrome Extension
-  - [axe DevTools](https://chrome.google.com/webstore/detail/axe-devtools-web-accessib) Chrome Extension
-  - [axe DevTools](https://microsoftedge.microsoft.com/addons/detail/axe-devtools-web-access) Microsoft Edge Add-on
+  - [ARC Toolkit](https://chrome.google.com/webstore/detail/arc-toolkit/chdkkkccnlfncngelccgbgfmjebmkmce?hl=en) Chrome Extension
+  - [axe DevTools](https://chrome.google.com/webstore/detail/axe-devtools-web-accessib/lhdoppojpmngadmnindnejefpokejbdd) Chrome Extension
+  - [axe DevTools](https://microsoftedge.microsoft.com/addons/detail/axe-devtools-web-access/kcenlimkmjjkdfcaleembgmldmnnlfkn) Microsoft Edge Add-on
   - [axe Web Accessibility Testing](https://addons.mozilla.org/en-US/firefox/addon/axe-devtools/) Firefox Add-on
 
 - **Commercial Accessibility Audits**
 
+  - [Accessibility Checker](https://www.accessibilitychecker.org/)
+  - [Rocket Validator](https://rocketvalidator.com/)
   - [axe Auditor](https://www.deque.com/axe/auditor/)
   - [Siteimprove](https://siteimprove.com/en-us/)
 
