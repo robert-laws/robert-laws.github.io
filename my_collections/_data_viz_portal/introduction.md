@@ -15,8 +15,6 @@ Students enrolled in the class called Introduction to Data Visualization can fin
 
 The solution to this challenge is a website that combines resources with a place for students to take quizzes to test their knowledge. The resulting website would be a single location to address multiple student needs. Students can visit the website to access links to useful resources, view videos about Data Visualization, see examples of data visualizations, and take quizzes to test their knowledge. The website is also fully responsive, allowing students to view the website on a mobile device and access information from their preferred study space or when they are on the go. The website also provides students with a user account so they can track their progress taking the quizzes.
 
----
-
 ![Data Viz Portal - Project Website Homepage](../../assets/img/project/data-viz-portal-home-page.png){:class="project-detail-image--full"}
 {:class="project-detail-container"}
 
