@@ -1,5 +1,5 @@
 ---
-title: Data Viz Cafe
+title: Data Viz Portal
 date: 2022-02-15
 website_url: https://data-viz-portal.web.app/
 repository_url: https://github.com/robert-laws/project-jan-2022-data-viz-portal
