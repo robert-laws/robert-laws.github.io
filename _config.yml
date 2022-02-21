@@ -92,6 +92,9 @@ collections:
   creativity_launchpad:
     output: true
     permalink: /project/creativity-launchpad/:name
+  data_viz_portal:
+    output: true
+    permalink: /project/data-viz-portal/:name
 
 # Front Matter Defaults
 defaults:
