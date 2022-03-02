@@ -1,8 +1,8 @@
 # Site settings
-title: Robert Laws - Librarian & Web Developer / Professional Showcase and Blog
-tagline: Librarian & Web Developer
+title: Robert Laws - Web Developer / Professional Showcase and Blog
+tagline: Web Developer
 description: > # this means to ignore newlines until "baseurl:"
-  Robert Laws - Librarian & Web Developer / Professional Showcase and Blog
+  Robert Laws - Web Developer / Professional Showcase and Blog
 email: roblaws@me.com
 twitter_username: robdlaws
 github_username: robert-laws
