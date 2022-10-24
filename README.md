@@ -10,6 +10,8 @@ This website has the primary purpose of documenting my web development and desig
 
 The primary technology used for the website is Static Site Generator software Jekyll.
 
+Learn more on my personal home page.
+
 ### YAML Front Matter - required for proper processing of Jekyll pages
 
 ```yaml
