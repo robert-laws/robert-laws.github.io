@@ -6,7 +6,7 @@
 
 ## Personal portfolio website
 
-This website has the primary purpose of documenting my web development and design projects. I also am using this website as a blogging platform.
+This website has the primary purpose of documenting my *web development* and design projects. I also am using this website as a blogging platform.
 
 The primary technology used for the website is Static Site Generator software Jekyll.
 
