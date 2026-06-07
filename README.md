@@ -1,23 +1,18 @@
-# robert-laws.com - Porfolio Website
+# Robert Laws Portfolio
 
-[website for robert-laws.com](https://robert-laws.com)
+This repository now uses Next.js with the App Router and TypeScript.
 
----
+## Local Development
 
-## Personal portfolio website
-
-This website has the primary purpose of documenting my *web development* and design projects. I also am using this website as a blogging platform.
-
-The primary technology used for the website is Static Site Generator software Jekyll.
-
-Learn more on my personal home page.
-
-### YAML Front Matter - required for proper processing of Jekyll pages
-
-```yaml
----
-# index.html page front matter
-layout: default
-title: My Website Title
----
+```bash
+npm install
+npm run dev
 ```
+
+## Static Build
+
+```bash
+npm run build
+```
+
+The static export is written to `out/` and is deployed to GitHub Pages by the workflow in `.github/workflows/deploy.yml`.
