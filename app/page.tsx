@@ -1,15 +1,33 @@
 import Image from "next/image";
-import { projects } from "@/data/projects";
+import { offers } from "@/data/offers";
+import { proofProjects } from "@/data/projects";
 
-const skills = [
-  "React",
-  "Next.js",
-  "TypeScript",
-  "Firebase",
-  "Data visualization",
-  "Accessibility",
-  "Instructional design",
-  "Library technology"
+const inquiryHref =
+  "mailto:roblaws@me.com?subject=Project%20inquiry%20for%20Robert%20Laws&body=Hi%20Robert%2C%0A%0AI%27m%20interested%20in%20talking%20about%20a%20workflow%2C%20AI%20tool%2C%20automation%2C%20dashboard%2C%20or%20learning%20project.%0A%0AOrganization%3A%0AWhat%20we%27re%20trying%20to%20improve%3A%0ATimeline%3A%0A%0AThanks%2C";
+
+const audienceFit = [
+  "Small organizations with real work to improve, not enterprise procurement theater.",
+  "Libraries, education teams, nonprofits, and small businesses with content-heavy workflows.",
+  "Teams that need practical prototypes, clear documentation, and steady adoption support.",
+  "Leaders who want AI used carefully: useful, explainable, and tied to specific outcomes."
+];
+
+const experiments = [
+  {
+    title: "Workflow prompt kits",
+    description:
+      "Reusable prompts and checklists for turning messy recurring work into repeatable AI-assisted processes."
+  },
+  {
+    title: "Small-team dashboards",
+    description:
+      "Opinionated reporting starters for teams that need visibility without adopting a heavy BI stack."
+  },
+  {
+    title: "Learning resource engines",
+    description:
+      "Lightweight tools for organizing lessons, examples, quizzes, and guides around learner decisions."
+  }
 ];
 
 export default function Home() {
@@ -21,8 +39,9 @@ export default function Home() {
           <span>Robert Laws</span>
         </a>
         <nav aria-label="Primary navigation">
-          <a href="#work">Work</a>
-          <a href="#about">About</a>
+          <a href="#offers">Offers</a>
+          <a href="#proof">Proof</a>
+          <a href="#ideas">Ideas</a>
           <a href="#contact">Contact</a>
         </nav>
       </header>
@@ -39,71 +58,123 @@ export default function Home() {
           />
         </div>
         <div className="hero__content">
-          <p className="eyebrow">Web development, learning systems, and library technology</p>
-          <h1>Robert Laws</h1>
+          <p className="eyebrow">Robert Laws · AI workflow tools and practical web systems</p>
+          <h1>Practical AI workflow tools for small teams.</h1>
           <p>
-            I build practical web experiences for people working with information,
-            instruction, research, and data. My work sits where front-end development,
-            UX, and teaching overlap.
+            I help libraries, education teams, nonprofits, and small businesses
+            turn repetitive work into clear processes, lightweight tools, useful
+            dashboards, and AI-assisted workflows people can actually use.
           </p>
           <div className="hero__actions" aria-label="Key actions">
-            <a className="button button--primary" href="#work">
-              View projects
+            <a className="button button--primary" href="#offers">
+              Explore offers
             </a>
-            <a className="button button--secondary" href="https://github.com/robert-laws">
-              GitHub
+            <a className="button button--secondary" href="#proof">
+              See proof
             </a>
           </div>
         </div>
       </section>
 
-      <section className="intro section" aria-labelledby="intro-title">
+      <section className="section intro" aria-labelledby="fit-title">
         <div>
-          <p className="section-kicker">Focus</p>
-          <h2 id="intro-title">Interfaces for learning, discovery, and decision-making.</h2>
+          <p className="section-kicker">Best fit</p>
+          <h2 id="fit-title">Useful systems for teams that cannot waste time on vague AI strategy.</h2>
         </div>
-        <p>
-          Since the late 1990s, I have worked across libraries, educational
-          technology, web publishing, and application development. I care about
-          clear information architecture, resilient front ends, accessible
-          interaction patterns, and tools that make complex work easier to do.
-        </p>
+        <div className="fit-list">
+          {audienceFit.map((item) => (
+            <p key={item}>{item}</p>
+          ))}
+        </div>
       </section>
 
-      <section className="section" id="work" aria-labelledby="work-title">
+      <section className="section section--band" id="offers" aria-labelledby="offers-title">
         <div className="section-heading">
-          <p className="section-kicker">Selected work</p>
-          <h2 id="work-title">Portfolio projects</h2>
+          <p className="section-kicker">Productized consulting</p>
+          <h2 id="offers-title">Start small, prove value, then make it part of the work.</h2>
+          <p>
+            Each offer is scoped around a concrete decision point: find the
+            opportunity, build the prototype, or help the team adopt it.
+          </p>
         </div>
-        <div className="project-grid">
-          {projects.map((project) => (
-            <article className="project-card" key={project.title}>
-              <div className="project-card__image">
+        <div className="offer-grid">
+          {offers.map((offer) => (
+            <article className="offer-card" key={offer.title}>
+              <p className="offer-card__label">{offer.label}</p>
+              <h3>{offer.title}</h3>
+              <p>{offer.summary}</p>
+              <div className="offer-card__detail">
+                <span>Best for</span>
+                <strong>{offer.idealFor}</strong>
+              </div>
+              <div className="offer-card__detail">
+                <span>Typical shape</span>
+                <strong>{offer.timeline}</strong>
+              </div>
+              <ul>
+                {offer.outcomes.map((outcome) => (
+                  <li key={outcome}>{outcome}</li>
+                ))}
+              </ul>
+              <a className="text-link" href={inquiryHref}>
+                Ask about this offer
+              </a>
+            </article>
+          ))}
+        </div>
+      </section>
+
+      <section className="section split" aria-labelledby="approach-title">
+        <div>
+          <p className="section-kicker">Approach</p>
+          <h2 id="approach-title">Builder, translator, and adoption partner.</h2>
+        </div>
+        <div className="approach-copy">
+          <p>
+            My background spans libraries, instructional technology, web
+            development, data visualization, and front-end systems. That mix is
+            useful for small teams because the hard part is rarely just the code.
+          </p>
+          <p>
+            The work is to understand the process, make the next step visible,
+            build something lean, and help people trust it enough to use it.
+          </p>
+        </div>
+      </section>
+
+      <section className="section" id="proof" aria-labelledby="proof-title">
+        <div className="section-heading">
+          <p className="section-kicker">Proof of work</p>
+          <h2 id="proof-title">Past projects, reframed around useful outcomes.</h2>
+          <p>
+            These are not the offer itself. They show the kind of systems
+            thinking, interface work, and practical delivery behind the offers.
+          </p>
+        </div>
+        <div className="proof-grid">
+          {proofProjects.map((project) => (
+            <article className="proof-card" key={project.title}>
+              <div className="proof-card__image">
                 <Image
                   src={project.image}
                   alt=""
                   fill
-                  sizes="(min-width: 1024px) 33vw, (min-width: 720px) 50vw, 100vw"
+                  sizes="(min-width: 980px) 25vw, (min-width: 680px) 50vw, 100vw"
                 />
               </div>
-              <div className="project-card__body">
-                <div className="project-card__meta">
+              <div className="proof-card__body">
+                <div className="proof-card__meta">
                   <span>{project.year}</span>
-                  <span>{project.techStack[0]}</span>
+                  <span>{project.category}</span>
                 </div>
                 <h3>{project.title}</h3>
                 <p>{project.description}</p>
-                <ul className="feature-list">
-                  {project.features.map((feature) => (
-                    <li key={feature}>{feature}</li>
-                  ))}
-                </ul>
-                <div className="tag-list" aria-label={`${project.title} technology stack`}>
-                  {project.techStack.map((tech) => (
-                    <span key={tech}>{tech}</span>
+                <div className="tag-list" aria-label={`${project.title} proof points`}>
+                  {project.proofPoints.map((point) => (
+                    <span key={point}>{point}</span>
                   ))}
                 </div>
-                <div className="project-card__links">
+                <div className="proof-card__links">
                   <a href={project.websiteUrl}>Visit site</a>
                   <a href={project.repositoryUrl}>Repository</a>
                 </div>
@@ -113,38 +184,25 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="section split" id="about" aria-labelledby="about-title">
-        <div>
-          <p className="section-kicker">About</p>
-          <h2 id="about-title">A developer with a library and teaching background.</h2>
-          <p>
-            My career started in libraries and grew through web publishing,
-            application development, data visualization instruction, and hands-on
-            support for researchers and students. That background keeps my work
-            grounded in real workflows, not just screens.
-          </p>
-        </div>
+      <section className="section ideas" id="ideas" aria-labelledby="ideas-title">
         <div className="profile">
           <Image src="/images/rdl.jpg" alt="Robert Laws" width={560} height={560} />
           <div>
-            <h3>What I bring</h3>
-            <ul>
-              <li>Front-end development with React and modern JavaScript</li>
-              <li>UX planning for content-rich and instructional products</li>
-              <li>Comfort working between stakeholders, systems, and learners</li>
-            </ul>
+            <p className="section-kicker">Ideas and side projects</p>
+            <h2 id="ideas-title">Experiments that may become templates, products, or workshops.</h2>
+            <p>
+              I am also exploring small, useful products that can sit alongside
+              consulting work: workflow kits, dashboard starters, and learning
+              tools for teams that need momentum without a large platform.
+            </p>
           </div>
         </div>
-      </section>
-
-      <section className="section skills" aria-labelledby="skills-title">
-        <div>
-          <p className="section-kicker">Toolbox</p>
-          <h2 id="skills-title">Technology and practice areas</h2>
-        </div>
-        <div className="skill-list">
-          {skills.map((skill) => (
-            <span key={skill}>{skill}</span>
+        <div className="experiment-grid">
+          {experiments.map((experiment) => (
+            <article className="experiment-card" key={experiment.title}>
+              <h3>{experiment.title}</h3>
+              <p>{experiment.description}</p>
+            </article>
           ))}
         </div>
       </section>
@@ -152,12 +210,18 @@ export default function Home() {
       <footer className="site-footer" id="contact">
         <div>
           <p className="section-kicker">Contact</p>
-          <h2>Let&apos;s build useful web experiences.</h2>
+          <h2>Have a workflow worth improving?</h2>
+          <p>
+            Send a few notes about the team, the friction, and what would be
+            easier if the right tool existed.
+          </p>
         </div>
-        <div className="footer-links">
-          <a href="mailto:roblaws@me.com">roblaws@me.com</a>
+        <div className="footer-actions">
+          <a className="button button--primary" href={inquiryHref}>
+            Start an inquiry
+          </a>
           <a href="https://github.com/robert-laws">GitHub</a>
-          <a href="https://x.com/robdlaws">X</a>
+          <a href="mailto:roblaws@me.com">roblaws@me.com</a>
         </div>
       </footer>
     </main>

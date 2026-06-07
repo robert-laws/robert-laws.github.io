@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Robert Laws | Web Developer",
+  title: "Robert Laws | Practical AI Workflow Tools",
   description:
-    "Portfolio for Robert Laws, a web developer focused on libraries, learning, data visualization, and practical user experiences.",
+    "Robert Laws helps small teams turn manual workflows into practical AI-assisted tools, automations, dashboards, and learning systems.",
   icons: {
     icon: [
       { url: "/app-icons/favicon-32x32.png", sizes: "32x32", type: "image/png" },
