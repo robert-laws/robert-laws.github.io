@@ -1,12 +1,6 @@
+.next/
+out/
+node_modules/
+npm-debug.log*
+.env*.local
 .DS_Store
-assets/.DS_Store
-
-vendor
-.bundle
-
-_site
-.sass-cache/
-.sass-cache/*
-
-.jekyll-metadata
-.prettierignore
